@@ -1,4 +1,9 @@
 {
+  "dcmTagLabel":
+      {
+          "dcmTag": "SeriesDescription",
+          "expression": [".*(task-[0-9a-zA-Z]*).*"]
+      },
     "dupMethod": "dup",
     "descriptions": [
         {
@@ -26,41 +31,8 @@
         {
             "dataType": "func",
             "modalityLabel": "bold",
-            "customLabels": "task-rest",
             "criteria": {
-                "SeriesDescription": "*rest*"
-            }
-        },
-        {
-            "dataType": "func",
-            "modalityLabel": "bold",
-            "customLabels": "task-enco",
-            "criteria": {
-                "SeriesDescription": "*enco*"
-            }
-        },
-        {
-            "dataType": "func",
-            "modalityLabel": "bold",
-            "customLabels": "task-sart",
-            "criteria": {
-                "SeriesDescription": "*sart*"
-            }
-        },
-        {
-            "dataType": "func",
-            "modalityLabel": "bold",
-            "customLabels": "task-recall",
-            "criteria": {
-                "SeriesDescription": "*recall*"
-            }
-        },
-        {
-            "dataType": "func",
-            "modalityLabel": "bold",
-            "customLabels": "task-sleep",
-            "criteria": {
-                "SeriesDescription": "*sleep*"
+                "SeriesDescription": "bold*"
             }
         }
     ]

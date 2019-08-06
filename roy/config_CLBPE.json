@@ -1,4 +1,10 @@
 {
+  "dcmTagLabel":
+      {
+          "dcmTag": "SeriesDescription",
+          "expression": [".*(task-[0-9a-zA-Z]*).*",
+                          ".*(run-[0-9a-zA-Z]*).*"]
+      },
     "dupMethod": "dup",
     "descriptions": [
         {
@@ -27,7 +33,6 @@
         {
             "dataType": "func",
             "modalityLabel": "bold",
-            "customLabels": ["task-rest","run-1"],
             "criteria": {
                 "SeriesDescription": "bold*rest*run-1"
             }
@@ -35,7 +40,6 @@
         {
             "dataType": "fmap",
             "modalityLabel": "epi",
-            "customLabels": "run-1",
             "criteria": {
                 "SeriesDescription": "fmap*rest*run-1"
             },
@@ -44,7 +48,6 @@
         {
             "dataType": "func",
             "modalityLabel": "bold",
-            "customLabels": ["task-rest","run-2"],
             "criteria": {
                 "SeriesDescription": "bold*rest*run-2"
             }
@@ -52,7 +55,6 @@
         {
             "dataType": "fmap",
             "modalityLabel": "epi",
-            "customLabels": "run-2",
             "criteria": {
                 "SeriesDescription": "fmap*rest*run-2"
             },
