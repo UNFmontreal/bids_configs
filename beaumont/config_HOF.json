@@ -1,0 +1,98 @@
+{
+    "dupMethod": "dup",
+    "descriptions": [
+        {
+            "dataType": "anat",
+            "modalityLabel": "T1w",
+            "criteria": {
+                "SeriesDescription": "anat_T1w"
+            }
+        },
+        {
+            "dataType": "dwi",
+            "modalityLabel": "dwi",
+            "criteria": {
+                "SeriesDescription": "dwi*"
+            }
+        },
+        {
+            "dataType": "fmap",
+            "modalityLabel": "epi",
+            "customLabels": "run-01",
+            "criteria": {
+                "SeriesDescription": "b0*"
+            },
+            "IntendedFor": 1
+        },
+        {
+            "dataType": "anat",
+            "modalityLabel": "FLAIR",
+            "criteria": {
+                "SeriesDescription": "anat_FLAIR"
+            }
+        },
+        {
+            "dataType": "anat",
+            "modalityLabel": "R2star",
+	    "customLabels": "echo-1",
+            "criteria": {
+		"EchoTime": 0.00382,
+                "SeriesDescription": "anat_R2star"
+            }
+        },
+        {
+            "dataType": "anat",
+            "modalityLabel": "R2star",
+	    "customLabels": "echo-2",
+            "criteria": {
+		"EchoTime": 0.00931,
+                "SeriesDescription": "anat_R2star"
+            }
+        },
+        {
+            "dataType": "anat",
+            "modalityLabel": "R2star",
+	    "customLabels": "echo-3",
+            "criteria": {
+		"EchoTime": 0.0148,
+                "SeriesDescription": "anat_R2star"
+            }
+        },
+        {
+            "dataType": "anat",
+            "modalityLabel": "R2star",
+	    "customLabels": "echo-4",
+            "criteria": {
+		"EchoTime": 0.02029,
+                "SeriesDescription": "anat_R2star"
+            }
+        },
+        {
+            "dataType": "anat",
+            "modalityLabel": "R2star",
+	    "customLabels": "echo-5",
+            "criteria": {
+                "EchoTime": 0.02578,
+                "SeriesDescription": "anat_R2star"
+            }
+        },
+        {
+            "dataType": "anat",
+            "modalityLabel": "R2star",
+	    "customLabels": "echo-6",
+            "criteria": {
+		"EchoTime": 0.03127,
+                "SeriesDescription": "anat_R2star"
+            }
+        },
+        {
+            "dataType": "anat",
+            "modalityLabel": "R2star",
+	    "customLabels": "echo-7",
+            "criteria": {
+		"EchoTime": 0.03676,
+                "SeriesDescription": "anat_R2star"
+            }
+        }
+    ]
+}

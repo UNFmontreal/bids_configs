@@ -1,0 +1,131 @@
+{
+    "dupMethod": "dup",
+    "descriptions": [
+        {
+            "dataType": "anat",
+            "modalityLabel": "T1w",
+            "criteria": {
+                "SeriesDescription": "anat_T1w"
+            }
+        },
+        {
+            "dataType": "dwi",
+            "modalityLabel": "dwi",
+            "criteria": {
+                "SeriesDescription": "dwi*"
+            }
+        },
+        {
+            "dataType": "fmap",
+            "modalityLabel": "epi",
+            "customLabels": "run-01",
+            "criteria": {
+                "SeriesDescription": "b0*"
+            },
+            "IntendedFor": 1
+        },
+        {
+            "dataType": "func",
+            "modalityLabel": "bold",
+            "customLabels": ["task-rest","run-1"],
+            "criteria": {
+                "SeriesDescription": "bold*rest*run-1"
+            }
+        },
+        {
+            "dataType": "fmap",
+            "modalityLabel": "epi",
+            "customLabels": "run-1",
+            "criteria": {
+                "SeriesDescription": "fmap*rest*run-1"
+            },
+            "IntendedFor": 3
+        },
+        {
+            "dataType": "func",
+            "modalityLabel": "bold",
+            "customLabels": ["task-rest","run-2"],
+            "criteria": {
+                "SeriesDescription": "bold*rest*run-2"
+            }
+        },
+        {
+            "dataType": "fmap",
+            "modalityLabel": "epi",
+            "customLabels": "run-2",
+            "criteria": {
+                "SeriesDescription": "fmap*rest*run-2"
+            },
+            "IntendedFor": 5
+        },
+        {
+            "dataType": "anat",
+            "modalityLabel": "GRE-MTon",
+            "criteria": {
+                "SeriesDescription": "*on"
+            }
+        },
+        {
+            "dataType": "anat",
+            "modalityLabel": "GRE-MTon",
+            "criteria": {
+                "SeriesDescription": "*off"
+            }
+        },
+        {
+            "dataType": "anat",
+            "modalityLabel": "T2w",
+            "criteria": {
+                "SeriesDescription": "anat_T2w"
+            }
+        },
+        {
+            "dataType": "anat",
+            "modalityLabel": "T2w",
+            "customLabels": "loc-L3L4",
+            "criteria": {
+                "SeriesDescription": "*L3L4*T2w"
+            }
+        },
+        {
+            "dataType": "anat",
+            "modalityLabel": "T2w",
+            "customLabels": "loc-L4L5",
+            "criteria": {
+                "SeriesDescription": "*L4L5*T2w"
+            }
+        },
+        {
+            "dataType": "anat",
+            "modalityLabel": "T2w",
+            "customLabels": "loc-L5S1",
+            "criteria": {
+                "SeriesDescription": "*L5S1*T2w"
+            }
+        },
+        {
+            "dataType": "anat",
+            "modalityLabel": "fl3D",
+            "customLabels": "loc-L3L4",
+            "criteria": {
+                "SeriesDescription": "*L3L4*fl3D"
+            }
+        },
+        {
+            "dataType": "anat",
+            "modalityLabel": "fl3D",
+            "customLabels": "loc-L4L5",
+            "criteria": {
+                "SeriesDescription": "*L4L5*fl3D"
+            }
+        },
+        {
+            "dataType": "anat",
+            "modalityLabel": "fl3D",
+            "customLabels": "loc-L5S1",
+            "criteria": {
+                "SeriesDescription": "*L5S1*fl3D"
+            }
+        }
+    ]
+}
