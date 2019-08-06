@@ -34,43 +34,43 @@
         {
             "dataType": "anat",
             "modalityLabel": "R2star",
-	    "customLabels": "echo-1",
+	          "customLabels": "echo-1",
             "criteria": {
-		"EchoTime": 0.00382,
+		            "EchoTime": 0.00382,
                 "SeriesDescription": "anat_R2star"
             }
         },
         {
             "dataType": "anat",
             "modalityLabel": "R2star",
-	    "customLabels": "echo-2",
+	          "customLabels": "echo-2",
             "criteria": {
-		"EchoTime": 0.00931,
+		            "EchoTime": 0.00931,
                 "SeriesDescription": "anat_R2star"
             }
         },
         {
             "dataType": "anat",
             "modalityLabel": "R2star",
-	    "customLabels": "echo-3",
+	          "customLabels": "echo-3",
             "criteria": {
-		"EchoTime": 0.0148,
+		            "EchoTime": 0.0148,
                 "SeriesDescription": "anat_R2star"
             }
         },
         {
             "dataType": "anat",
             "modalityLabel": "R2star",
-	    "customLabels": "echo-4",
+	          "customLabels": "echo-4",
             "criteria": {
-		"EchoTime": 0.02029,
+		            "EchoTime": 0.02029,
                 "SeriesDescription": "anat_R2star"
             }
         },
         {
             "dataType": "anat",
             "modalityLabel": "R2star",
-	    "customLabels": "echo-5",
+	          "customLabels": "echo-5",
             "criteria": {
                 "EchoTime": 0.02578,
                 "SeriesDescription": "anat_R2star"
@@ -79,18 +79,18 @@
         {
             "dataType": "anat",
             "modalityLabel": "R2star",
-	    "customLabels": "echo-6",
+	          "customLabels": "echo-6",
             "criteria": {
-		"EchoTime": 0.03127,
+		            "EchoTime": 0.03127,
                 "SeriesDescription": "anat_R2star"
             }
         },
         {
             "dataType": "anat",
             "modalityLabel": "R2star",
-	    "customLabels": "echo-7",
+	          "customLabels": "echo-7",
             "criteria": {
-		"EchoTime": 0.03676,
+		            "EchoTime": 0.03676,
                 "SeriesDescription": "anat_R2star"
             }
         }
