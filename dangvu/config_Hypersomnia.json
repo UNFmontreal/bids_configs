@@ -33,7 +33,8 @@
             "dataType": "func",
             "modalityLabel": "bold",
             "criteria": {
-                "SeriesDescription": "bold*"
+                "SeriesDescription": "bold*",
+                "PhaseEncodingDirection": "j-"
             }
         },
         {
@@ -49,6 +50,7 @@
             "modalityLabel": "epi",
             "criteria": {
                 "SeriesDescription": "*PA"
+                "PhaseEncodingDirection": "j"
             },
             "IntendedFor": 3
         }

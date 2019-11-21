@@ -1,0 +1,95 @@
+{
+    "descriptions": [
+        {
+        "dataType": "anat",
+        "modalityLabel": "T1w",
+        "criteria": {
+            "SidecarFilename": "*T1w*"
+            }
+        },
+        {
+        "dataType": "func",
+        "modalityLabel": "bold",
+        "customLabels": "task-ant_run-1",
+        "criteria": {
+            "SeriesDescription": "*ATT1"
+            }
+        },
+        {
+        "dataType": "func",
+        "modalityLabel": "bold",
+        "customLabels": "task-ant_run-2",
+        "criteria": {
+            "SeriesDescription": "*ATT2"
+            }
+        },
+        {
+        "dataType": "func",
+        "modalityLabel": "bold",
+        "customLabels": "task-ant_run-3",
+        "criteria": {
+            "SeriesDescription": "*ATT3"
+            }
+        },
+	{
+        "dataType": "func",
+        "modalityLabel": "bold",
+        "customLabels": "task-rest",
+        "criteria": {
+            "SeriesDescription": "*RS1"
+            }
+        },
+        {
+        "dataType": "fmap",
+        "modalityLabel": "epi",
+        "criteria": {
+            "SeriesDescription": "*PA"
+            },
+	"IntendedFor": [1,2,3,4]
+        },
+        {
+            "dataType": "fmap",
+            "modalityLabel": "magnitude1",
+	          "intendedFor": [1,2,3,4],
+            "criteria": {
+                "SeriesDescription": "gre_field_mapping",
+		"ImageType": ["ORIGINAL", "PRIMARY", "M", "ND"],
+		"EchoTime": 0.00492
+            }
+        },
+        {
+            "dataType": "fmap",
+            "modalityLabel": "magnitude2",
+            "intendedFor": [1,2,3,4],
+            "criteria": {
+                "SeriesDescription": "gre_field_mapping",
+                "ImageType": ["ORIGINAL", "PRIMARY", "M", "ND"],
+                "EchoTime": 0.00738
+            }
+        },
+        {
+            "dataType": "fmap",
+            "modalityLabel": "phasediff",
+            "intendedFor": [1,2,3,4],
+            "criteria": {
+                "SeriesDescription": "gre_field_mapping",
+                "ImageType": ["ORIGINAL", "PRIMARY", "P", "ND"]
+            }
+        },
+        {
+        "dataType": "dwi",
+	    "modalityLabel":  "dwi",
+        "criteria": {
+            "SeriesDescription": "*dwi"
+            }
+        },
+        {
+        "dataType": "fmap",
+    	"modalityLabel": "epi",
+        "IntendedFor": 9,
+        "criteria": {
+            "SeriesDescription": "*b0"
+            }
+        }
+    ]
+}
