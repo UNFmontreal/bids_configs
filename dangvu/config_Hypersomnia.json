@@ -43,6 +43,14 @@
                 "SeriesDescription": "fmap*"
             },
             "IntendedFor": 3
+        },
+        {
+            "dataType": "fmap",
+            "modalityLabel": "epi",
+            "criteria": {
+                "SeriesDescription": "*PA"
+            },
+            "IntendedFor": 3
         }
     ]
 }
