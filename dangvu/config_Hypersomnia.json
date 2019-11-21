@@ -53,6 +53,13 @@
                 "PhaseEncodingDirection": "j"
             },
             "IntendedFor": 3
+        },
+        {
+            "dataType": "anat",
+            "modalityLabel": "T2w",
+            "criteria": {
+                "SeriesDescription": "anat_T2w"
+            }
         }
     ]
 }
