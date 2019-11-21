@@ -49,7 +49,7 @@
             "dataType": "fmap",
             "modalityLabel": "epi",
             "criteria": {
-                "SeriesDescription": "*PA"
+                "SeriesDescription": "*PA",
                 "PhaseEncodingDirection": "j"
             },
             "IntendedFor": 3
