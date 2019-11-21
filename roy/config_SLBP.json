@@ -69,7 +69,7 @@
         },
         {
             "dataType": "anat",
-            "modalityLabel": "GRE-MToff",
+            "modalityLabel": "GRE-MTon",
             "criteria": {
                 "SeriesDescription": "*off"
             }

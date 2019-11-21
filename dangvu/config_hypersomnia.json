@@ -2,7 +2,8 @@
   "dcmTagLabel":
       {
           "dcmTag": "SeriesDescription",
-          "expression": [".*(task-[0-9a-zA-Z]*).*"]
+          "expression": [".*(task-[0-9a-zA-Z]*).*",
+                          ".*(run-[0-9a-zA-Z]*).*"]
       },
     "dupMethod": "dup",
     "descriptions": [
@@ -34,6 +35,14 @@
             "criteria": {
                 "SeriesDescription": "bold*"
             }
+        },
+        {
+            "dataType": "fmap",
+            "modalityLabel": "epi",
+            "criteria": {
+                "SeriesDescription": "fmap*"
+            },
+            "IntendedFor": 3
         }
     ]
 }
