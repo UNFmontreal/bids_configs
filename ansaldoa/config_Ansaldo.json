@@ -45,7 +45,7 @@
         "criteria": {
             "SeriesDescription": "*PA"
             },
-	"IntendedFor": [1,2,3,4]
+	          "IntendedFor": [1,2,3,4]
         },
         {
             "dataType": "fmap",
@@ -53,8 +53,8 @@
 	          "intendedFor": [1,2,3,4],
             "criteria": {
                 "SeriesDescription": "gre_field_mapping",
-		"ImageType": ["ORIGINAL", "PRIMARY", "M", "ND"],
-		"EchoTime": 0.00492
+		            "ImageType": ["ORIGINAL", "PRIMARY", "M", "ND"],
+		            "EchoTime": 0.00492
             }
         },
         {

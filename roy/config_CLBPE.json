@@ -24,7 +24,6 @@
         {
             "dataType": "fmap",
             "modalityLabel": "epi",
-            "customLabels": "run-01",
             "criteria": {
                 "SeriesDescription": "b0*"
             },
@@ -34,45 +33,16 @@
             "dataType": "func",
             "modalityLabel": "bold",
             "criteria": {
-                "SeriesDescription": "bold*rest*run-1"
+                "SeriesDescription": "bold*rest*"
             }
         },
         {
             "dataType": "fmap",
             "modalityLabel": "epi",
             "criteria": {
-                "SeriesDescription": "fmap*rest*run-1"
+                "SeriesDescription": "fmap*rest*"
             },
             "IntendedFor": 3
-        },
-        {
-            "dataType": "func",
-            "modalityLabel": "bold",
-            "criteria": {
-                "SeriesDescription": "bold*rest*run-2"
-            }
-        },
-        {
-            "dataType": "fmap",
-            "modalityLabel": "epi",
-            "criteria": {
-                "SeriesDescription": "fmap*rest*run-2"
-            },
-            "IntendedFor": 5
-        },
-        {
-            "dataType": "anat",
-            "modalityLabel": "GRE-MTon",
-            "criteria": {
-                "SeriesDescription": "*on"
-            }
-        },
-        {
-            "dataType": "anat",
-            "modalityLabel": "GRE-MToff",
-            "criteria": {
-                "SeriesDescription": "*off"
-            }
         },
         {
             "dataType": "anat",

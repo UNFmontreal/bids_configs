@@ -18,15 +18,14 @@
             "dataType": "dwi",
             "modalityLabel": "dwi",
             "criteria": {
-                "SeriesDescription": "dwi*"
+                "SeriesDescription": "dwi_acq*"
             }
         },
         {
             "dataType": "fmap",
             "modalityLabel": "epi",
-            "customLabels": "run-01",
             "criteria": {
-                "SeriesDescription": "b0*"
+                "SeriesDescription": "b0_acq*"
             },
             "IntendedFor": 1
         },
@@ -34,44 +33,61 @@
             "dataType": "func",
             "modalityLabel": "bold",
             "criteria": {
-                "SeriesDescription": "bold*rest*run-1"
+                "SeriesDescription": "bold*"
             }
         },
         {
             "dataType": "fmap",
             "modalityLabel": "epi",
             "criteria": {
-                "SeriesDescription": "fmap*rest*run-1"
+                "SeriesDescription": "fmap*pa*"
             },
             "IntendedFor": 3
         },
         {
-            "dataType": "func",
-            "modalityLabel": "bold",
+            "dataType": "fmap",
+            "modalityLabel": "magnitude1",
+	          "intendedFor": 3,
             "criteria": {
-                "SeriesDescription": "bold*rest*run-2"
+                "SeriesDescription": "*fieldmap*",
+		            "ImageType": ["ORIGINAL", "PRIMARY", "M", "ND"],
+		            "EchoTime": 0.00492
+            }
+        },
+        {
+            "dataType": "fmap",
+            "modalityLabel": "magnitude2",
+            "intendedFor": 3,
+            "criteria": {
+                "SeriesDescription": "*fieldmap*",
+                "ImageType": ["ORIGINAL", "PRIMARY", "M", "ND"],
+                "EchoTime": 0.00738
+            }
+        },
+        {
+            "dataType": "fmap",
+            "modalityLabel": "phasediff",
+            "intendedFor": 3,
+            "criteria": {
+                "SeriesDescription": "*fieldmap*",
+                "ImageType": ["ORIGINAL", "PRIMARY", "P", "ND"]
+            }
+        },
+        {
+            "dataType": "dwi",
+            "modalityLabel": "dwi",
+            "customLabels": "loc-T10",
+            "criteria": {
+                "SeriesDescription": "dwi*loc-T10*"
             }
         },
         {
             "dataType": "fmap",
             "modalityLabel": "epi",
+            "customLabels": "loc-T10",
+            "IntendedFor": 8,
             "criteria": {
-                "SeriesDescription": "fmap*rest*run-2"
-            },
-            "IntendedFor": 5
-        },
-        {
-            "dataType": "anat",
-            "modalityLabel": "GRE-MTon",
-            "criteria": {
-                "SeriesDescription": "*on"
-            }
-        },
-        {
-            "dataType": "anat",
-            "modalityLabel": "GRE-MTon",
-            "criteria": {
-                "SeriesDescription": "*off"
+                "SeriesDescription": "b0*loc-T10*"
             }
         },
         {
@@ -84,49 +100,33 @@
         {
             "dataType": "anat",
             "modalityLabel": "T2w",
-            "customLabels": "loc-L3L4",
+            "customLabels": "loc-lumbar",
             "criteria": {
-                "SeriesDescription": "*L3L4*T2w"
+                "SeriesDescription": "*loc-lumbar*T2w"
             }
         },
         {
             "dataType": "anat",
-            "modalityLabel": "T2w",
-            "customLabels": "loc-L4L5",
+            "modalityLabel": "GRE-MTon",
+            "customLabels": "loc-T10",
             "criteria": {
-                "SeriesDescription": "*L4L5*T2w"
+                "SeriesDescription": "*loc-T10*GRE-MTon"
             }
         },
         {
             "dataType": "anat",
-            "modalityLabel": "T2w",
-            "customLabels": "loc-L5S1",
+            "modalityLabel": "GRE-MToff",
+            "customLabels": "loc-T10",
             "criteria": {
-                "SeriesDescription": "*L5S1*T2w"
+                "SeriesDescription": "*loc-T10*GRE-MToff"
             }
         },
         {
             "dataType": "anat",
-            "modalityLabel": "fl3D",
-            "customLabels": "loc-L3L4",
+            "modalityLabel": "T1w",
+            "customLabels": "loc-T10",
             "criteria": {
-                "SeriesDescription": "*L3L4*fl3D"
-            }
-        },
-        {
-            "dataType": "anat",
-            "modalityLabel": "fl3D",
-            "customLabels": "loc-L4L5",
-            "criteria": {
-                "SeriesDescription": "*L4L5*fl3D"
-            }
-        },
-        {
-            "dataType": "anat",
-            "modalityLabel": "fl3D",
-            "customLabels": "loc-L5S1",
-            "criteria": {
-                "SeriesDescription": "*L5S1*fl3D"
+                "SeriesDescription": "*loc-T10*T1w"
             }
         }
     ]
