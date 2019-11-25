@@ -78,7 +78,7 @@
         {
             "dataType": "anat",
             "modalityLabel": "fl3D",
-            "customLabels": "loc-L3L4",
+            "customLabels": "acq-fat_loc-L3L4",
             "criteria": {
                 "SeriesDescription": "*L3L4*fl3D"
             }
@@ -97,6 +97,102 @@
             "customLabels": "loc-L5S1",
             "criteria": {
                 "SeriesDescription": "*L5S1*fl3D"
+            }
+        },
+        {
+            "dataType": "anat",
+            "modalityLabel": "echo-1_GRE-MTon",
+            "criteria": {
+                "EchoNumber": 1,
+                "SeriesDescription": "*GRE-MTon"
+            }
+        },
+        {
+            "dataType": "anat",
+            "modalityLabel": "echo-2_GRE-MTon",
+            "criteria": {
+                "EchoNumber": 2,
+                "SeriesDescription": "*GRE-MTon"
+            }
+        },
+        {
+            "dataType": "anat",
+            "modalityLabel": "echo-3_GRE-MTon",
+            "criteria": {
+                "EchoNumber": 3,
+                "SeriesDescription": "*GRE-MTon"
+            }
+        },
+        {
+            "dataType": "anat",
+            "modalityLabel": "echo-4_GRE-MTon",
+            "criteria": {
+                "EchoNumber": 4,
+                "SeriesDescription": "*GRE-MTon"
+            }
+        },
+        {
+            "dataType": "anat",
+            "modalityLabel": "echo-5_GRE-MTon",
+            "criteria": {
+                "EchoNumber": 5,
+                "SeriesDescription": "*GRE-MTon"
+            }
+        },
+        {
+            "dataType": "anat",
+            "modalityLabel": "echo-6_GRE-MTon",
+            "criteria": {
+                "EchoNumber": 6,
+                "SeriesDescription": "*GRE-MTon"
+            }
+        },
+        {
+            "dataType": "anat",
+            "modalityLabel": "echo-1_GRE-MToff",
+            "criteria": {
+                "EchoNumber": 1,
+                "SeriesDescription": "*GRE-Mtoff"
+            }
+        },
+        {
+            "dataType": "anat",
+            "modalityLabel": "echo-2_GRE-Mtoff",
+            "criteria": {
+                "EchoNumber": 2,
+                "SeriesDescription": "*GRE-Mtoff"
+            }
+        },
+        {
+            "dataType": "anat",
+            "modalityLabel": "echo-3_GRE-Mtoff",
+            "criteria": {
+                "EchoNumber": 3,
+                "SeriesDescription": "*GRE-Mtoff"
+            }
+        },
+        {
+            "dataType": "anat",
+            "modalityLabel": "echo-4_GRE-Mtoff",
+            "criteria": {
+                "EchoNumber": 4,
+                "SeriesDescription": "*GRE-Mtoff"
+            }
+        },
+        {
+            "dataType": "anat",
+            "modalityLabel": "echo-5_GRE-Mtoff",
+            "criteria": {
+                "EchoNumber": 5,
+                "SeriesDescription": "*GRE-Mtoff"
+            }
+        },
+        {
+            "dataType": "anat",
+            "modalityLabel": "echo-6_GRE-Mtoff",
+            "criteria": {
+                "EchoNumber": 6,
+                "SeriesDescription": "*GRE-Mtoff"
             }
         }
     ]

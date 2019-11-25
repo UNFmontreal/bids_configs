@@ -24,7 +24,6 @@
         {
             "dataType": "fmap",
             "modalityLabel": "epi",
-	          "customLabels": "run-1",
             "criteria": {
                 "SeriesDescription": "b0*"
             },
@@ -40,7 +39,6 @@
         {
             "dataType": "fmap",
             "modalityLabel": "epi",
-          	"customLabels": "run-2",
             "criteria": {
                 "SeriesDescription": "fmap*"
             },
@@ -52,6 +50,35 @@
             "criteria": {
                 "SeriesDescription": "*_T2w"
             }
-        }
+        },
+        {
+            "dataType": "func",
+            "modalityLabel": "bold",
+            "criteria": {
+                "SeriesDescription": "func_t*"
+            }
+        },
+        {
+            "dataType": "fmap",
+            "modalityLabel": "epi",
+            "criteria": {
+                "SeriesDescription": "func_PA*"
+            },
+           "IntendedFor": 6
+        },
+        {
+            "dataType": "anat",
+            "modalityLabel": "T1w",
+            "criteria": {
+                "SeriesDescription": "acq_*T1"
+            }
+        },
+        {
+            "dataType": "anat",
+            "modalityLabel": "_T2w",
+            "criteria": {
+                "SeriesDescription": "*_tse*"
+            }
+        },
     ]
 }

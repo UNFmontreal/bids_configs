@@ -1,7 +1,7 @@
 {
   "dcmTagLabel":
       {
-          "dcmTag": "SeriesDescription",
+          "dcmTag": "SeriesDescription"
           "expression": [".*(task-[0-9a-zA-Z]*).*",
                           ".*(run-[0-9a-zA-Z]*).*"]
       },
