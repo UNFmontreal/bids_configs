@@ -59,7 +59,7 @@
             "modalityLabel": "magnitude2",
             "intendedFor": 3,
             "criteria": {
-                "SeriesDescription": "gre_field_mapping",
+                "SeriesDescription": "*gre_field*",
                 "ImageType": ["ORIGINAL", "PRIMARY", "M", "ND"],
                 "EchoTime": 0.00738
             }
@@ -69,7 +69,7 @@
             "modalityLabel": "phasediff",
             "intendedFor": 3,
             "criteria": {
-                "SeriesDescription": "gre_field_mapping",
+                "SeriesDescription": "*gre_field*",
                 "ImageType": ["ORIGINAL", "PRIMARY", "P", "ND"]
             }
         }
