@@ -30,7 +30,7 @@
 	          "customLabels": "task-rest",
             "sidecarChanges": {
               "TaskName": "rest"
-            }
+            },
             "criteria": {
                 "SeriesDescription": "task-resting-p2-s3-3mm"
             }
@@ -41,7 +41,7 @@
 	          "customLabels": "task-recompense_run-1",
             "sidecarChanges": {
               "TaskName": "recompense"
-            }
+            },
             "criteria": {
                 "SeriesDescription": "task-recompense-p2-s3-3mm_Run1"
             }
@@ -52,7 +52,7 @@
 	          "customLabels": "task-recompense_run-2",
             "sidecarChanges": {
               "TaskName": "recompense"
-            }
+            },
             "criteria": {
                 "SeriesDescription": "task-recompense-p2-s3-3mm_Run2"
             }
@@ -63,7 +63,7 @@
 	          "customLabels": "task-pain_run-1",
             "sidecarChanges": {
               "TaskName": "pain"
-            }
+            },
             "criteria": {
                 "SeriesDescription": "task-pain-p2-s3-3mm_run1"
             }
@@ -74,7 +74,7 @@
 	          "customLabels": "task-pain_run-2",
             "sidecarChanges": {
               "TaskName": "pain"
-            }
+            },
             "criteria": {
                 "SeriesDescription": "task-pain-p2-s3-3mm_run2"
             }
@@ -85,7 +85,7 @@
 	          "customLabels": "task-pain_run-3",
             "sidecarChanges": {
               "TaskName": "pain"
-            }
+            },
             "criteria": {
                 "SeriesDescription": "task-pain-p2-s3-3mm_run3"
             }
@@ -114,6 +114,10 @@
             "dataType": "fmap",
             "modalityLabel": "phasediff",
             "intendedFor": [3,4,5,6,7,8],
+            "sidecarChanges": {
+              "EchoTime1": 0.00492,
+              "EchoTime2": 0.00738
+            },
             "criteria": {
                 "SeriesDescription": "task_fieldmap",
                 "ImageType": ["ORIGINAL", "PRIMARY", "P", "ND"]
