@@ -1,0 +1,97 @@
+{
+    "dupMethod": "dup",
+    "descriptions": [
+        {
+            "dataType": "anat",
+            "modalityLabel": "T1w",
+            "criteria": {
+                "SeriesDescription": "acq-MPRAGE-iPATx2"
+            }
+        },
+        {
+            "dataType": "dwi",
+            "modalityLabel": "dwi",
+            "criteria": {
+                "SeriesDescription": "acq-s3-pa_dwi",
+                "ImageType": ["ORIGINAL", "PRIMARY", "DIFFUSION", "NONE", "ND", "MOSAIC"]
+            }
+        },
+        {
+            "dataType": "fmap",
+            "modalityLabel": "epi",
+            "criteria": {
+                "SeriesDescription": "acq-s3-ap_b0"
+            },
+            "IntendedFor": 1
+        },
+        {
+            "dataType": "func",
+            "modalityLabel": "bold",
+	          "customLabels": "task-rest",
+            "criteria": {
+                "SeriesDescription": "task-resting-p2-s3-3mm"
+            }
+        },
+        {
+            "dataType": "func",
+            "modalityLabel": "bold",
+	          "customLabels": "task-recompense_run-1",
+            "criteria": {
+                "SeriesDescription": "task-recompense-p2-s3-3mm_Run1"
+            }
+        },
+        {
+            "dataType": "func",
+            "modalityLabel": "bold",
+	          "customLabels": "task-recompense_run-2",
+            "criteria": {
+                "SeriesDescription": "task-recompense-p2-s3-3mm_Run2"
+            }
+        },
+        {
+            "dataType": "func",
+            "modalityLabel": "bold",
+	          "customLabels": "task-pain_run-1",
+            "criteria": {
+                "SeriesDescription": "task-pain-p2-s3-3mm_run1"
+            }
+        },
+        {
+            "dataType": "func",
+            "modalityLabel": "bold",
+	          "customLabels": "task-pain_run-2",
+            "criteria": {
+                "SeriesDescription": "task-pain-p2-s3-3mm_run2"
+            }
+        },
+        {
+            "dataType": "fmap",
+            "modalityLabel": "magnitude1",
+            "intendedFor": [3,4,5,6,7],
+            "criteria": {
+                "SeriesDescription": "task_fieldmap",
+                "ImageType": ["ORIGINAL", "PRIMARY", "M", "ND"],
+	              "EchoTime": 0.00492
+            }
+        },
+        {
+            "dataType": "fmap",
+            "modalityLabel": "magnitude2",
+            "intendedFor": [3,4,5,6,7],
+            "criteria": {
+                "SeriesDescription": "task_fieldmap",
+                "ImageType": ["ORIGINAL", "PRIMARY", "M", "ND"],
+                "EchoTime": 0.00738
+            }
+        },
+        {
+            "dataType": "fmap",
+            "modalityLabel": "phasediff",
+            "intendedFor": [3,4,5,6,7],
+            "criteria": {
+                "SeriesDescription": "task_fieldmap",
+                "ImageType": ["ORIGINAL", "PRIMARY", "P", "ND"]
+            }
+        }
+    ]
+}
