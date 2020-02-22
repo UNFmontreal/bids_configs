@@ -43,7 +43,7 @@
               "TaskName": "recompense"
             },
             "criteria": {
-                "SeriesDescription": "task-recompense-p2-s3-3mm_Run1"
+                "SeriesDescription": "task-recompense-p2-s3-3mm_Run1*"
             }
         },
         {
@@ -54,7 +54,7 @@
               "TaskName": "recompense"
             },
             "criteria": {
-                "SeriesDescription": "task-recompense-p2-s3-3mm_Run2"
+                "SeriesDescription": "task-recompense-p2-s3-3mm_Run2*"
             }
         },
         {
@@ -65,7 +65,7 @@
               "TaskName": "pain"
             },
             "criteria": {
-                "SeriesDescription": "task-pain-p2-s3-3mm_run1"
+                "SeriesDescription": "task-pain-p2-s3-3mm_run1*"
             }
         },
         {
@@ -76,7 +76,7 @@
               "TaskName": "pain"
             },
             "criteria": {
-                "SeriesDescription": "task-pain-p2-s3-3mm_run2"
+                "SeriesDescription": "task-pain-p2-s3-3mm_run2*"
             }
         },
         {
