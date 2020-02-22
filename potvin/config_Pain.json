@@ -5,7 +5,7 @@
             "dataType": "anat",
             "modalityLabel": "T1w",
             "criteria": {
-                "SeriesDescription": "acq-MPRAGE*iPATx2"
+                "SeriesDescription": "acq-MPRAGE*"
             }
         },
         {
