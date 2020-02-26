@@ -1,10 +1,4 @@
 {
-    "dcmTagLabel":
-        {
-            "dcmTag": "SeriesDescription",
-            "expression": [".*(task-[0-9a-zA-Z]*).*",
-                            ".*(loc-[0-9a-zA-Z]*).*"]
-        },
     "dupMethod": "dup",
     "descriptions": [
         {
@@ -15,39 +9,25 @@
             }
         },
         {
-            "dataType": "dwi",
-            "modalityLabel": "dwi",
+            "dataType": "func",
+            "modalityLabel": "bold",
+            "customLabels": "task-_run-1",
             "criteria": {
-                "SeriesDescription": "dwi*"
+                "SeriesDescription": "Run1"
             }
-        },
-        {
-            "dataType": "fmap",
-            "modalityLabel": "epi",
-            "criteria": {
-                "SeriesDescription": "b0*"
-            },
-            "IntendedFor": 1
         },
         {
             "dataType": "func",
             "modalityLabel": "bold",
+	    "customLabels": "task-_run-2",
             "criteria": {
-                "SeriesDescription": "bold*"
+                "SeriesDescription": "Run2"
             }
         },
         {
             "dataType": "fmap",
-            "modalityLabel": "epi",
-            "criteria": {
-                "SeriesDescription": "fmap*pa"
-            },
-           "IntendedFor": 3
-        },
-        {
-            "dataType": "fmap",
             "modalityLabel": "magnitude1",
-            "intendedFor": 3,
+            "intendedFor": [1,2],
             "criteria": {
                 "SeriesDescription": "*gre_field*",
 		            "ImageType": ["ORIGINAL", "PRIMARY", "M", "ND"],
@@ -57,7 +37,7 @@
         {
             "dataType": "fmap",
             "modalityLabel": "magnitude2",
-            "intendedFor": 3,
+            "intendedFor": [1,2],
             "criteria": {
                 "SeriesDescription": "*gre_field*",
                 "ImageType": ["ORIGINAL", "PRIMARY", "M", "ND"],
@@ -67,7 +47,7 @@
         {
             "dataType": "fmap",
             "modalityLabel": "phasediff",
-            "intendedFor": 3,
+            "intendedFor": [1,2],
             "criteria": {
                 "SeriesDescription": "*gre_field*",
                 "ImageType": ["ORIGINAL", "PRIMARY", "P", "ND"]
