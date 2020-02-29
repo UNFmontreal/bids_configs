@@ -3,8 +3,7 @@
         {
             "dcmTag": "SeriesDescription",
             "expression": [".*(task-[a-z]*).*",
-                           ".*(run-[0-9]{1}).*",
-                           ".*(acq-(2|3)D).*"]
+                           ".*(run-[0-9]{2}).*"]
         },
     "dupMethod": "dup",
     "descriptions":[
@@ -29,7 +28,7 @@
             "intendedFor": 1,
             "criteria": {
                 "SeriesDescription": "fmap_*",
-                "ImageType": ["ORIGINAL", "PRIMARY", "M", "ND", "MOSAIC"]                
+                "ImageType": ["ORIGINAL", "PRIMARY", "M", "ND", "MOSAIC"]
             }
         },
         {
@@ -52,8 +51,17 @@
         {
           "dataType": "anat",
           "modalityLabel": "flair",
+          "customLabels": "acq-2D",
           "criteria": {
-            "SeriesDescription": "anat_flair_*"
+            "SeriesDescription": "anat_flair_acq_2D"
+          }
+        },
+        {
+          "dataType": "anat",
+          "modalityLabel": "flair",
+          "customLabels": "acq-3D",
+          "criteria": {
+            "SeriesDescription": "anat_flair_acq_3D"
           }
         }
     ]
