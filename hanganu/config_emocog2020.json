@@ -1,0 +1,64 @@
+{
+    "dcmTagLabel":
+        {
+            "dcmTag": "SeriesDescription",
+            "expression": [".*(task-[a-z]*).*",
+                           ".*(run-[0-9]{1}).*",
+                           ".*(acq-(2|3)D).*"]
+        },
+    "dupMethod": "dup",
+    "descriptions":[
+        {
+            "dataType": "anat",
+            "modalityLabel": "T1w",
+            "criteria": {
+              "SeriesDescription": "anat_T1w"
+            }
+        },
+        {
+            "dataType": "func",
+            "modalityLabel": "bold",
+            "criteria": {
+                "ProtocolName": "bold_task-*",
+                "ImageType": ["ORIGINAL", "PRIMARY", "M", "ND", "MOSAIC"],
+            }
+        },
+        {
+            "dataType": "func",
+            "modalityLabel": "sbref",
+            "criteria": {
+                "SeriesDescription": "func_task-*_SBRef"
+            }
+        },
+        {
+            "dataType": "fmap",
+            "modalityLabel": "epi",
+            "intendedFor": 1,
+            "criteria": {
+                "SeriesDescription": "func_AP_*",
+                "ImageType": ["ORIGINAL", "PRIMARY", "M", "MB", "ND", "MOSAIC"]
+            }
+        },
+        {
+          "dataType": "dwi",
+          "modalityLabel": "dwi",
+          "criteria": {
+            "SeriesDescription": "dwi_acq-pa",
+            "ImageType": ["ORIGINAL", "PRIMARY", "DIFFUSION", "NONE", "ND", "MOSAIC"]
+        },
+        {
+          "dataType": "fmap",
+          "modalityLabel": "epi",
+          "intendedFor": 4,
+          "criteria": {
+            "SeriesDescription": "b0_acq-ap",
+            "ImageType": ["ORIGINAL", "PRIMARY", "DIFFUSION", "NONE", "ND"]
+        },
+        {
+          "dataType": "anat",
+          "modalityLabel": "flair",
+          "criteria": {
+            "SeriesDescription": "anat_flair_*"
+        }
+    ]
+}
