@@ -20,7 +20,7 @@
             "modalityLabel": "bold",
             "criteria": {
                 "ProtocolName": "bold_task-*",
-                "ImageType": ["ORIGINAL", "PRIMARY", "M", "ND", "MOSAIC"],
+                "ImageType": ["ORIGINAL", "PRIMARY", "M", "ND", "MOSAIC"]
             }
         },
         {
@@ -45,6 +45,7 @@
           "criteria": {
             "SeriesDescription": "dwi_acq-pa",
             "ImageType": ["ORIGINAL", "PRIMARY", "DIFFUSION", "NONE", "ND", "MOSAIC"]
+          }
         },
         {
           "dataType": "fmap",
@@ -53,12 +54,14 @@
           "criteria": {
             "SeriesDescription": "b0_acq-ap",
             "ImageType": ["ORIGINAL", "PRIMARY", "DIFFUSION", "NONE", "ND"]
+          }
         },
         {
           "dataType": "anat",
           "modalityLabel": "flair",
           "criteria": {
             "SeriesDescription": "anat_flair_*"
+          }
         }
     ]
 }
