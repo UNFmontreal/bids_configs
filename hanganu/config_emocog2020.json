@@ -3,7 +3,7 @@
         {
             "dcmTag": "SeriesDescription",
             "expression": [".*(task-[a-z]*).*",
-                           ".*(run-[0-9]{1}).*",
+                           ".*(run-[0-9]{2}).*",
                            ".*(acq-(2|3)D).*"]
         },
     "dupMethod": "dup",
