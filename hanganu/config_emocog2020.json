@@ -24,19 +24,12 @@
             }
         },
         {
-            "dataType": "func",
-            "modalityLabel": "sbref",
-            "criteria": {
-                "SeriesDescription": "func_task-*_SBRef"
-            }
-        },
-        {
             "dataType": "fmap",
             "modalityLabel": "epi",
             "intendedFor": 1,
             "criteria": {
-                "SeriesDescription": "func_AP_*",
-                "ImageType": ["ORIGINAL", "PRIMARY", "M", "MB", "ND", "MOSAIC"]
+                "SeriesDescription": "fmap_*",
+                "ImageType": ["ORIGINAL", "PRIMARY", "M", "ND", "MOSAIC"]                
             }
         },
         {
