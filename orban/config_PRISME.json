@@ -3,7 +3,7 @@
         {
             "dcmTag": "SeriesDescription",
             "expression": [".*(task-video[0-9]{3}).*",
-                           ".*(run-[0-9]{1}*).*"]
+                           ".*(run-[0-9]{1}).*"]
         },
     "dupMethod": "dup",
     "descriptions":[
