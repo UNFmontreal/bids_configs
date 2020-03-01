@@ -42,7 +42,7 @@
         {
           "dataType": "fmap",
           "modalityLabel": "epi",
-          "intendedFor": 4,
+          "IntendedFor": 3,
           "criteria": {
             "SeriesDescription": "b0_acq-ap",
             "ImageType": ["ORIGINAL", "PRIMARY", "DIFFUSION", "NONE", "ND"]
