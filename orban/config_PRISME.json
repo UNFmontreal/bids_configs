@@ -11,7 +11,8 @@
             "dataType": "anat",
             "modalityLabel": "T1w",
             "criteria": {
-              "SeriesDescription": "acq-0.8mm_T1w"
+              "SeriesDescription": "acq-0.8mm_T1w",
+              "ImageType": ["ORIGINAL", "PRIMARY", "M", "ND", "NORM"]
             }
         },
         {
