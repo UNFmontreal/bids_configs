@@ -1,0 +1,78 @@
+{
+  "dcmTagLabel":
+      {
+          "dcmTag": "SeriesDescription",
+          "expression": [".*(task-[0-9a-zA-Z]*).*",
+                          ".*(run-[0-9a-zA-Z]*).*"]
+      },
+    "dupMethod": "dup",
+    "descriptions": [
+        {
+            "dataType": "anat",
+            "modalityLabel": "T1w",
+            "criteria": {
+              "SeriesDescription": "3D_T1"
+            }
+        },
+        {
+            "dataType": "anat",
+            "modalityLabel": "FLAIR",
+            "criteria": {
+              "SeriesDescription": "FLAIR_FS"
+            }
+        },
+        {
+            "dataType": "anat",
+            "modalityLabel": "T2starmap",
+            "customLabels": "part-phase",
+            "criteria": {
+              "SeriesDescription": "T2_star",
+              "ImageType": ["ORIGINAL", "PRIMARY", "M", "ND"]
+            }
+        },
+        {
+            "dataType": "anat",
+            "modalityLabel": "T2starmap",
+            "customLabels": "part-mag"
+            "criteria": {
+              "SeriesDescription": "T2_star",
+              "ImageType": ["ORIGINAL", "PRIMARY", "P", "ND"]
+            }
+        },
+        {
+            "dataType": "anat",
+            "modalityLabel": "T2starmap",
+            "customLabels": "part-mag"
+            "criteria": {
+              "SeriesDescription": "T2_star",
+              "ImageType": ["ORIGINAL", "PRIMARY", "P", "ND"]
+            }
+        },        
+        {
+            "dataType": "dwi",
+            "modalityLabel": "dwi",
+            "criteria": {
+                "SeriesDescription": "DTI"
+            }
+        },
+        {
+            "dataType": "fmap",
+            "modalityLabel": "epi",
+            "criteria": {
+                "SeriesDescription": "DTI_B0*"
+            },
+            "IntendedFor": 1
+        },
+        {
+            "dataType": "func",
+            "modalityLabel": "bold",
+            "customLabels": "task-rest",
+            "sidecarChanges": {
+              "task": "rest"
+            }
+            "criteria": {
+                "SeriesDescription": "Connectivity_fMRI",
+            }
+        }
+    ]
+}
