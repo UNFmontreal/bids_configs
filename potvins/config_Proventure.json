@@ -5,7 +5,7 @@
             "dataType": "anat",
             "modalityLabel": "T1w",
             "criteria": {
-                "SeriesDescription": "acq-MPRAGE*"
+                "SeriesDescription": "acq-MPRAGE"
             }
         },
         {
@@ -38,29 +38,40 @@
         {
             "dataType": "func",
             "modalityLabel": "bold",
-	          "customLabels": "task-recompense_run-1",
+	          "customLabels": "task-emotionnelle",
             "sidecarChanges": {
-              "TaskName": "recompense"
+              "TaskName": "emotionnelle"
             },
             "criteria": {
-                "SeriesDescription": "task-recompense-p2-s3-3mm_Run1*"
+                "SeriesDescription": "task-emotionnelle-p2-s3-3mm"
             }
         },
         {
             "dataType": "func",
             "modalityLabel": "bold",
-	          "customLabels": "task-recompense_run-2",
+	          "customLabels": "task-SelfOther",
             "sidecarChanges": {
               "TaskName": "recompense"
             },
             "criteria": {
-                "SeriesDescription": "task-recompense-p2-s3-3mm_Run2*"
+                "SeriesDescription": "task-SelfOther-p2-s3-3mm_Run2*"
+            }
+        },
+        {
+            "dataType": "func",
+            "modalityLabel": "bold",
+	          "customLabels": "task-NBack",
+            "sidecarChanges": {
+              "TaskName": "NBack"
+            },
+            "criteria": {
+                "SeriesDescription": "task-NBack-p2-s3-3mm_Run2*"
             }
         },
         {
             "dataType": "fmap",
             "modalityLabel": "magnitude1",
-            "intendedFor": [3,4,5,6,7,8],
+            "intendedFor": [3,5,6],
             "criteria": {
                 "SeriesDescription": "task_fieldmap",
                 "ImageType": ["ORIGINAL", "PRIMARY", "M", "ND"],
@@ -70,7 +81,7 @@
         {
             "dataType": "fmap",
             "modalityLabel": "magnitude2",
-            "intendedFor": [3,4,5,6,7,8],
+            "intendedFor": [3,5,6],
             "criteria": {
                 "SeriesDescription": "task_fieldmap",
                 "ImageType": ["ORIGINAL", "PRIMARY", "M", "ND"],
@@ -80,13 +91,46 @@
         {
             "dataType": "fmap",
             "modalityLabel": "phasediff",
-            "intendedFor": [3,4,5,6,7,8],
+            "intendedFor": [3,5,6],
             "sidecarChanges": {
               "EchoTime1": 0.00492,
               "EchoTime2": 0.00738
             },
             "criteria": {
                 "SeriesDescription": "task_fieldmap",
+                "ImageType": ["ORIGINAL", "PRIMARY", "P", "ND"]
+            }
+        },
+        {
+            "dataType": "fmap",
+            "modalityLabel": "magnitude1",
+            "intendedFor": 4,
+            "criteria": {
+                "SeriesDescription": "task-emot_fieldmap",
+                "ImageType": ["ORIGINAL", "PRIMARY", "M", "ND"],
+	              "EchoTime": 0.00492
+            }
+        },
+        {
+            "dataType": "fmap",
+            "modalityLabel": "magnitude2",
+            "intendedFor": 4,
+            "criteria": {
+                "SeriesDescription": "task-emot_fieldmap",
+                "ImageType": ["ORIGINAL", "PRIMARY", "M", "ND"],
+                "EchoTime": 0.00738
+            }
+        },
+        {
+            "dataType": "fmap",
+            "modalityLabel": "phasediff",
+            "intendedFor": 4,
+            "sidecarChanges": {
+              "EchoTime1": 0.00492,
+              "EchoTime2": 0.00738
+            },
+            "criteria": {
+                "SeriesDescription": "task-emot_fieldmap",
                 "ImageType": ["ORIGINAL", "PRIMARY", "P", "ND"]
             }
         }
