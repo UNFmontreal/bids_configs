@@ -54,7 +54,7 @@
               "TaskName": "recompense"
             },
             "criteria": {
-                "SeriesDescription": "task-SelfOther-p2-s3-3mm_Run2*"
+                "SeriesDescription": "task-SelfOther-p2-s3-3mm_Run1"
             }
         },
         {
@@ -65,7 +65,7 @@
               "TaskName": "NBack"
             },
             "criteria": {
-                "SeriesDescription": "task-NBack-p2-s3-3mm_Run2*"
+                "SeriesDescription": "task-NBack-p2-s3-3mm_Run1"
             }
         },
         {
