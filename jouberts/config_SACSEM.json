@@ -1,0 +1,74 @@
+{
+    "dupMethod": "dup",
+    "descriptions": [
+        {
+            "dataType": "anat",
+            "modalityLabel": "T1w",
+            "criteria": {
+                "SeriesDescription": "acq-0.8mm_T1w"
+            }
+        },
+        {
+            "dataType": "anat",
+            "modalityLabel": "FLAIR",
+            "criteria": {
+                "SeriesDescription": "Sagittal_3D_FLAIR"
+            }
+        },
+        {
+            "dataType": "dwi",
+            "modalityLabel": "dwi",
+            "criteria": {
+                "SeriesDescription": "acq-p2-s1-pa-2.5mm-30dir_dwi",
+                "ImageType": ["ORIGINAL", "PRIMARY", "DIFFUSION", "NONE", "ND", "MOSAIC"]
+            }
+        },
+        {
+            "dataType": "fmap",
+            "modalityLabel": "epi",
+            "criteria": {
+                "SeriesDescription": "acq-p2-s1-ap-2.5mm_b0"
+            },
+            "IntendedFor": 2
+        },
+        {
+            "dataType": "func",
+            "modalityLabel": "bold",
+            "sidecarChanges": {
+              "TaskName": "rest"
+            },
+            "criteria": {
+                "SeriesDescription": "acq-p1-s3-3mm_RS"
+            }
+        },
+        {
+            "dataType": "fmap",
+            "modalityLabel": "magnitude1",
+            "intendedFor": 3,
+            "criteria": {
+                "SeriesDescription": "gre_field_mapping",
+		            "ImageType": ["ORIGINAL", "PRIMARY", "M", "ND"],
+		            "EchoTime": 0.00492
+            }
+        },
+        {
+            "dataType": "fmap",
+            "modalityLabel": "magnitude2",
+            "intendedFor": 3,
+            "criteria": {
+                "SeriesDescription": "gre_field_mapping",
+                "ImageType": ["ORIGINAL", "PRIMARY", "M", "ND"],
+                "EchoTime": 0.00738
+            }
+        },
+        {
+            "dataType": "fmap",
+            "modalityLabel": "phasediff",
+            "intendedFor": 3,
+            "criteria": {
+                "SeriesDescription": "gre_field_mapping",
+                "ImageType": ["ORIGINAL", "PRIMARY", "P", "ND"]
+            }
+        }
+    ]
+}

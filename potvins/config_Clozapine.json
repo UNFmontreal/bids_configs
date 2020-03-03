@@ -58,9 +58,20 @@
             }
         },
         {
+            "dataType": "func",
+            "modalityLabel": "bold",
+	          "customLabels": "task-emotionnelle",
+            "sidecarChanges": {
+              "TaskName": "emotionnelle"
+            },
+            "criteria": {
+                "SeriesDescription": "task-emotionnelle-p2-s3-3mm"
+            }
+        },
+        {
             "dataType": "fmap",
             "modalityLabel": "magnitude1",
-            "intendedFor": [3,4,5,6,7,8],
+            "intendedFor": [3,4,5],
             "criteria": {
                 "SeriesDescription": "task_fieldmap",
                 "ImageType": ["ORIGINAL", "PRIMARY", "M", "ND"],
@@ -70,7 +81,7 @@
         {
             "dataType": "fmap",
             "modalityLabel": "magnitude2",
-            "intendedFor": [3,4,5,6,7,8],
+            "intendedFor": [3,4,5],
             "criteria": {
                 "SeriesDescription": "task_fieldmap",
                 "ImageType": ["ORIGINAL", "PRIMARY", "M", "ND"],
@@ -80,13 +91,46 @@
         {
             "dataType": "fmap",
             "modalityLabel": "phasediff",
-            "intendedFor": [3,4,5,6,7,8],
+            "intendedFor": [3,4,5],
             "sidecarChanges": {
               "EchoTime1": 0.00492,
               "EchoTime2": 0.00738
             },
             "criteria": {
                 "SeriesDescription": "task_fieldmap",
+                "ImageType": ["ORIGINAL", "PRIMARY", "P", "ND"]
+            }
+        },
+        {
+            "dataType": "fmap",
+            "modalityLabel": "magnitude1",
+            "intendedFor": 6,
+            "criteria": {
+                "SeriesDescription": "task-emot_fieldmap",
+                "ImageType": ["ORIGINAL", "PRIMARY", "M", "ND"],
+	              "EchoTime": 0.00492
+            }
+        },
+        {
+            "dataType": "fmap",
+            "modalityLabel": "magnitude2",
+            "intendedFor": 6,
+            "criteria": {
+                "SeriesDescription": "task-emot_fieldmap",
+                "ImageType": ["ORIGINAL", "PRIMARY", "M", "ND"],
+                "EchoTime": 0.00738
+            }
+        },
+        {
+            "dataType": "fmap",
+            "modalityLabel": "phasediff",
+            "intendedFor": 6,
+            "sidecarChanges": {
+              "EchoTime1": 0.00492,
+              "EchoTime2": 0.00738
+            },
+            "criteria": {
+                "SeriesDescription": "task-emot_fieldmap",
                 "ImageType": ["ORIGINAL", "PRIMARY", "P", "ND"]
             }
         }
