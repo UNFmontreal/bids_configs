@@ -71,6 +71,7 @@
         {
             "dataType": "fmap",
             "modalityLabel": "magnitude1",
+	          "customLabels": "run-1",
             "intendedFor": [3,4,5],
             "criteria": {
                 "SeriesDescription": "task_fieldmap",
@@ -81,6 +82,7 @@
         {
             "dataType": "fmap",
             "modalityLabel": "magnitude2",
+	          "customLabels": "run-1",
             "intendedFor": [3,4,5],
             "criteria": {
                 "SeriesDescription": "task_fieldmap",
@@ -91,6 +93,7 @@
         {
             "dataType": "fmap",
             "modalityLabel": "phasediff",
+	          "customLabels": "run-1",
             "intendedFor": [3,4,5],
             "sidecarChanges": {
               "EchoTime1": 0.00492,
@@ -104,6 +107,7 @@
         {
             "dataType": "fmap",
             "modalityLabel": "magnitude1",
+	          "customLabels": "run-2",
             "intendedFor": 6,
             "criteria": {
                 "SeriesDescription": "task-emot_fieldmap",
@@ -114,6 +118,7 @@
         {
             "dataType": "fmap",
             "modalityLabel": "magnitude2",
+	          "customLabels": "run-2",
             "intendedFor": 6,
             "criteria": {
                 "SeriesDescription": "task-emot_fieldmap",
@@ -124,6 +129,7 @@
         {
             "dataType": "fmap",
             "modalityLabel": "phasediff",
+	          "customLabels": "run-2",            
             "intendedFor": 6,
             "sidecarChanges": {
               "EchoTime1": 0.00492,
