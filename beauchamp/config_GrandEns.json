@@ -1,0 +1,113 @@
+{
+    "descriptions": [
+        {
+            "dataType": "anat",
+            "modalityLabel": "T1w",
+            "criteria": {
+                "ProtocolName": "acq-mgh-1mm-4e_T1w",
+                "ImageType": ["ORIGINAL", "PRIMARY", "OTHER", "NORM", "DIS3D", "DIS2D", "MEAN"]
+            }
+        },
+        {
+            "dataType": "anat",
+            "modalityLabel": "T1w",
+            "customLabels": "echo-1",
+            "criteria": {
+                "ProtocolName": "acq-mgh-1mm-4e_T1w",
+                "ImageType": ["ORIGINAL", "PRIMARY", "M", "NORM", "DIS3D", "DIS2D"],
+                "EchoNumber": 1
+            }
+        },
+        {
+            "dataType": "anat",
+            "modalityLabel": "T1w",
+            "customLabels": "echo-2",
+            "criteria": {
+                "ProtocolName": "acq-mgh-1mm-4e_T1w",
+                "ImageType": ["ORIGINAL", "PRIMARY", "M", "NORM", "DIS3D", "DIS2D"],
+                "EchoNumber": 2
+            }
+        },
+        {
+            "dataType": "anat",
+            "modalityLabel": "T1w",
+            "customLabels": "echo-3",
+            "criteria": {
+                "ProtocolName": "acq-mgh-1mm-4e_T1w",
+                "ImageType": ["ORIGINAL", "PRIMARY", "M", "NORM", "DIS3D", "DIS2D"],
+                "EchoNumber": 3
+            }
+        },
+        {
+            "dataType": "anat",
+            "modalityLabel": "T1w",
+            "customLabels": "echo-4",
+            "criteria": {
+                "ProtocolName": "acq-mgh-1mm-4e_T1w",
+                "ImageType": ["ORIGINAL", "PRIMARY", "M", "NORM", "DIS3D", "DIS2D"],
+                "EchoNumber": 4
+            }
+        },
+        {
+            "dataType": "func",
+            "modalityLabel": "bold",
+            "TaskName": "rest",
+            "criteria": {
+ 	            "SeriesDescription": "ep2d_bold_RS"
+            }
+        },
+        {
+            "dataType": "fmap",
+            "modalityLabel": "magnitude1",
+	          "intendedFor": 5,
+            "criteria": {
+                "SeriesDescription": "gre_field_mapping_RS",
+		            "ImageType": ["ORIGINAL", "PRIMARY", "M", "ND"],
+		            "EchoTime": 0.005
+            }
+        },
+        {
+            "dataType": "fmap",
+            "modalityLabel": "magnitude2",
+            "intendedFor": 5,
+            "criteria": {
+                "SeriesDescription": "gre_field_mapping_RS",
+                "ImageType": ["ORIGINAL", "PRIMARY", "M", "ND"],
+                "EchoTime": 0.00746
+            }
+        },
+        {
+            "dataType": "fmap",
+            "modalityLabel": "phasediff",
+            "intendedFor": 5,
+            "criteria": {
+                "SeriesDescription": "gre_field_mapping_RS",
+                "ImageType": ["ORIGINAL", "PRIMARY", "P", "ND"]
+            }
+        },
+        {
+          "dataType": "dwi",
+          "modalityLabel": "dwi",
+          "criteria": {
+            "SeriesDescription": "acq-s3-pa_dwi",
+            "ImageType": ["ORIGINAL", "PRIMARY", "DIFFUSION", "NONE", "ND", "MOSAIC"]
+          }
+        },
+        {
+            "dataType": "fmap",
+            "modalityLabel": "epi",
+            "criteria": {
+                "SeriesDescription": "acq-s3-ap_b0",
+                "ImageType": ["ORIGINAL", "PRIMARY", "DIFFUSION", "NONE", "ND"]
+            },
+            "IntendedFor": 9
+        },
+        {
+            "dataType": "anat",
+            "modalityLabel": "T2w",
+            "criteria": {
+	             "SeriesDescription": "t2_tse_fs_tra"
+            }
+        }
+    ]
+}

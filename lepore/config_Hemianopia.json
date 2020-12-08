@@ -1,0 +1,87 @@
+{
+    "descriptions": [
+        {
+            "dataType": "anat",
+            "modalityLabel": "T1w",
+            "criteria": {
+                "ProtocolName": "anat_T1w"
+            }
+        },
+        {
+            "dataType": "func",
+            "modalityLabel": "bold",
+            "TaskName": "rest",
+            "customLabels": "task-rest",
+            "criteria": {
+ 	            "SeriesDescription": "bold_task-rest"
+            }
+        },
+        {
+            "dataType": "fmap",
+            "modalityLabel": "epi",
+	          "intendedFor": [1,3,4],
+            "criteria": {
+                "SeriesDescription": "fmap_task-rest"
+            }
+        },
+        {
+            "dataType": "func",
+            "modalityLabel": "bold",
+	          "TaskName": "vislocA",
+            "customLabels": "task-vislocA",
+            "criteria": {
+                "SeriesDescription": "bold_task-vislocA"
+            }
+        },
+        {
+            "dataType": "func",
+            "modalityLabel": "bold",
+	          "TaskName": "vislocB",
+            "customLabels": "task-vislocB",
+            "criteria": {
+                "SeriesDescription": "bold_task-vislocB"
+            }
+        },
+        {
+            "dataType": "func",
+            "modalityLabel": "bold",
+	          "TaskName": "vislocA",
+            "customLabels": "acq-midbrain_task-vislocA",
+            "criteria": {
+                "SeriesDescription": "bold_acq-midbrain_task-vislocA"
+            }
+        },
+        {
+            "dataType": "func",
+            "modalityLabel": "bold",
+	          "TaskName": "vislocB",
+            "customLabels": "acq-midbrain_task-vislocB",
+            "criteria": {
+                "SeriesDescription": "bold_acq-midbrain_task-vislocB"
+            }
+        },
+        {
+            "dataType": "fmap",
+            "modalityLabel": "epi",
+            "intendedFor": [5,6],
+            "criteria": {
+                "SeriesDescription": "fmap_acq-midbrain_task-visloc"
+            }
+        },
+        {
+          "dataType": "dwi",
+          "modalityLabel": "dwi",
+          "criteria": {
+            "SeriesDescription": "dwi_acq-ap"
+          }
+        },
+        {
+            "dataType": "fmap",
+            "modalityLabel": "epi",
+            "criteria": {
+                "SeriesDescription": "b0_acq-pa"
+            },
+            "IntendedFor": 9
+        }
+    ]
+}
