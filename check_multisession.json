@@ -1,0 +1,6 @@
+{
+"validPatientName": [
+	"^(HBHLDec)_((Y|O)[0-9]{3})_((post|pre)Nap)$",
+	"^(p0[1-6]{1})_((liris|friends|vid|game|ana|hcptrt|shinobi)[0-9]{3})b?$"
+]
+}
