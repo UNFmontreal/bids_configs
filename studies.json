@@ -1,0 +1,11 @@
+{
+  "StudyDescription1":{
+	   "regex": "^()(p[0-9]{2})_(friends[0-9]{3})$",
+	   "multisession": 1,
+	   "gid": 1196},
+  "HBHL": {
+    "regex": "^(HBHLDec)_((Y|O)[0-9]{3})_((post|pre)Nap)$",
+    "multisession": 0,
+    "gid": 1103},
+}
+}
