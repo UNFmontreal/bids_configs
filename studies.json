@@ -172,7 +172,7 @@
 		"multisession": 1,
 		"gid": 1196,
 		"gid_name": "neuromod",
-		"ethic": ""
+		"ethic": "CER VN 18-19-22"
 	},
 	"hanganu_emocog": {
 		"regex": "^(emocog)_((tcl|tsl|mp|sc)[0-9]{4})_((0[1-9]|1[0-5]))$",
