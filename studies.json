@@ -74,7 +74,7 @@
 		"multisession": 0,
 		"gid": 1167,
 		"gid_name": "neuropoly",
-		"ethic": ""
+		"ethic": "CER VN 16-17-39"
 	},
 	"labjoanette_PulsAge": {
 		"regex": "^(PulsAge)_(HEAL(Y|O)[0-9]{3})$",
@@ -200,21 +200,21 @@
 		"multisession": 0,
 		"gid": 1167,
 		"gid_name": "neuropoly",
-		"ethic": ""
+		"ethic": "CMER RNQ 15-16-13"
 	},
 	"neuropoly_acdc": {
 		"regex": "^(acdc)_([0-9]{3})p$",
 		"multisession": 0,
 		"gid": 1167,
 		"gid_name": "neuropoly",
-		"ethic": ""
+		"ethic": "CMER RNQ 15-16-13"
 	},
 	"neuropoly_coiltest": {
 		"regex": "^(coiltest)_(np[0-9]{2})_([0-9]{2})$",
 		"multisession": 0,
 		"gid": 1167,
 		"gid_name": "neuropoly",
-		"ethic": ""
+		"ethic": "CMER RNQ 15-16-13"
 	},
 	"lepore_Hemianopia": {
 		"regex": "^(Hemianopia)_((ctl|hh)[0-9]{2})_(1|2|3|4)$",
