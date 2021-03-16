@@ -179,7 +179,7 @@
 		"multisession": 0,
 		"gid": 944200020,
 		"gid_name": "hanganu",
-		"ethic": ""
+		"ethic": "CER VN 19-20-06"
 	},
 	"cimaq_Pcimaq": {
 		"regex": "^([0-9]{7})_([0-9]{6})_(P[0-9]{2})$",
