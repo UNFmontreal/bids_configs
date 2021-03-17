@@ -231,12 +231,12 @@
 		"ethic": "CMER RNQ 15-16-09"
 	},
 	"pilot":{
-		"regex": "^(pilot)_([a-zA-Z0-9_]*)$",
+		"regex": "^(pilot)_([a-zA-Z0-9_-]*)$",
 		"multisession": 0,
 		"ethic": ""
 	},
 	"dev":{
-		"regex": "^(dev)_([a-zA-Z0-9_]*)$",
+		"regex": "^(dev)_([a-zA-Z0-9_-]*)$",
 		"multisession": 0,
 		"ethic": ""
 	}
