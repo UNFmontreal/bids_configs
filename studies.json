@@ -168,7 +168,7 @@
 		"ethic": "CODIM MBM 16 130"
 	},
 	"neuromod_neuromod": {
-		"regex": "^(p0[1-6]{1})_((liris|friends|vid|game|ana|hcptrt|shinobi|things)[0-9]{3})b?$",
+		"regex": "^(p0[1-6]{1})_((liris|friends|vid|game|ana|hcptrt|shinobi|things|pilot)[0-9]{3}|(harrypotter)|(things[0-9]{2}))b?$",
 		"multisession": 1,
 		"gid": 1196,
 		"gid_name": "neuromod",
