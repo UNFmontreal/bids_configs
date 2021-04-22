@@ -20,7 +20,7 @@
 		"gid_name": "beaumont",
 		"ethic": "CER VN 19-20-22"
 	},
-	"cimaq_UGM": {
+	"cimaq_engage": {
 		"regex": "^(UGM[0-9]{4})_([0-9]{6})_(T10_V28_POST_1_MRI|T10_V30_POST_2_MRI|Initial_MRI)$",
 		"multisession": 0,
 		"gid": 1177,
