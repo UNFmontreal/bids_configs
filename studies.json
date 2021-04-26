@@ -203,7 +203,7 @@
 		"ethic": "CMER RNQ 15-16-13"
 	},
 	"neuropoly_acdc": {
-		"regex": "^(acdc)_([0-9]{3})p$",
+		"regex": "^(acdc)_([0-9]{3})p?$",
 		"multisession": 0,
 		"gid": 1167,
 		"gid_name": "neuropoly",
