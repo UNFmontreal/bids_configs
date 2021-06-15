@@ -83,6 +83,13 @@
 		"gid_name": "labjoanette",
 		"ethic": "CER VN 16-17-28"
 	},
+	"labjoanette_SSTA": {
+		"regex": "^(SSTA)_([0-9]{3})$",
+		"multisession": 0,
+		"gid": 1104,
+		"gid_name": "labjoanette",
+		"ethic": "CER VN 16-17-09"
+	},
 	"jouberts_IMAGISION": {
 		"regex": "^(IMAGISION)_((C|P)[0-9]{2})$",
 		"multisession": 0	,
