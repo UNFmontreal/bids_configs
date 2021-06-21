@@ -90,9 +90,9 @@
         },
         {
             "dataType": "anat",
-            "modalityLabel": "mIP_Images(SW)",
+            "modalityLabel": "minIP",
             "criteria": {
-                "SeriesDescription": "SWI_Images",
+                "SeriesDescription": "mIP_Images(SW)",
                 "ImageType": ["ORIGINAL", "PRIMARY", "MNIP", "ND", "NORM"]
             }
         },
