@@ -69,6 +69,40 @@
                 "SeriesDescription": "gre_field_mapping",
                 "ImageType": ["ORIGINAL", "PRIMARY", "P", "ND"]
             }
+        },
+        {
+            "dataType": "anat",
+            "modalityLabel": "PDT2",
+            "customLabels": "echo-1",
+            "criteria": {
+                "SeriesDescription": "PD_T2_FS",
+                "EchoTime": 0.01
+            }
+        },
+        {
+            "dataType": "anat",
+            "modalityLabel": "PDT2",
+            "customLabels": "echo-2",
+            "criteria": {
+                "SeriesDescription": "PD_T2_FS",
+                "EchoNumber": 2
+            }
+        },
+        {
+            "dataType": "anat",
+            "modalityLabel": "mIP_Images(SW)",
+            "criteria": {
+                "SeriesDescription": "SWI_Images",
+                "ImageType": ["ORIGINAL", "PRIMARY", "MNIP", "ND", "NORM"]
+            }
+        },
+        {
+            "dataType": "anat",
+            "modalityLabel": "swi",
+            "criteria": {
+                "SeriesDescription": "SWI_Images",
+                "ImageType": ["ORIGINAL", "PRIMARY", "M", "SWI", "ND", "NORM"]
+            }
         }
     ]
 }
