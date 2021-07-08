@@ -111,6 +111,13 @@
 		"gid_name": "orban",
 		"ethic": "MP-12-2019-1621"
 	},
+	"orban_Prisme-things": {
+		"regex": "^(prisme-things)_([0-9]{6})_(0[1-9]|1[0-2])$",
+		"multisession": 0,
+		"gid": 1195,
+		"gid_name": "orban",
+		"ethic": "MP-12-2019-1621"
+	},
 	"potvins_Clozapine": {
 		"regex": "^(Clozapine)_([0-9]{3})_(1|2)$",
 		"multisession": 0,
