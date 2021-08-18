@@ -244,6 +244,13 @@
 		"gid_name": "beauchamp",
 		"ethic": "CMER RNQ 15-16-09"
 	},
+	"jerbi_SAflow": {
+		"regex": "^(SAflow)_([0-9]{2})_anat$",
+		"multisession": 0,
+		"gid": 1197,
+		"gid_name": "jerbi",
+		"ethic": "CER VN 19-20-27"
+	},
 	"pilot":{
 		"regex": "^(pilot)_([a-zA-Z0-9_-]*)$",
 		"multisession": 0,
