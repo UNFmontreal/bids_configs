@@ -1,0 +1,70 @@
+{
+    "descriptions": [
+      {
+          "dataType": "anat",
+          "modalityLabel": "T1w",
+          "criteria": {
+            "SeriesDescription": "acq-0.8mm_T1w",
+            "ImageType": ["ORIGINAL", "PRIMARY", "M", "ND"]
+          }
+      },
+      {
+          "dataType": "anat",
+          "modalityLabel": "T1w",
+          "customLabels": "rec-norm",
+          "criteria": {
+            "SeriesDescription": "acq-0.8mm_T1w",
+            "ImageType": ["ORIGINAL", "PRIMARY", "M", "ND", "NORM"]
+          }
+      },
+      {
+          "dataType": "anat",
+          "modalityLabel": "T2w",
+          "criteria": {
+            "SeriesDescription": "acq-0.8mm_T2w",
+            "ImageType": ["ORIGINAL", "PRIMARY", "M", "ND"]
+          }
+      },
+      {
+          "dataType": "anat",
+          "modalityLabel": "T2w",
+          "customLabels": "rec-norm",
+          "criteria": {
+            "SeriesDescription": "acq-0.8mm_T2w",
+            "ImageType": ["ORIGINAL", "PRIMARY", "M", "ND", "NORM"]
+          }
+      },
+      {
+          "dataType": "dwi",
+          "modalityLabel": "dwi",
+          "customLabels": "dir-AP",
+          "criteria": {
+            "SeriesDescription": "dMRI_dir98_AP_test_cmrr"
+          }
+      },
+      {
+          "dataType": "dwi",
+          "modalityLabel": "sbref",
+          "customLabels": "acq-sbref_dir-AP",
+          "criteria": {
+            "SeriesDescription": "dMRI_dir98_AP_test_cmrr_SBRef"
+          }
+      },
+      {
+          "dataType": "dwi",
+          "modalityLabel": "dwi",
+          "customLabels": "dir-PA",
+          "criteria": {
+            "SeriesDescription": "dMRI_dir98_PA_test_cmrr"
+          }
+      },
+      {
+          "dataType": "dwi",
+          "modalityLabel": "sbref",
+          "customLabels": "acq-sbref_dir-PA",
+          "criteria": {
+            "SeriesDescription": "dMRI_dir98_PA_test_cmrr_SBRef"
+          }
+      }
+    ]
+}

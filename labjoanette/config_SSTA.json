@@ -1,0 +1,224 @@
+{
+    "descriptions": [
+        {
+            "dataType": "anat",
+            "modalityLabel": "T1w",
+            "criteria": {
+                "ProtocolName": "acq-mgh-1mm-4e_T1w",
+                "ImageType": ["ORIGINAL", "PRIMARY", "OTHER", "NORM", "DIS3D", "DIS2D", "MEAN"]
+            }
+        },
+        {
+            "dataType": "anat",
+            "modalityLabel": "T1w",
+            "customLabels": "echo-1",
+            "criteria": {
+                "ProtocolName": "acq-mgh-1mm-4e_T1w",
+                "ImageType": ["ORIGINAL", "PRIMARY", "M", "NORM", "DIS3D", "DIS2D"],
+                "EchoNumber": 1
+            }
+        },
+        {
+            "dataType": "anat",
+            "modalityLabel": "T1w",
+            "customLabels": "echo-2",
+            "criteria": {
+                "ProtocolName": "acq-mgh-1mm-4e_T1w",
+                "ImageType": ["ORIGINAL", "PRIMARY", "M", "NORM", "DIS3D", "DIS2D"],
+                "EchoNumber": 2
+            }
+        },
+        {
+            "dataType": "anat",
+            "modalityLabel": "T1w",
+            "customLabels": "echo-3",
+            "criteria": {
+                "ProtocolName": "acq-mgh-1mm-4e_T1w",
+                "ImageType": ["ORIGINAL", "PRIMARY", "M", "NORM", "DIS3D", "DIS2D"],
+                "EchoNumber": 3
+            }
+        },
+        {
+            "dataType": "anat",
+            "modalityLabel": "T1w",
+            "customLabels": "echo-4",
+            "criteria": {
+                "ProtocolName": "acq-mgh-1mm-4e_T1w",
+                "ImageType": ["ORIGINAL", "PRIMARY", "M", "NORM", "DIS3D", "DIS2D"],
+                "EchoNumber": 4
+            }
+        },
+        {
+            "dataType": "func",
+            "modalityLabel": "epi",
+            "TaskName": "semanticA",
+            "customLabels": "task-semanticA",
+            "criteria": {
+                "SeriesDescription": "task-semantic_Run1",
+                "ImageType": ["ORIGINAL", "PRIMARY", "M", "ND", "MOSAIC"]
+            }
+        },
+        {
+            "dataType": "fmap",
+            "modalityLabel": "magnitude1",
+            "TaskName": "semanticA",
+            "customLabels": "task-semanticA",
+            "intendedFor": 5,
+            "criteria": {
+                "SeriesDescription": "task-fieldmap_Run1",
+		            "ImageType": ["ORIGINAL", "PRIMARY", "M", "ND"],
+		            "EchoTime": 0.00492
+            }
+        },
+        {
+            "dataType": "fmap",
+            "modalityLabel": "magnitude2",
+            "TaskName": "semanticA",
+            "customLabels": "task-semanticA",
+            "intendedFor": 5,
+            "criteria": {
+                "SeriesDescription": "task-fieldmap_Run1",
+                "ImageType": ["ORIGINAL", "PRIMARY", "M", "ND"],
+                "EchoTime": 0.00738
+            }
+        },
+        {
+            "dataType": "fmap",
+            "modalityLabel": "phasediff",
+            "TaskName": "semanticA",
+            "customLabels": "task-semanticA",
+            "intendedFor": 5,
+            "criteria": {
+                "SeriesDescription": "task-fieldmap_Run1",
+                "ImageType": ["ORIGINAL", "PRIMARY", "P", "ND", "PHASE"]
+            }
+        },
+        {
+            "dataType": "func",
+            "modalityLabel": "epi",
+            "TaskName": "semanticB",
+            "customLabels": "task-semanticB",
+            "criteria": {
+                "SeriesDescription": "task-semantic_Run2",
+                "ImageType": ["ORIGINAL", "PRIMARY", "M", "ND", "MOSAIC"]
+            }
+        },
+        {
+            "dataType": "fmap",
+            "modalityLabel": "magnitude1",
+            "TaskName": "semanticB",
+            "customLabels": "task-semanticB",
+            "intendedFor": 9,
+            "criteria": {
+                "SeriesDescription": "task-fieldmap_Run2",
+		            "ImageType": ["ORIGINAL", "PRIMARY", "M", "ND"],
+		            "EchoTime": 0.00492
+            }
+        },
+        {
+            "dataType": "fmap",
+            "modalityLabel": "magnitude2",
+            "TaskName": "semanticB",
+            "customLabels": "task-semanticB",
+            "intendedFor": 9,
+            "criteria": {
+                "SeriesDescription": "task-fieldmap_Run2",
+                "ImageType": ["ORIGINAL", "PRIMARY", "M", "ND"],
+                "EchoTime": 0.00738
+            }
+        },
+        {
+            "dataType": "fmap",
+            "modalityLabel": "phasediff",
+            "TaskName": "semanticB",
+            "customLabels": "task-semanticB",
+            "intendedFor": 9,
+            "criteria": {
+                "SeriesDescription": "task-fieldmap_Run2",
+                "ImageType": ["ORIGINAL", "PRIMARY", "P", "ND", "PHASE"]
+            }
+        },
+        {
+            "dataType": "func",
+            "modalityLabel": "epi",
+            "TaskName": "rest",
+            "customLabels": "task-rest",
+            "criteria": {
+                "SeriesDescription": "task-Resting-state_Run1",
+                "ImageType": ["ORIGINAL", "PRIMARY", "M", "ND", "MOSAIC"]
+            }
+        },
+        {
+            "dataType": "fmap",
+            "modalityLabel": "magnitude1",
+            "TaskName": "rest",
+            "customLabels": "task-rest",
+            "intendedFor": 13,
+            "criteria": {
+                "SeriesDescription": "task-fieldmap_Resting-state_Run1",
+		            "ImageType": ["ORIGINAL", "PRIMARY", "M", "ND"],
+		            "EchoTime": 0.00492
+            }
+        },
+        {
+            "dataType": "fmap",
+            "modalityLabel": "magnitude2",
+            "TaskName": "rest",
+            "customLabels": "task-rest",
+            "intendedFor": 13,
+            "criteria": {
+                "SeriesDescription": "task-fieldmap_Resting-state_Run1",
+                "ImageType": ["ORIGINAL", "PRIMARY", "M", "ND"],
+                "EchoTime": 0.00738
+            }
+        },
+        {
+            "dataType": "fmap",
+            "modalityLabel": "phasediff",
+            "TaskName": "rest",
+            "customLabels": "task-rest",
+            "intendedFor": 13,
+            "criteria": {
+                "SeriesDescription": "task-fieldmap_Resting-state_Run1",
+                "ImageType": ["ORIGINAL", "PRIMARY", "P", "ND", "PHASE"]
+            }
+        },
+        {
+            "dataType": "anat",
+            "modalityLabel": "asl",
+            "criteria": {
+                "SeriesDescription": "asl_2d_tra",
+                "ImageType": ["ORIGINAL", "PRIMARY", "ASL", "NONE", "ND", "NORM", "MOSAIC"]
+            }
+        },
+        {
+            "dataType": "fmap",
+            "modalityLabel": "magnitude1",
+            "intendedFor": 17,
+            "criteria": {
+                "SeriesDescription": "gre_field_mapping",
+		            "ImageType": ["ORIGINAL", "PRIMARY", "M", "ND"],
+		            "EchoTime": 0.00492
+            }
+        },
+        {
+            "dataType": "fmap",
+            "modalityLabel": "magnitude2",
+            "intendedFor": 17,
+            "criteria": {
+                "SeriesDescription": "gre_field_mapping",
+                "ImageType": ["ORIGINAL", "PRIMARY", "M", "ND"],
+                "EchoTime": 0.00738
+            }
+        },
+        {
+            "dataType": "fmap",
+            "modalityLabel": "phasediff",
+            "intendedFor": 17,
+            "criteria": {
+                "SeriesDescription": "gre_field_mapping",
+                "ImageType": ["ORIGINAL", "PRIMARY", "P", "ND", "PHASE"]
+            }
+        }
+    ]
+}

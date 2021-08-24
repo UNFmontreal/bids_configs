@@ -1,0 +1,128 @@
+{
+    "dcmTagLabel":
+        {
+            "dcmTag": "SeriesDescription",
+            "expression": [".*(run-[0-9]{1}).*"]
+        },
+    "dupMethod": "dup",
+    "descriptions":[
+        {
+            "dataType": "anat",
+            "modalityLabel": "T1w",
+            "criteria": {
+              "SeriesDescription": "acq-0.8mm_T1w",
+              "ImageType": ["ORIGINAL", "PRIMARY", "M", "ND"]
+            }
+        },
+        {
+            "dataType": "anat",
+            "modalityLabel": "T1w",
+            "customLabels": "rec-norm",
+            "criteria": {
+              "SeriesDescription": "acq-0.8mm_T1w",
+              "ImageType": ["ORIGINAL", "PRIMARY", "M", "ND", "NORM"]
+            }
+        },
+        {
+            "dataType": "anat",
+            "modalityLabel": "T2w",
+            "criteria": {
+              "SeriesDescription": "acq-0.8mm_T2w",
+              "ImageType": ["ORIGINAL", "PRIMARY", "M", "ND"]
+            }
+        },
+        {
+            "dataType": "anat",
+            "modalityLabel": "T2w",
+            "customLabels": "rec-norm",
+            "criteria": {
+              "SeriesDescription": "acq-0.8mm_T2w",
+              "ImageType": ["ORIGINAL", "PRIMARY", "M", "ND", "NORM"]
+            }
+        },
+        {
+            "dataType": "func",
+            "modalityLabel": "bold",
+            "task": "things",
+            "customLabels": "task-things_part-mag",
+            "criteria": {
+                "ProtocolName": "func_task-prisme_run-*",
+                "ImageComments": "Unaliased MB4/PE3/LB",
+                "ImageType": ["ORIGINAL", "PRIMARY", "M", "MB", "ND", "MOSAIC"]
+            }
+        },
+        {
+            "dataType": "func",
+            "modalityLabel": "bold",
+            "task": "things",
+            "customLabels": "task-things_part-phase",
+            "criteria": {
+                "ProtocolName": "func_task-prisme_run-*",
+                "ImageComments": "Unaliased MB4/PE3/LB",
+                "ImageType": ["ORIGINAL", "PRIMARY", "P", "MB", "ND", "MOSAIC", "PHASE"]
+            }
+        },
+        {
+            "dataType": "fmap",
+            "modalityLabel": "epi",
+            "customLabels": "acq-sbref_dir-PA_part-mag",
+            "criteria": {
+                "ProtocolName": "func_task-prisme_run-*",
+                "ImageComments": "Single-band reference",
+                "ImageType": ["ORIGINAL", "PRIMARY", "M", "ND", "MOSAIC"]
+            },
+            "intendedFor": [4, 5]
+        },
+        {
+            "dataType": "fmap",
+            "modalityLabel": "epi",
+            "customLabels": "acq-sbref_dir-PA_part-phase",
+            "criteria": {
+                "ProtocolName": "func_task-prisme_run-*",
+                "ImageComments": "Single-band reference",
+                "ImageType": ["ORIGINAL", "PRIMARY", "P", "ND", "MOSAIC", "PHASE"]
+            },
+            "intendedFor": [4, 5]
+        },
+        {
+            "dataType": "fmap",
+            "modalityLabel": "epi",
+            "customLabels": "acq-bold_dir-AP_part-phase",
+            "criteria": {
+                "ProtocolName": "func_AP_run-*",
+                "ImageComments": "Unaliased MB4/PE3/LB",
+                "ImageType": ["ORIGINAL", "PRIMARY", "P", "MB", "ND", "MOSAIC", "PHASE"]
+            }
+        },
+        {
+            "dataType": "fmap",
+            "modalityLabel": "epi",
+            "customLabels": "acq-bold_dir-AP_part-mag",
+            "criteria": {
+                "ProtocolName": "func_AP_run-*",
+                "ImageComments": "Unaliased MB4/PE3/LB",
+                "ImageType": ["ORIGINAL", "PRIMARY", "M", "MB", "ND", "MOSAIC"]
+            }
+        },
+        {
+            "dataType": "fmap",
+            "modalityLabel": "epi",
+            "customLabels": "acq-sbref_dir-AP_run-01_part-mag",
+            "criteria": {
+                "SeriesDescription": "func_AP_run-1_SBRef",
+                "ImageComments": "Single-band reference",
+                "ImageType": ["ORIGINAL", "PRIMARY", "M", "ND", "MOSAIC"]
+            }
+        },
+        {
+            "dataType": "fmap",
+            "modalityLabel": "epi",
+            "customLabels": "acq-sbref_dir-AP_run-01_part-phase",
+            "criteria": {
+                "SeriesDescription": "func_AP_run-1_SBRef",
+                "ImageComments": "Single-band reference",
+                "ImageType": ["ORIGINAL", "PRIMARY", "P", "ND", "MOSAIC", "PHASE"]
+            }
+        }
+    ]
+}
