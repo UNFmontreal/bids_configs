@@ -6,6 +6,16 @@
       "modalityLabel": "T1w",
       "criteria": {
         "SeriesDescription": "anat_T1w"
+        "ImageType": ["ORIGINAL","PRIMARY","M","NORM","DIS3D","DIS2D"],
+      }
+    },
+     {
+      "dataType": "anat",
+      "modalityLabel": "T1w",
+      "customLabels": "rec-norm",
+      "criteria": {
+        "SeriesDescription": "anat_T1w_ND"
+        "ImageType": ["ORIGINAL", "PRIMARY", "M", "ND", "NORM"]
       }
     },
     {
@@ -61,7 +71,7 @@
       "modalityLabel": "MEGRE",
       "customLabels": "echo-1_flip-1_part-mag_acq-PDw",
       "criteria": {
-        "EchoTime": 0.0075,
+        "EchoNumber": 1,
         "SeriesDescription": "swi_pdw",
         "ImageType": [
           "ORIGINAL",
@@ -77,7 +87,7 @@
       "modalityLabel": "MEGRE",
       "customLabels": "echo-2_flip-1_part-mag_acq-PDw",
       "criteria": {
-        "EchoTime": 0.0175,
+        "EchoNumber": 2,
         "SeriesDescription": "swi_pdw",
         "ImageType": [
           "ORIGINAL",
@@ -93,7 +103,7 @@
       "modalityLabel": "MEGRE",
       "customLabels": "echo-1_flip-1_part-phase_acq-PDw",
       "criteria": {
-        "EchoTime": 0.0075,
+        "EchoNumber": 1,
         "SeriesDescription": "swi_pdw",
         "ImageType": [
           "ORIGINAL",
@@ -109,7 +119,7 @@
       "modalityLabel": "MEGRE",
       "customLabels": "echo-2_flip-1_part-phase_acq-PDw",
       "criteria": {
-        "EchoTime": 0.0175,
+        "EchoNumber": 2,
         "SeriesDescription": "swi_pdw",
         "ImageType": [
           "ORIGINAL",
@@ -125,7 +135,7 @@
       "modalityLabel": "MEGRE",
       "customLabels": "echo-3_flip-2_part-mag_acq-T1w",
       "criteria": {
-        "EchoTime": 0.00875,
+        "EchoNumber": 1,
         "SeriesDescription": "swi_t1w",
         "ImageType": [
           "ORIGINAL",
@@ -141,7 +151,7 @@
       "modalityLabel": "MEGRE",
       "customLabels": "echo-4_flip-2_part-mag_acq-T1w",
       "criteria": {
-        "EchoTime": 0.01875,
+        "EchoNumber": 2,
         "SeriesDescription": "swi_t1w",
         "ImageType": [
           "ORIGINAL",
@@ -157,7 +167,7 @@
       "modalityLabel": "MEGRE",
       "customLabels": "echo-3_flip-2_part-phase_acq-T1w",
       "criteria": {
-        "EchoTime": 0.00875,
+        "EchoNumber": 1,
         "SeriesDescription": "swi_t1w",
         "ImageType": [
           "ORIGINAL",
@@ -173,7 +183,7 @@
       "modalityLabel": "MEGRE",
       "customLabels": "echo-4_flip-2_part-phase_acq-T1w",
       "criteria": {
-        "EchoTime": 0.01875,
+        "EchoNumber": 2,
         "SeriesDescription": "swi_t1w",
         "ImageType": [
           "ORIGINAL",
