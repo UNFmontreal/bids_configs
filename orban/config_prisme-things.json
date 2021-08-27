@@ -1,9 +1,4 @@
 {
-    "dcmTagLabel":
-        {
-            "dcmTag": "SeriesDescription",
-            "expression": [".*(run-[0-9]{1}).*"]
-        },
     "dupMethod": "dup",
     "descriptions":[
         {
@@ -44,9 +39,9 @@
             "dataType": "func",
             "modalityLabel": "bold",
             "task": "things",
-            "customLabels": "task-things_part-mag",
+            "customLabels": "task-things_part-mag_run-01",
             "criteria": {
-                "ProtocolName": "func_task-prisme_run-*",
+                "ProtocolName": "func_task-prisme_run-01",
                 "ImageComments": "Unaliased MB4/PE3/LB",
                 "ImageType": ["ORIGINAL", "PRIMARY", "M", "MB", "ND", "MOSAIC"]
             }
@@ -55,9 +50,9 @@
             "dataType": "func",
             "modalityLabel": "bold",
             "task": "things",
-            "customLabels": "task-things_part-phase",
+            "customLabels": "task-things_part-phase_run-01",
             "criteria": {
-                "ProtocolName": "func_task-prisme_run-*",
+                "ProtocolName": "func_task-prisme_run-01",
                 "ImageComments": "Unaliased MB4/PE3/LB",
                 "ImageType": ["ORIGINAL", "PRIMARY", "P", "MB", "ND", "MOSAIC", "PHASE"]
             }
@@ -65,9 +60,9 @@
         {
             "dataType": "fmap",
             "modalityLabel": "epi",
-            "customLabels": "acq-sbref_dir-PA_part-mag",
+            "customLabels": "acq-sbref_dir-PA_part-mag_run-01",
             "criteria": {
-                "ProtocolName": "func_task-prisme_run-*",
+                "ProtocolName": "func_task-prisme_run-01",
                 "ImageComments": "Single-band reference",
                 "ImageType": ["ORIGINAL", "PRIMARY", "M", "ND", "MOSAIC"]
             },
@@ -76,20 +71,32 @@
         {
             "dataType": "fmap",
             "modalityLabel": "epi",
-            "customLabels": "acq-sbref_dir-PA_part-phase",
+            "customLabels": "acq-sbref_dir-PA_part-phase_run-01",
             "criteria": {
-                "ProtocolName": "func_task-prisme_run-*",
+                "ProtocolName": "func_task-prisme_run-01",
                 "ImageComments": "Single-band reference",
                 "ImageType": ["ORIGINAL", "PRIMARY", "P", "ND", "MOSAIC", "PHASE"]
             },
             "intendedFor": [4, 5]
         },
         {
-            "dataType": "fmap",
-            "modalityLabel": "epi",
-            "customLabels": "acq-bold_dir-AP_part-phase",
+            "dataType": "func",
+            "modalityLabel": "bold",
+            "task": "things",
+            "customLabels": "task-things_part-mag_run-02",
             "criteria": {
-                "ProtocolName": "func_AP_run-*",
+                "ProtocolName": "func_task-prisme_run-02",
+                "ImageComments": "Unaliased MB4/PE3/LB",
+                "ImageType": ["ORIGINAL", "PRIMARY", "M", "MB", "ND", "MOSAIC"]
+            }
+        },
+        {
+            "dataType": "func",
+            "modalityLabel": "bold",
+            "task": "things",
+            "customLabels": "task-things_part-phase_run-02",
+            "criteria": {
+                "ProtocolName": "func_task-prisme_run-02",
                 "ImageComments": "Unaliased MB4/PE3/LB",
                 "ImageType": ["ORIGINAL", "PRIMARY", "P", "MB", "ND", "MOSAIC", "PHASE"]
             }
@@ -97,9 +104,305 @@
         {
             "dataType": "fmap",
             "modalityLabel": "epi",
-            "customLabels": "acq-bold_dir-AP_part-mag",
+            "customLabels": "acq-sbref_dir-PA_part-mag_run-02",
             "criteria": {
-                "ProtocolName": "func_AP_run-*",
+                "ProtocolName": "func_task-prisme_run-02",
+                "ImageComments": "Single-band reference",
+                "ImageType": ["ORIGINAL", "PRIMARY", "M", "ND", "MOSAIC"]
+            },
+            "intendedFor": [8, 9]
+        },
+        {
+            "dataType": "fmap",
+            "modalityLabel": "epi",
+            "customLabels": "acq-sbref_dir-PA_part-phase_run-02",
+            "criteria": {
+                "ProtocolName": "func_task-prisme_run-02",
+                "ImageComments": "Single-band reference",
+                "ImageType": ["ORIGINAL", "PRIMARY", "P", "ND", "MOSAIC", "PHASE"]
+            },
+            "intendedFor": [8, 9]
+        },
+        {
+            "dataType": "func",
+            "modalityLabel": "bold",
+            "task": "things",
+            "customLabels": "task-things_part-mag_run-03",
+            "criteria": {
+                "ProtocolName": "func_task-prisme_run-03",
+                "ImageComments": "Unaliased MB4/PE3/LB",
+                "ImageType": ["ORIGINAL", "PRIMARY", "M", "MB", "ND", "MOSAIC"]
+            }
+        },
+        {
+            "dataType": "func",
+            "modalityLabel": "bold",
+            "task": "things",
+            "customLabels": "task-things_part-phase_run-03",
+            "criteria": {
+                "ProtocolName": "func_task-prisme_run-03",
+                "ImageComments": "Unaliased MB4/PE3/LB",
+                "ImageType": ["ORIGINAL", "PRIMARY", "P", "MB", "ND", "MOSAIC", "PHASE"]
+            }
+        },
+        {
+            "dataType": "fmap",
+            "modalityLabel": "epi",
+            "customLabels": "acq-sbref_dir-PA_part-mag_run-03",
+            "criteria": {
+                "ProtocolName": "func_task-prisme_run-03",
+                "ImageComments": "Single-band reference",
+                "ImageType": ["ORIGINAL", "PRIMARY", "M", "ND", "MOSAIC"]
+            },
+            "intendedFor": [12, 13]
+        },
+        {
+            "dataType": "fmap",
+            "modalityLabel": "epi",
+            "customLabels": "acq-sbref_dir-PA_part-phase_run-03",
+            "criteria": {
+                "ProtocolName": "func_task-prisme_run-03",
+                "ImageComments": "Single-band reference",
+                "ImageType": ["ORIGINAL", "PRIMARY", "P", "ND", "MOSAIC", "PHASE"]
+            },
+            "intendedFor": [12, 13]
+        },
+        {
+            "dataType": "func",
+            "modalityLabel": "bold",
+            "task": "things",
+            "customLabels": "task-things_part-mag_run-04",
+            "criteria": {
+                "ProtocolName": "func_task-prisme_run-04",
+                "ImageComments": "Unaliased MB4/PE3/LB",
+                "ImageType": ["ORIGINAL", "PRIMARY", "M", "MB", "ND", "MOSAIC"]
+            }
+        },
+        {
+            "dataType": "func",
+            "modalityLabel": "bold",
+            "task": "things",
+            "customLabels": "task-things_part-phase_run-04",
+            "criteria": {
+                "ProtocolName": "func_task-prisme_run-04",
+                "ImageComments": "Unaliased MB4/PE3/LB",
+                "ImageType": ["ORIGINAL", "PRIMARY", "P", "MB", "ND", "MOSAIC", "PHASE"]
+            }
+        },
+        {
+            "dataType": "fmap",
+            "modalityLabel": "epi",
+            "customLabels": "acq-sbref_dir-PA_part-mag_run-04",
+            "criteria": {
+                "ProtocolName": "func_task-prisme_run-04",
+                "ImageComments": "Single-band reference",
+                "ImageType": ["ORIGINAL", "PRIMARY", "M", "ND", "MOSAIC"]
+            },
+            "intendedFor": [16, 17]
+        },
+        {
+            "dataType": "fmap",
+            "modalityLabel": "epi",
+            "customLabels": "acq-sbref_dir-PA_part-phase_run-04",
+            "criteria": {
+                "ProtocolName": "func_task-prisme_run-04",
+                "ImageComments": "Single-band reference",
+                "ImageType": ["ORIGINAL", "PRIMARY", "P", "ND", "MOSAIC", "PHASE"]
+            },
+            "intendedFor": [16, 17]
+        },
+        {
+            "dataType": "func",
+            "modalityLabel": "bold",
+            "task": "things",
+            "customLabels": "task-things_part-mag_run-05",
+            "criteria": {
+                "ProtocolName": "func_task-prisme_run-05",
+                "ImageComments": "Unaliased MB4/PE3/LB",
+                "ImageType": ["ORIGINAL", "PRIMARY", "M", "MB", "ND", "MOSAIC"]
+            }
+        },
+        {
+            "dataType": "func",
+            "modalityLabel": "bold",
+            "task": "things",
+            "customLabels": "task-things_part-phase_run-05",
+            "criteria": {
+                "ProtocolName": "func_task-prisme_run-05",
+                "ImageComments": "Unaliased MB4/PE3/LB",
+                "ImageType": ["ORIGINAL", "PRIMARY", "P", "MB", "ND", "MOSAIC", "PHASE"]
+            }
+        },
+        {
+            "dataType": "fmap",
+            "modalityLabel": "epi",
+            "customLabels": "acq-sbref_dir-PA_part-mag_run-05",
+            "criteria": {
+                "ProtocolName": "func_task-prisme_run-05",
+                "ImageComments": "Single-band reference",
+                "ImageType": ["ORIGINAL", "PRIMARY", "M", "ND", "MOSAIC"]
+            },
+            "intendedFor": [20, 21]
+        },
+        {
+            "dataType": "fmap",
+            "modalityLabel": "epi",
+            "customLabels": "acq-sbref_dir-PA_part-phase_run-05",
+            "criteria": {
+                "ProtocolName": "func_task-prisme_run-05",
+                "ImageComments": "Single-band reference",
+                "ImageType": ["ORIGINAL", "PRIMARY", "P", "ND", "MOSAIC", "PHASE"]
+            },
+            "intendedFor": [20, 21]
+        },
+        {
+            "dataType": "func",
+            "modalityLabel": "bold",
+            "task": "things",
+            "customLabels": "task-things_part-mag_run-06",
+            "criteria": {
+                "ProtocolName": "func_task-prisme_run-06",
+                "ImageComments": "Unaliased MB4/PE3/LB",
+                "ImageType": ["ORIGINAL", "PRIMARY", "M", "MB", "ND", "MOSAIC"]
+            }
+        },
+        {
+            "dataType": "func",
+            "modalityLabel": "bold",
+            "task": "things",
+            "customLabels": "task-things_part-phase_run-06",
+            "criteria": {
+                "ProtocolName": "func_task-prisme_run-06",
+                "ImageComments": "Unaliased MB4/PE3/LB",
+                "ImageType": ["ORIGINAL", "PRIMARY", "P", "MB", "ND", "MOSAIC", "PHASE"]
+            }
+        },
+        {
+            "dataType": "fmap",
+            "modalityLabel": "epi",
+            "customLabels": "acq-sbref_dir-PA_part-mag_run-06",
+            "criteria": {
+                "ProtocolName": "func_task-prisme_run-06",
+                "ImageComments": "Single-band reference",
+                "ImageType": ["ORIGINAL", "PRIMARY", "M", "ND", "MOSAIC"]
+            },
+            "intendedFor": [24, 25]
+        },
+        {
+            "dataType": "fmap",
+            "modalityLabel": "epi",
+            "customLabels": "acq-sbref_dir-PA_part-phase_run-06",
+            "criteria": {
+                "ProtocolName": "func_task-prisme_run-06",
+                "ImageComments": "Single-band reference",
+                "ImageType": ["ORIGINAL", "PRIMARY", "P", "ND", "MOSAIC", "PHASE"]
+            },
+            "intendedFor": [24, 25]
+        },
+        {
+            "dataType": "func",
+            "modalityLabel": "bold",
+            "task": "things",
+            "customLabels": "task-things_part-mag_run-07",
+            "criteria": {
+                "ProtocolName": "func_task-prisme_run-07",
+                "ImageComments": "Unaliased MB4/PE3/LB",
+                "ImageType": ["ORIGINAL", "PRIMARY", "M", "MB", "ND", "MOSAIC"]
+            }
+        },
+        {
+            "dataType": "func",
+            "modalityLabel": "bold",
+            "task": "things",
+            "customLabels": "task-things_part-phase_run-07",
+            "criteria": {
+                "ProtocolName": "func_task-prisme_run-07",
+                "ImageComments": "Unaliased MB4/PE3/LB",
+                "ImageType": ["ORIGINAL", "PRIMARY", "P", "MB", "ND", "MOSAIC", "PHASE"]
+            }
+        },
+        {
+            "dataType": "fmap",
+            "modalityLabel": "epi",
+            "customLabels": "acq-sbref_dir-PA_part-mag_run-07",
+            "criteria": {
+                "ProtocolName": "func_task-prisme_run-07",
+                "ImageComments": "Single-band reference",
+                "ImageType": ["ORIGINAL", "PRIMARY", "M", "ND", "MOSAIC"]
+            },
+            "intendedFor": [28, 29]
+        },
+        {
+            "dataType": "fmap",
+            "modalityLabel": "epi",
+            "customLabels": "acq-sbref_dir-PA_part-phase_run-07",
+            "criteria": {
+                "ProtocolName": "func_task-prisme_run-07",
+                "ImageComments": "Single-band reference",
+                "ImageType": ["ORIGINAL", "PRIMARY", "P", "ND", "MOSAIC", "PHASE"]
+            },
+            "intendedFor": [28, 29]
+        },
+        {
+            "dataType": "func",
+            "modalityLabel": "bold",
+            "task": "things",
+            "customLabels": "task-things_part-mag_run-08",
+            "criteria": {
+                "ProtocolName": "func_task-prisme_run-08",
+                "ImageComments": "Unaliased MB4/PE3/LB",
+                "ImageType": ["ORIGINAL", "PRIMARY", "M", "MB", "ND", "MOSAIC"]
+            }
+        },
+        {
+            "dataType": "func",
+            "modalityLabel": "bold",
+            "task": "things",
+            "customLabels": "task-things_part-phase_run-08",
+            "criteria": {
+                "ProtocolName": "func_task-prisme_run-08",
+                "ImageComments": "Unaliased MB4/PE3/LB",
+                "ImageType": ["ORIGINAL", "PRIMARY", "P", "MB", "ND", "MOSAIC", "PHASE"]
+            }
+        },
+        {
+            "dataType": "fmap",
+            "modalityLabel": "epi",
+            "customLabels": "acq-sbref_dir-PA_part-mag_run-08",
+            "criteria": {
+                "ProtocolName": "func_task-prisme_run-08",
+                "ImageComments": "Single-band reference",
+                "ImageType": ["ORIGINAL", "PRIMARY", "M", "ND", "MOSAIC"]
+            },
+            "intendedFor": [32, 33]
+        },
+        {
+            "dataType": "fmap",
+            "modalityLabel": "epi",
+            "customLabels": "acq-sbref_dir-PA_part-phase_run-08",
+            "criteria": {
+                "ProtocolName": "func_task-prisme_run-08",
+                "ImageComments": "Single-band reference",
+                "ImageType": ["ORIGINAL", "PRIMARY", "P", "ND", "MOSAIC", "PHASE"]
+            },
+            "intendedFor": [32, 33]
+        },
+        {
+            "dataType": "fmap",
+            "modalityLabel": "epi",
+            "customLabels": "acq-bold_dir-AP_part-phase_run-01",
+            "criteria": {
+                "ProtocolName": "func_AP_run-1",
+                "ImageComments": "Unaliased MB4/PE3/LB",
+                "ImageType": ["ORIGINAL", "PRIMARY", "P", "MB", "ND", "MOSAIC", "PHASE"]
+            }
+        },
+        {
+            "dataType": "fmap",
+            "modalityLabel": "epi",
+            "customLabels": "acq-bold_dir-AP_part-mag_run-01",
+            "criteria": {
+                "ProtocolName": "func_AP_run-1",
                 "ImageComments": "Unaliased MB4/PE3/LB",
                 "ImageType": ["ORIGINAL", "PRIMARY", "M", "MB", "ND", "MOSAIC"]
             }
