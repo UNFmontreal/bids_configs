@@ -6,7 +6,7 @@
       "modalityLabel": "T1w",
       "criteria": {
         "SeriesDescription": "anat_T1w",
-        "ImageType": ["ORIGINAL","PRIMARY","M","NORM","DIS3D","DIS2D"],
+        "ImageType": ["ORIGINAL","PRIMARY","M","NORM","DIS3D","DIS2D"]
       }
     },
      {
