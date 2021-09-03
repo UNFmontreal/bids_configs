@@ -5,7 +5,7 @@
       "dataType": "anat",
       "modalityLabel": "T1w",
       "criteria": {
-        "SeriesDescription": "anat_T1w"
+        "SeriesDescription": "anat_T1w",
         "ImageType": ["ORIGINAL","PRIMARY","M","NORM","DIS3D","DIS2D"],
       }
     },
@@ -14,7 +14,7 @@
       "modalityLabel": "T1w",
       "customLabels": "rec-norm",
       "criteria": {
-        "SeriesDescription": "anat_T1w_ND"
+        "SeriesDescription": "anat_T1w_ND",
         "ImageType": ["ORIGINAL", "PRIMARY", "M", "ND", "NORM"]
       }
     },
