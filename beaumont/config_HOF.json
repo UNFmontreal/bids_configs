@@ -1,98 +1,198 @@
 {
-    "dupMethod": "dup",
-    "descriptions": [
-        {
-            "dataType": "anat",
-            "modalityLabel": "T1w",
-            "criteria": {
-                "SeriesDescription": "anat_T1w"
-            }
-        },
-        {
-            "dataType": "dwi",
-            "modalityLabel": "dwi",
-            "criteria": {
-                "SeriesDescription": "dwi*"
-            }
-        },
-        {
-            "dataType": "fmap",
-            "modalityLabel": "epi",
-            "customLabels": "run-01",
-            "criteria": {
-                "SeriesDescription": "b0*"
-            },
-            "IntendedFor": 1
-        },
-        {
-            "dataType": "anat",
-            "modalityLabel": "FLAIR",
-            "criteria": {
-                "SeriesDescription": "anat_FLAIR"
-            }
-        },
-        {
-            "dataType": "anat",
-            "modalityLabel": "R2star",
-	          "customLabels": "echo-1",
-            "criteria": {
-		            "EchoTime": 0.00382,
-                "SeriesDescription": "anat_R2star"
-            }
-        },
-        {
-            "dataType": "anat",
-            "modalityLabel": "R2star",
-	          "customLabels": "echo-2",
-            "criteria": {
-		            "EchoTime": 0.00931,
-                "SeriesDescription": "anat_R2star"
-            }
-        },
-        {
-            "dataType": "anat",
-            "modalityLabel": "R2star",
-	          "customLabels": "echo-3",
-            "criteria": {
-		            "EchoTime": 0.0148,
-                "SeriesDescription": "anat_R2star"
-            }
-        },
-        {
-            "dataType": "anat",
-            "modalityLabel": "R2star",
-	          "customLabels": "echo-4",
-            "criteria": {
-		            "EchoTime": 0.02029,
-                "SeriesDescription": "anat_R2star"
-            }
-        },
-        {
-            "dataType": "anat",
-            "modalityLabel": "R2star",
-	          "customLabels": "echo-5",
-            "criteria": {
-                "EchoTime": 0.02578,
-                "SeriesDescription": "anat_R2star"
-            }
-        },
-        {
-            "dataType": "anat",
-            "modalityLabel": "R2star",
-	          "customLabels": "echo-6",
-            "criteria": {
-		            "EchoTime": 0.03127,
-                "SeriesDescription": "anat_R2star"
-            }
-        },
-        {
-            "dataType": "anat",
-            "modalityLabel": "R2star",
-	          "customLabels": "echo-7",
-            "criteria": {
-		            "EchoTime": 0.03676,
-                "SeriesDescription": "anat_R2star"
-            }
-        }
-    ]
+  "dupMethod": "dup",
+  "descriptions": [
+    {
+      "dataType": "anat",
+      "modalityLabel": "T1w",
+      "criteria": {
+        "SeriesDescription": "anat_T1w",
+        "ImageType": ["ORIGINAL","PRIMARY","M","NORM","DIS3D","DIS2D"]
+      }
+    },
+     {
+      "dataType": "anat",
+      "modalityLabel": "T1w",
+      "customLabels": "rec-norm",
+      "criteria": {
+        "SeriesDescription": "anat_T1w_ND",
+        "ImageType": ["ORIGINAL", "PRIMARY", "M", "ND", "NORM"]
+      }
+    },
+    {
+      "dataType": "dwi",
+      "modalityLabel": "dwi",
+      "criteria": {
+        "SeriesDescription": "dwi_acq-pa_standard"
+      }
+    },
+    {
+      "dataType": "fmap",
+      "modalityLabel": "epi",
+      "criteria": {
+        "SeriesDescription": "dwi_acq-ap_standard"
+      },
+      "IntendedFor": 1
+    },
+    {
+      "dataType": "anat",
+      "modalityLabel": "GRE",
+      "customLabels": "acq-PDw_flip-1_mt-off",
+      "criteria": {
+        "SeriesDescription": "gre_3d_PDw"
+      },
+      "sidecarChanges": {
+        "MTState": false
+      }
+    },
+    {
+      "dataType": "anat",
+      "modalityLabel": "GRE",
+      "customLabels": "acq-MTw_flip-1_mt-on",
+      "criteria": {
+        "SeriesDescription": "gre_3d_MTw"
+      },
+      "sidecarChanges": {
+        "MTState": true
+      }
+    },
+    {
+      "dataType": "anat",
+      "modalityLabel": "GRE",
+      "customLabels": "acq-T1w_flip-2_mt-off",
+      "criteria": {
+        "SeriesDescription": "gre_3d_T1w"
+      },
+      "sidecarChanges": {
+        "MTState": true
+      }
+    },
+    {
+      "dataType": "swi",
+      "modalityLabel": "MEGRE",
+      "customLabels": "echo-1_flip-1_part-mag_acq-PDw",
+      "criteria": {
+        "EchoNumber": 1,
+        "SeriesDescription": "swi_pdw",
+        "ImageType": [
+          "ORIGINAL",
+          "PRIMARY",
+          "M",
+          "ND",
+          "NORM"
+        ]
+      }
+    },
+    {
+      "dataType": "swi",
+      "modalityLabel": "MEGRE",
+      "customLabels": "echo-2_flip-1_part-mag_acq-PDw",
+      "criteria": {
+        "EchoNumber": 2,
+        "SeriesDescription": "swi_pdw",
+        "ImageType": [
+          "ORIGINAL",
+          "PRIMARY",
+          "M",
+          "ND",
+          "NORM"
+        ]
+      }
+    },
+    {
+      "dataType": "swi",
+      "modalityLabel": "MEGRE",
+      "customLabels": "echo-1_flip-1_part-phase_acq-PDw",
+      "criteria": {
+        "EchoNumber": 1,
+        "SeriesDescription": "swi_pdw",
+        "ImageType": [
+          "ORIGINAL",
+          "PRIMARY",
+          "P",
+          "ND",
+          "PHASE"
+        ]
+      }
+    },
+    {
+      "dataType": "swi",
+      "modalityLabel": "MEGRE",
+      "customLabels": "echo-2_flip-1_part-phase_acq-PDw",
+      "criteria": {
+        "EchoNumber": 2,
+        "SeriesDescription": "swi_pdw",
+        "ImageType": [
+          "ORIGINAL",
+          "PRIMARY",
+          "P",
+          "ND",
+          "PHASE"
+        ]
+      }
+    },
+    {
+      "dataType": "swi",
+      "modalityLabel": "MEGRE",
+      "customLabels": "echo-3_flip-2_part-mag_acq-T1w",
+      "criteria": {
+        "EchoNumber": 1,
+        "SeriesDescription": "swi_t1w",
+        "ImageType": [
+          "ORIGINAL",
+          "PRIMARY",
+          "M",
+          "ND",
+          "NORM"
+        ]
+      }
+    },
+    {
+      "dataType": "swi",
+      "modalityLabel": "MEGRE",
+      "customLabels": "echo-4_flip-2_part-mag_acq-T1w",
+      "criteria": {
+        "EchoNumber": 2,
+        "SeriesDescription": "swi_t1w",
+        "ImageType": [
+          "ORIGINAL",
+          "PRIMARY",
+          "M",
+          "ND",
+          "NORM"
+        ]
+      }
+    },
+    {
+      "dataType": "swi",
+      "modalityLabel": "MEGRE",
+      "customLabels": "echo-3_flip-2_part-phase_acq-T1w",
+      "criteria": {
+        "EchoNumber": 1,
+        "SeriesDescription": "swi_t1w",
+        "ImageType": [
+          "ORIGINAL",
+          "PRIMARY",
+          "P",
+          "ND",
+          "PHASE"
+        ]
+      }
+    },
+    {
+      "dataType": "swi",
+      "modalityLabel": "MEGRE",
+      "customLabels": "echo-4_flip-2_part-phase_acq-T1w",
+      "criteria": {
+        "EchoNumber": 2,
+        "SeriesDescription": "swi_t1w",
+        "ImageType": [
+          "ORIGINAL",
+          "PRIMARY",
+          "P",
+          "ND",
+          "PHASE"
+        ]
+      }
+    }
+  ]
 }
