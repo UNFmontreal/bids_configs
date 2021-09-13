@@ -1,0 +1,39 @@
+{
+
+    "dupMethod": "dup",
+    "descriptions":[
+        {
+            "dataType": "anat",
+            "modalityLabel": "T1w",
+            "criteria": {
+              "SeriesDescription": "acq-MPRage-iPATx2_T1W",
+              "ImageType": ["ORIGINAL", "PRIMARY", "M", "ND", "NORM"]
+            }
+        },
+        {
+            "dataType": "func",
+            "modalityLabel": "bold",
+            "customLabels": "task-rest",
+            "criteria": {
+                "ProtocolName": "task-p2-s3-3mm_RS-Run-*",
+                "ImageType": ["ORIGINAL", "PRIMARY", "M", "ND", "MOSAIC"]
+            },
+            "sidecarChanges": {
+                "TaskName": "rest"
+            }
+        },
+        {
+            "dataType": "func",
+            "modalityLabel": "bold",
+            "customLabels": "task-memory",
+            "criteria": {
+                "ProtocolName": "task-p2-s3-3mm_task-Run-*",
+                "ImageType": ["ORIGINAL", "PRIMARY", "M", "ND", "MOSAIC"]
+            },
+            "sidecarChanges": {
+                "TaskName": "memory"
+            }
+
+        }
+    ]
+}
