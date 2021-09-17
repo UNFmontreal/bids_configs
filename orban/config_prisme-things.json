@@ -42,7 +42,7 @@
             "customLabels": "task-things_part-mag_run-01",
             "criteria": {
                 "ProtocolName": "func_task-prisme_run-01",
-                "ImageComments": "Unaliased MB4/PE3/LB",
+                "ImageComments": "Unaliased*MB4*PE3*LB",
                 "ImageType": ["ORIGINAL", "PRIMARY", "M", "MB", "ND", "MOSAIC"]
             }
         },
@@ -53,7 +53,7 @@
             "customLabels": "task-things_part-phase_run-01",
             "criteria": {
                 "ProtocolName": "func_task-prisme_run-01",
-                "ImageComments": "Unaliased MB4/PE3/LB",
+                "ImageComments": "Unaliased*MB4*PE3*LB",
                 "ImageType": ["ORIGINAL", "PRIMARY", "P", "MB", "ND", "MOSAIC", "PHASE"]
             }
         },
@@ -63,7 +63,7 @@
             "customLabels": "acq-sbref_dir-PA_part-mag_run-01",
             "criteria": {
                 "ProtocolName": "func_task-prisme_run-01",
-                "ImageComments": "Single-band reference",
+                "ImageComments": "Single-band*reference",
                 "ImageType": ["ORIGINAL", "PRIMARY", "M", "ND", "MOSAIC"]
             },
             "intendedFor": [4, 5]
@@ -74,7 +74,7 @@
             "customLabels": "acq-sbref_dir-PA_part-phase_run-01",
             "criteria": {
                 "ProtocolName": "func_task-prisme_run-01",
-                "ImageComments": "Single-band reference",
+                "ImageComments": "Single-band*reference",
                 "ImageType": ["ORIGINAL", "PRIMARY", "P", "ND", "MOSAIC", "PHASE"]
             },
             "intendedFor": [4, 5]
@@ -86,7 +86,7 @@
             "customLabels": "task-things_part-mag_run-02",
             "criteria": {
                 "ProtocolName": "func_task-prisme_run-02",
-                "ImageComments": "Unaliased MB4/PE3/LB",
+                "ImageComments": "Unaliased*MB4*PE3*LB",
                 "ImageType": ["ORIGINAL", "PRIMARY", "M", "MB", "ND", "MOSAIC"]
             }
         },
@@ -97,7 +97,7 @@
             "customLabels": "task-things_part-phase_run-02",
             "criteria": {
                 "ProtocolName": "func_task-prisme_run-02",
-                "ImageComments": "Unaliased MB4/PE3/LB",
+                "ImageComments": "Unaliased*MB4*PE3*LB",
                 "ImageType": ["ORIGINAL", "PRIMARY", "P", "MB", "ND", "MOSAIC", "PHASE"]
             }
         },
@@ -107,7 +107,7 @@
             "customLabels": "acq-sbref_dir-PA_part-mag_run-02",
             "criteria": {
                 "ProtocolName": "func_task-prisme_run-02",
-                "ImageComments": "Single-band reference",
+                "ImageComments": "Single-band*reference",
                 "ImageType": ["ORIGINAL", "PRIMARY", "M", "ND", "MOSAIC"]
             },
             "intendedFor": [8, 9]
@@ -118,7 +118,7 @@
             "customLabels": "acq-sbref_dir-PA_part-phase_run-02",
             "criteria": {
                 "ProtocolName": "func_task-prisme_run-02",
-                "ImageComments": "Single-band reference",
+                "ImageComments": "Single-band*reference",
                 "ImageType": ["ORIGINAL", "PRIMARY", "P", "ND", "MOSAIC", "PHASE"]
             },
             "intendedFor": [8, 9]
@@ -130,7 +130,7 @@
             "customLabels": "task-things_part-mag_run-03",
             "criteria": {
                 "ProtocolName": "func_task-prisme_run-03",
-                "ImageComments": "Unaliased MB4/PE3/LB",
+                "ImageComments": "Unaliased*MB4*PE3*LB",
                 "ImageType": ["ORIGINAL", "PRIMARY", "M", "MB", "ND", "MOSAIC"]
             }
         },
@@ -141,7 +141,7 @@
             "customLabels": "task-things_part-phase_run-03",
             "criteria": {
                 "ProtocolName": "func_task-prisme_run-03",
-                "ImageComments": "Unaliased MB4/PE3/LB",
+                "ImageComments": "Unaliased*MB4*PE3*LB",
                 "ImageType": ["ORIGINAL", "PRIMARY", "P", "MB", "ND", "MOSAIC", "PHASE"]
             }
         },
@@ -151,7 +151,7 @@
             "customLabels": "acq-sbref_dir-PA_part-mag_run-03",
             "criteria": {
                 "ProtocolName": "func_task-prisme_run-03",
-                "ImageComments": "Single-band reference",
+                "ImageComments": "Single-band*reference",
                 "ImageType": ["ORIGINAL", "PRIMARY", "M", "ND", "MOSAIC"]
             },
             "intendedFor": [12, 13]
@@ -162,7 +162,7 @@
             "customLabels": "acq-sbref_dir-PA_part-phase_run-03",
             "criteria": {
                 "ProtocolName": "func_task-prisme_run-03",
-                "ImageComments": "Single-band reference",
+                "ImageComments": "Single-band*reference",
                 "ImageType": ["ORIGINAL", "PRIMARY", "P", "ND", "MOSAIC", "PHASE"]
             },
             "intendedFor": [12, 13]
@@ -174,7 +174,7 @@
             "customLabels": "task-things_part-mag_run-04",
             "criteria": {
                 "ProtocolName": "func_task-prisme_run-04",
-                "ImageComments": "Unaliased MB4/PE3/LB",
+                "ImageComments": "Unaliased*MB4*PE3*LB",
                 "ImageType": ["ORIGINAL", "PRIMARY", "M", "MB", "ND", "MOSAIC"]
             }
         },
@@ -185,7 +185,7 @@
             "customLabels": "task-things_part-phase_run-04",
             "criteria": {
                 "ProtocolName": "func_task-prisme_run-04",
-                "ImageComments": "Unaliased MB4/PE3/LB",
+                "ImageComments": "Unaliased*MB4*PE3*LB",
                 "ImageType": ["ORIGINAL", "PRIMARY", "P", "MB", "ND", "MOSAIC", "PHASE"]
             }
         },
@@ -195,7 +195,7 @@
             "customLabels": "acq-sbref_dir-PA_part-mag_run-04",
             "criteria": {
                 "ProtocolName": "func_task-prisme_run-04",
-                "ImageComments": "Single-band reference",
+                "ImageComments": "Single-band*reference",
                 "ImageType": ["ORIGINAL", "PRIMARY", "M", "ND", "MOSAIC"]
             },
             "intendedFor": [16, 17]
@@ -206,7 +206,7 @@
             "customLabels": "acq-sbref_dir-PA_part-phase_run-04",
             "criteria": {
                 "ProtocolName": "func_task-prisme_run-04",
-                "ImageComments": "Single-band reference",
+                "ImageComments": "Single-band*reference",
                 "ImageType": ["ORIGINAL", "PRIMARY", "P", "ND", "MOSAIC", "PHASE"]
             },
             "intendedFor": [16, 17]
@@ -218,7 +218,7 @@
             "customLabels": "task-things_part-mag_run-05",
             "criteria": {
                 "ProtocolName": "func_task-prisme_run-05",
-                "ImageComments": "Unaliased MB4/PE3/LB",
+                "ImageComments": "Unaliased*MB4*PE3*LB",
                 "ImageType": ["ORIGINAL", "PRIMARY", "M", "MB", "ND", "MOSAIC"]
             }
         },
@@ -229,7 +229,7 @@
             "customLabels": "task-things_part-phase_run-05",
             "criteria": {
                 "ProtocolName": "func_task-prisme_run-05",
-                "ImageComments": "Unaliased MB4/PE3/LB",
+                "ImageComments": "Unaliased*MB4*PE3*LB",
                 "ImageType": ["ORIGINAL", "PRIMARY", "P", "MB", "ND", "MOSAIC", "PHASE"]
             }
         },
@@ -239,7 +239,7 @@
             "customLabels": "acq-sbref_dir-PA_part-mag_run-05",
             "criteria": {
                 "ProtocolName": "func_task-prisme_run-05",
-                "ImageComments": "Single-band reference",
+                "ImageComments": "Single-band*reference",
                 "ImageType": ["ORIGINAL", "PRIMARY", "M", "ND", "MOSAIC"]
             },
             "intendedFor": [20, 21]
@@ -250,7 +250,7 @@
             "customLabels": "acq-sbref_dir-PA_part-phase_run-05",
             "criteria": {
                 "ProtocolName": "func_task-prisme_run-05",
-                "ImageComments": "Single-band reference",
+                "ImageComments": "Single-band*reference",
                 "ImageType": ["ORIGINAL", "PRIMARY", "P", "ND", "MOSAIC", "PHASE"]
             },
             "intendedFor": [20, 21]
@@ -262,7 +262,7 @@
             "customLabels": "task-things_part-mag_run-06",
             "criteria": {
                 "ProtocolName": "func_task-prisme_run-06",
-                "ImageComments": "Unaliased MB4/PE3/LB",
+                "ImageComments": "Unaliased*MB4*PE3*LB",
                 "ImageType": ["ORIGINAL", "PRIMARY", "M", "MB", "ND", "MOSAIC"]
             }
         },
@@ -273,7 +273,7 @@
             "customLabels": "task-things_part-phase_run-06",
             "criteria": {
                 "ProtocolName": "func_task-prisme_run-06",
-                "ImageComments": "Unaliased MB4/PE3/LB",
+                "ImageComments": "Unaliased*MB4*PE3*LB",
                 "ImageType": ["ORIGINAL", "PRIMARY", "P", "MB", "ND", "MOSAIC", "PHASE"]
             }
         },
@@ -283,7 +283,7 @@
             "customLabels": "acq-sbref_dir-PA_part-mag_run-06",
             "criteria": {
                 "ProtocolName": "func_task-prisme_run-06",
-                "ImageComments": "Single-band reference",
+                "ImageComments": "Single-band*reference",
                 "ImageType": ["ORIGINAL", "PRIMARY", "M", "ND", "MOSAIC"]
             },
             "intendedFor": [24, 25]
@@ -294,7 +294,7 @@
             "customLabels": "acq-sbref_dir-PA_part-phase_run-06",
             "criteria": {
                 "ProtocolName": "func_task-prisme_run-06",
-                "ImageComments": "Single-band reference",
+                "ImageComments": "Single-band*reference",
                 "ImageType": ["ORIGINAL", "PRIMARY", "P", "ND", "MOSAIC", "PHASE"]
             },
             "intendedFor": [24, 25]
@@ -306,7 +306,7 @@
             "customLabels": "task-things_part-mag_run-07",
             "criteria": {
                 "ProtocolName": "func_task-prisme_run-07",
-                "ImageComments": "Unaliased MB4/PE3/LB",
+                "ImageComments": "Unaliased*MB4*PE3*LB",
                 "ImageType": ["ORIGINAL", "PRIMARY", "M", "MB", "ND", "MOSAIC"]
             }
         },
@@ -317,7 +317,7 @@
             "customLabels": "task-things_part-phase_run-07",
             "criteria": {
                 "ProtocolName": "func_task-prisme_run-07",
-                "ImageComments": "Unaliased MB4/PE3/LB",
+                "ImageComments": "Unaliased*MB4*PE3*LB",
                 "ImageType": ["ORIGINAL", "PRIMARY", "P", "MB", "ND", "MOSAIC", "PHASE"]
             }
         },
@@ -327,7 +327,7 @@
             "customLabels": "acq-sbref_dir-PA_part-mag_run-07",
             "criteria": {
                 "ProtocolName": "func_task-prisme_run-07",
-                "ImageComments": "Single-band reference",
+                "ImageComments": "Single-band*reference",
                 "ImageType": ["ORIGINAL", "PRIMARY", "M", "ND", "MOSAIC"]
             },
             "intendedFor": [28, 29]
@@ -338,7 +338,7 @@
             "customLabels": "acq-sbref_dir-PA_part-phase_run-07",
             "criteria": {
                 "ProtocolName": "func_task-prisme_run-07",
-                "ImageComments": "Single-band reference",
+                "ImageComments": "Single-band*reference",
                 "ImageType": ["ORIGINAL", "PRIMARY", "P", "ND", "MOSAIC", "PHASE"]
             },
             "intendedFor": [28, 29]
@@ -350,7 +350,7 @@
             "customLabels": "task-things_part-mag_run-08",
             "criteria": {
                 "ProtocolName": "func_task-prisme_run-08",
-                "ImageComments": "Unaliased MB4/PE3/LB",
+                "ImageComments": "Unaliased*MB4*PE3*LB",
                 "ImageType": ["ORIGINAL", "PRIMARY", "M", "MB", "ND", "MOSAIC"]
             }
         },
@@ -361,7 +361,7 @@
             "customLabels": "task-things_part-phase_run-08",
             "criteria": {
                 "ProtocolName": "func_task-prisme_run-08",
-                "ImageComments": "Unaliased MB4/PE3/LB",
+                "ImageComments": "Unaliased*MB4*PE3*LB",
                 "ImageType": ["ORIGINAL", "PRIMARY", "P", "MB", "ND", "MOSAIC", "PHASE"]
             }
         },
@@ -371,7 +371,7 @@
             "customLabels": "acq-sbref_dir-PA_part-mag_run-08",
             "criteria": {
                 "ProtocolName": "func_task-prisme_run-08",
-                "ImageComments": "Single-band reference",
+                "ImageComments": "Single-band*reference",
                 "ImageType": ["ORIGINAL", "PRIMARY", "M", "ND", "MOSAIC"]
             },
             "intendedFor": [32, 33]
@@ -382,7 +382,7 @@
             "customLabels": "acq-sbref_dir-PA_part-phase_run-08",
             "criteria": {
                 "ProtocolName": "func_task-prisme_run-08",
-                "ImageComments": "Single-band reference",
+                "ImageComments": "Single-band*reference",
                 "ImageType": ["ORIGINAL", "PRIMARY", "P", "ND", "MOSAIC", "PHASE"]
             },
             "intendedFor": [32, 33]
@@ -393,7 +393,7 @@
             "customLabels": "acq-bold_dir-AP_part-phase_run-01",
             "criteria": {
                 "ProtocolName": "func_AP_run-1",
-                "ImageComments": "Unaliased MB4/PE3/LB",
+                "ImageComments": "Unaliased*MB4*PE3*LB",
                 "ImageType": ["ORIGINAL", "PRIMARY", "P", "MB", "ND", "MOSAIC", "PHASE"]
             }
         },
@@ -403,7 +403,7 @@
             "customLabels": "acq-bold_dir-AP_part-mag_run-01",
             "criteria": {
                 "ProtocolName": "func_AP_run-1",
-                "ImageComments": "Unaliased MB4/PE3/LB",
+                "ImageComments": "Unaliased*MB4*PE3*LB",
                 "ImageType": ["ORIGINAL", "PRIMARY", "M", "MB", "ND", "MOSAIC"]
             }
         },
@@ -413,7 +413,7 @@
             "customLabels": "acq-sbref_dir-AP_run-01_part-mag",
             "criteria": {
                 "SeriesDescription": "func_AP_run-1_SBRef",
-                "ImageComments": "Single-band reference",
+                "ImageComments": "Single-band*reference",
                 "ImageType": ["ORIGINAL", "PRIMARY", "M", "ND", "MOSAIC"]
             }
         },
@@ -423,7 +423,7 @@
             "customLabels": "acq-sbref_dir-AP_run-01_part-phase",
             "criteria": {
                 "SeriesDescription": "func_AP_run-1_SBRef",
-                "ImageComments": "Single-band reference",
+                "ImageComments": "Single-band*reference",
                 "ImageType": ["ORIGINAL", "PRIMARY", "P", "ND", "MOSAIC", "PHASE"]
             }
         }
