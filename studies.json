@@ -81,7 +81,7 @@
 		"multisession": 0,
 		"gid": 1167,
 		"gid_name": "neuropoly",
-		"ethic": "TODO"
+		"ethic": "CER VN 16-17-39"
 	},
 	"labjoanette_PulsAge": {
 		"regex": "^(PulsAge)_(HEAL(Y|O)[0-9]{3})$",
