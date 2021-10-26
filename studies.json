@@ -258,6 +258,13 @@
 		"gid_name": "jerbi",
 		"ethic": "CER VN 19-20-27"
 	},
+	"brambati_TELE": {
+		"regex": "^(TELE)_([0-9]{3})_(v1|v2)$",
+		"multisession": 1,
+		"gid": 1162,
+		"gid_name": "brambati",
+		"ethic": "CER VN 20-21-07"
+	},
 	"pilot":{
 		"regex": "^(pilot)_([a-zA-Z0-9_-]*)$",
 		"multisession": 0,
