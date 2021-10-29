@@ -64,7 +64,7 @@
         {
             "dataType": "fmap",
             "modalityLabel": "epi",
-            "customLabels": "acq-func_dir-PA"
+            "customLabels": "acq-func_dir-PA",
             "intendedFor": [3,4],
             "criteria": {
                 "SeriesDescription": "fmap_task-visloc"
@@ -73,7 +73,7 @@
         {
             "dataType": "fmap",
             "modalityLabel": "epi",
-            "customLabels": "acq-midbrain_dir-PA"
+            "customLabels": "acq-midbrain_dir-PA",
             "intendedFor": [5,6],
             "criteria": {
                 "SeriesDescription": "fmap_acq-midbrain_task-visloc"
