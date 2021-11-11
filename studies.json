@@ -91,7 +91,7 @@
 		"ethic": "CER VN 16-17-28"
 	},
 	"labjoanette_SSTA": {
-		"regex": "^(SSTA)_([0-9]{3})$",
+		"regex": "^(SSTA)_([0-9]{3})(_B)?$",
 		"multisession": 0,
 		"gid": 1104,
 		"gid_name": "labjoanette",
