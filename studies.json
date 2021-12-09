@@ -140,7 +140,7 @@
 		"ethic": "MP-12-2017-815"
 	},
 	"potvins_Proventure": {
-		"regex": "^(Proventure)_([0-9]{4})_(A|B|C)$",
+		"regex": "^(Proventure)_([0-9]{4})_(A|B|C)b?$",
 		"multisession": 0,
 		"gid": 1191,
 		"gid_name": "potvins",
