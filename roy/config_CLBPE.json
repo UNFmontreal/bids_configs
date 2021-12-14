@@ -15,6 +15,17 @@
             }
         },
         {
+            "dataType": "perf",
+            "modalityLabel": "asl",
+            "criteria": {
+                "SeriesDescription": "perf_pcasl",
+                "ImageType": ["ORIGINAL", "PRIMARY", "M", "ND", "NORM", "MOSAIC"]
+            },
+            "sidecarChanges": {
+                "ArterialSpinLabelingType": "PCASL"
+            }
+        },
+        {
             "dataType": "dwi",
             "modalityLabel": "dwi",
             "criteria": {
