@@ -194,6 +194,22 @@
                 "EchoNumber": 6,
                 "SeriesDescription": "*GRE-MToff"
             }
+        },
+        {
+            "dataType": "anat",
+            "modalityLabel": "echo-7_GRE-MToff",
+            "criteria": {
+                "EchoNumber": 7,
+                "SeriesDescription": "*GRE-MToff"
+            }
+        },
+        {
+            "dataType": "anat",
+            "modalityLabel": "echo-8_GRE-MToff",
+            "criteria": {
+                "EchoNumber": 8,
+                "SeriesDescription": "*GRE-MToff"
+            }
         }
     ]
 }
