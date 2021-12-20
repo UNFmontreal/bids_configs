@@ -265,6 +265,13 @@
 		"gid_name": "brambati",
 		"ethic": "CER VN 20-21-07"
 	},
+	"masson_inhibition": {
+		"regex": "^(a1|a2|np)_([0-9]{3})$",
+		"multisession": 0,
+		"gid": 1181,
+		"gid_name": "masson",
+		"ethic": "CER VN 19-20-25"
+	},	
 	"pilot":{
 		"regex": "^(pilot)_([a-zA-Z0-9_-]*)$",
 		"multisession": 0,
