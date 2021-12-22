@@ -90,7 +90,7 @@
             "intendedFor": 5,
             "criteria": {
                 "SeriesDescription": "task-fieldmap_Run1",
-                "ImageType": ["ORIGINAL", "PRIMARY", "P", "ND", "PHASE"]
+                "ImageType": ["ORIGINAL", "PRIMARY", "P", "ND"]
             }
         },
         {
@@ -135,7 +135,7 @@
             "intendedFor": 9,
             "criteria": {
                 "SeriesDescription": "task-fieldmap_Run2",
-                "ImageType": ["ORIGINAL", "PRIMARY", "P", "ND", "PHASE"]
+                "ImageType": ["ORIGINAL", "PRIMARY", "P", "ND"]
             }
         },
         {
@@ -180,7 +180,7 @@
             "intendedFor": 13,
             "criteria": {
                 "SeriesDescription": "task-fieldmap_Resting-state_Run1",
-                "ImageType": ["ORIGINAL", "PRIMARY", "P", "ND", "PHASE"]
+                "ImageType": ["ORIGINAL", "PRIMARY", "P", "ND"]
             }
         },
         {
@@ -217,7 +217,7 @@
             "intendedFor": 17,
             "criteria": {
                 "SeriesDescription": "gre_field_mapping",
-                "ImageType": ["ORIGINAL", "PRIMARY", "P", "ND", "PHASE"]
+                "ImageType": ["ORIGINAL", "PRIMARY", "P", "ND"]
             }
         }
     ]
