@@ -1,0 +1,28 @@
+{
+  "descriptions": [
+    {
+      "dataType": "anat",
+      "modalityLabel": "T1w",
+      "criteria": {
+        "SeriesDescription": "acq-1mm_T1w_p3"
+      }
+    },
+    {
+      "dataType": "func",
+      "modalityLabel": "bold",
+      "TaskName": "np",
+      "customLabels": "task-np",
+      "criteria": {
+        "SeriesDescription": "bold_task-np_*"
+      }
+    },
+    {
+      "dataType": "fmap",
+      "modalityLabel": "epi",
+      "criteria": {
+        "SeriesDescription": "fmap_task-np_*"
+      },
+      "IntendedFor": 1
+    }
+  ]
+}
