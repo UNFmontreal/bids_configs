@@ -1,0 +1,65 @@
+{
+    "descriptions": [
+        {
+            "dataType": "anat",
+            "modalityLabel": "T1w",
+            "criteria": {
+                "SeriesDescription": "acq-0.7mm_T1w"
+            }
+        },
+        {
+            "dataType": "dwi",
+            "modalityLabel": "dwi",
+            "criteria": {
+                "SeriesDescription": "acq-s3-ap_dwi"
+            }
+        },
+        {
+            "dataType": "fmap",
+            "modalityLabel": "epi",
+            "criteria": {
+                "SeriesDescription": "acq-s3-pa_b0"
+            },
+            "IntendedFor": 1
+        },
+        {
+            "dataType": "func",
+            "modalityLabel": "bold",
+            "customLabels": "task-rest",
+            "sidecarChanges": {
+              "TaskName": "rest"
+            },
+            "criteria": {
+                "SeriesDescription": "acq-p2-s3-3mm_fmri",
+                "ImageType": ["ORIGINAL", "PRIMARY", "M", "ND", "MOSAIC"]
+            }
+        },
+        {
+            "dataType": "fmap",
+            "modalityLabel": "epi",
+            "criteria": {
+                "SeriesDescription": "fmap*rest*"
+            },
+            "IntendedFor": 3
+        },
+        {
+            "dataType": "anat",
+            "modalityLabel": "T2w",
+            "customLabels": "loc-spine",
+            "criteria": {
+                "SeriesDescription": "t2_space"
+            }
+        },
+        {
+            "dataType": "perf",
+            "modalityLabel": "asl",
+            "criteria": {
+                "SeriesDescription": "ep2d_pcasl_ve11c",
+                "ImageType": ["ORIGINAL", "PRIMARY", "M", "ND", "NORM", "MOSAIC"]
+            },
+            "sidecarChanges": {
+                "ArterialSpinLabelingType": "PCASL"
+            }
+        }
+    ]
+}
