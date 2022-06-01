@@ -14,7 +14,7 @@
 		"ethic": "CER IUGM 15-16-17"
 	},
 	"beaumont_HOF": {
-		"regex": "^(HOF)_([0-9]{3})_(((post|pre)[0-1-2]+)|post|pre|[0-9]{3}|[1-9]{1}(F|S|M))$",
+		"regex": "^(HOF)_([0-9]{3}(CON)?)_(((post|pre)[0-1-2]+)|post|pre|[0-9]{3}|[1-9]{1}(F|S|M))$",
 		"multisession": 1,
 		"gid": 1214,
 		"gid_name": "beaumont",
