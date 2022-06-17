@@ -279,6 +279,13 @@
 		"gid_name": "pageaux",
 		"ethic": "CER_VN_21-22-24"	
 	},
+	"chertkow_ADNI3": {
+		"regex": "^([0-9]{3})_S_([0-9]{4})$",
+		"multisession": 0,
+		"gid": 1173,
+		"gid_name": "chertkow",
+		"ethic": "TODO"		
+	},
 	"pilot":{
 		"regex": "^(pilot)_([a-zA-Z0-9_-]*)$",
 		"multisession": 0,
