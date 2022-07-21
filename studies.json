@@ -284,7 +284,7 @@
 		"multisession": 0,
 		"gid": 1173,
 		"gid_name": "chertkow",
-		"ethic": "TODO"		
+		"ethic": "MP-05-2018-789"		
 	},
 	"pilot":{
 		"regex": "^(pilot)_([a-zA-Z0-9_-]*)$",
