@@ -279,6 +279,13 @@
 		"gid_name": "chertkow",
 		"ethic": "MP-05-2018-789"		
 	},
+	"thiel_ContraStroke": {
+		"regex": "^([0-9]{2})-([0-9]{3})$",
+		"multisession": 0,
+		"gid": 1192,
+		"gid_name": "thiel",
+		"ethic": "MP-05-2020-1891"	
+	},
 	"pilot":{
 		"regex": "^(pilot)_([a-zA-Z0-9_-]*)$",
 		"multisession": 0,
