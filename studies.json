@@ -214,7 +214,7 @@
 		"multisession": 0,
 		"gid": 1167,
 		"gid_name": "neuropoly",
-		"ethic": "CMER RNQ 15-16-13"
+		"ethic": "CER VN 16-17-39"
 	},
 	"neuropoly_pmj": {
 		"regex": "^(pmj)_([0-9]{3})$",
