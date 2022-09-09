@@ -69,6 +69,13 @@
 		"gid_name": "labdoyon",
 		"ethic": "CER VN 18-19-32"
 	},
+	"labdoyon_DeMo": {
+		"regex": "^(DeMo)_([0-9]{3})_(D1|Sleep|Test|D2|MVPA)$",
+		"multisession": 0,
+		"gid": 1103,
+		"gid_name": "labdoyon",
+		"ethic": ""
+	},
 	"labjoanette_PulsAge": {
 		"regex": "^(PulsAge)_(HEAL(Y|O)[0-9]{3})$",
 		"multisession": 0,
