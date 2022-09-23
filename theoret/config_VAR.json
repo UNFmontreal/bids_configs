@@ -1,0 +1,72 @@
+{
+    "descriptions": [
+        {
+        "dataType": "anat",
+        "modalityLabel": "T1w",
+        "criteria": {
+            "SeriesDescription": "acq-MPRAGE",
+            "ImageType": ["ORIGINAL", "PRIMARY", "M", "ND", "NORM"]
+            }
+        },
+        {
+        "dataType": "func",
+        "modalityLabel": "bold",
+        "sidecarChanges": {
+            "TaskName": "rest"
+            },
+        "customLabels": "task-rest_run-1",
+        "criteria": {
+	    "ProtocolName": "task-RS_bold_Run-1"
+            }
+        },
+        {
+        "dataType": "func",
+        "modalityLabel": "bold",
+        "sidecarChanges": {
+            "TaskName": "rest"
+            },
+        "customLabels": "task-rest_run-2",
+        "criteria": {
+            "ProtocolName": "task-RS_bold_Run-2"
+            }
+        },
+        {
+        "dataType": "fmap",
+        "modalityLabel": "epi",
+        "intendedFor": 4,
+        "customLabels": "dir-AP",
+        "criteria": {
+            "ProtocolName": "acq-s3-ap_b0"
+            }
+        },
+      	{
+        "dataType": "dwi",
+        "modalityLabel": "dwi",
+        "customLabels": "dir-PA",
+        "criteria": {
+            "ProtocolName": "acq-s3-pa_dwi",
+            "ImageType": ["ORIGINAL", "PRIMARY", "DIFFUSION", "NONE", "ND", "MOSAIC"]
+            }
+
+        },
+        {
+        "dataType": "anat",
+        "modalityLabel": "T1w",
+        "criteria": {
+            "SeriesDescription": "aqc-MPRAGE",
+            "ImageType": ["ORIGINAL", "PRIMARY", "M", "ND", "NORM"]
+            }
+        },
+        {
+        "dataType": "func",
+        "modalityLabel": "bold",
+        "sidecarChanges": {
+            "TaskName": "rest"
+            },
+        "customLabels": "task-rest_run-1",
+        "criteria": {
+	          "ProtocolName": "task-RS_bold"
+            }
+        }
+    ]
+}
