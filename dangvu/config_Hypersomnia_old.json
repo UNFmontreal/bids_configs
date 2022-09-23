@@ -1,0 +1,65 @@
+{
+  "dcmTagLabel":
+      {
+          "dcmTag": "SeriesDescription",
+          "expression": [".*(task-[0-9a-zA-Z]*).*",
+                          ".*(run-[0-9a-zA-Z]*).*"]
+      },
+    "dupMethod": "dup",
+    "descriptions": [
+        {
+            "dataType": "anat",
+            "modalityLabel": "T1w",
+            "criteria": {
+                "SeriesDescription": "anat_T1w"
+            }
+        },
+        {
+            "dataType": "dwi",
+            "modalityLabel": "dwi",
+            "criteria": {
+                "SeriesDescription": "dwi*"
+            }
+        },
+        {
+            "dataType": "fmap",
+            "modalityLabel": "epi",
+            "criteria": {
+                "SeriesDescription": "b0*"
+            },
+            "IntendedFor": 1
+        },
+        {
+            "dataType": "func",
+            "modalityLabel": "bold",
+            "criteria": {
+                "SeriesDescription": "bold*",
+                "PhaseEncodingDirection": "j-"
+            }
+        },
+        {
+            "dataType": "fmap",
+            "modalityLabel": "epi",
+            "criteria": {
+                "SeriesDescription": "fmap*"
+            },
+            "IntendedFor": 3
+        },
+        {
+            "dataType": "fmap",
+            "modalityLabel": "epi",
+            "criteria": {
+                "SeriesDescription": "*PA",
+                "PhaseEncodingDirection": "j"
+            },
+            "IntendedFor": 3
+        },
+        {
+            "dataType": "anat",
+            "modalityLabel": "T2w",
+            "criteria": {
+                "SeriesDescription": "anat_T2w"
+            }
+        }
+    ]
+}

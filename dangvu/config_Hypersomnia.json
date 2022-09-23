@@ -1,10 +1,4 @@
 {
-  "dcmTagLabel":
-      {
-          "dcmTag": "SeriesDescription",
-          "expression": [".*(task-[0-9a-zA-Z]*).*",
-                          ".*(run-[0-9a-zA-Z]*).*"]
-      },
     "dupMethod": "dup",
     "descriptions": [
         {
@@ -17,6 +11,7 @@
         {
             "dataType": "dwi",
             "modalityLabel": "dwi",
+            "customLabels": "dir-PA",
             "criteria": {
                 "SeriesDescription": "dwi*"
             }
@@ -24,6 +19,7 @@
         {
             "dataType": "fmap",
             "modalityLabel": "epi",
+            "customLabels": "dir-AP",
             "criteria": {
                 "SeriesDescription": "b0*"
             },
@@ -32,27 +28,149 @@
         {
             "dataType": "func",
             "modalityLabel": "bold",
+            "customLabels": "task-rest",
             "criteria": {
-                "SeriesDescription": "bold*",
+                "SeriesDescription": "bold_task-rest",
                 "PhaseEncodingDirection": "j-"
+            },
+            "sidecarChanges": {
+                "TaskName": "rest"
             }
         },
         {
             "dataType": "fmap",
             "modalityLabel": "epi",
+            "customLabels": "dir-PA",
             "criteria": {
-                "SeriesDescription": "fmap*"
+                "SeriesDescription": "fmap_task-rest"
             },
             "IntendedFor": 3
         },
         {
+            "dataType": "func",
+            "modalityLabel": "bold",
+            "customLabels": "task-enco",
+            "criteria": {
+                "SeriesDescription": "bold_task-enco",
+                "PhaseEncodingDirection": "j-"
+            },
+            "sidecarChanges": {
+                "TaskName": "enco"
+            }
+        },
+        {
             "dataType": "fmap",
             "modalityLabel": "epi",
+            "customLabels": "dir-PA",
             "criteria": {
-                "SeriesDescription": "*PA",
-                "PhaseEncodingDirection": "j"
+                "SeriesDescription": "fmap_task-enco"
             },
-            "IntendedFor": 3
+            "IntendedFor": 5
+        },
+        {
+            "dataType": "func",
+            "modalityLabel": "bold",
+            "customLabels": "task-recall",
+            "criteria": {
+                "SeriesDescription": "bold_task-recall",
+                "PhaseEncodingDirection": "j-"
+            },
+            "sidecarChanges": {
+                "TaskName": "recall"
+            }
+        },
+        {
+            "dataType": "fmap",
+            "modalityLabel": "epi",
+            "customLabels": "dir-PA",
+            "criteria": {
+                "SeriesDescription": "fmap_task-recall"
+            },
+            "IntendedFor": 7
+        },
+        {
+            "dataType": "func",
+            "modalityLabel": "bold",
+            "customLabels": "task-sart_run-1",
+            "criteria": {
+                "SeriesDescription": "bold_task-sart_run-1",
+                "PhaseEncodingDirection": "j-"
+            },
+            "sidecarChanges": {
+                "TaskName": "sart_run-1"
+            }
+        },
+        {
+            "dataType": "fmap",
+            "modalityLabel": "epi",
+            "customLabels": "dir-PA",
+            "criteria": {
+                "SeriesDescription": "fmap_task-sart_run-1"
+            },
+            "IntendedFor": 9
+        },
+        {
+            "dataType": "func",
+            "modalityLabel": "bold",
+            "customLabels": "task-sart_run-2",
+            "criteria": {
+                "SeriesDescription": "bold_task-sart_run-2",
+                "PhaseEncodingDirection": "j-"
+            },
+            "sidecarChanges": {
+                "TaskName": "sart_run-2"
+            }
+        },
+        {
+            "dataType": "fmap",
+            "modalityLabel": "epi",
+            "customLabels": "dir-PA",
+            "criteria": {
+                "SeriesDescription": "fmap_task-sart_run-2"
+            },
+            "IntendedFor": 11
+        },
+        {
+            "dataType": "func",
+            "modalityLabel": "bold",
+            "customLabels": "task-sleep",
+            "criteria": {
+                "SeriesDescription": "bold_task-sleep",
+                "PhaseEncodingDirection": "j-"
+            },
+            "sidecarChanges": {
+                "TaskName": "sleep"
+            }
+        },
+        {
+            "dataType": "fmap",
+            "modalityLabel": "epi",
+            "customLabels": "dir-PA",
+            "criteria": {
+                "SeriesDescription": "fmap_task-sleep"
+            },
+            "IntendedFor": 13
+        },
+        {
+            "dataType": "func",
+            "modalityLabel": "bold",
+            "customLabels": "task-sart",
+            "criteria": {
+                "SeriesDescription": "bold_task-sart",
+                "PhaseEncodingDirection": "j-"
+            },
+            "sidecarChanges": {
+                "TaskName": "sart"
+            }
+        },
+        {
+            "dataType": "fmap",
+            "modalityLabel": "epi",
+            "customLabels": "dir-PA",
+            "criteria": {
+                "SeriesDescription": "fmap_task-sart"
+            },
+            "IntendedFor": 15
         },
         {
             "dataType": "anat",
