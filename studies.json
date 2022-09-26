@@ -189,7 +189,7 @@
 		"ethic": "CER VN 18-19-22"
 	},
 	"hanganu_emocog": {
-		"regex": "^(emocog)_((tcl|tsl|mp|sc)[0-9]{4})_((0[1-9]|1[0-5]))$",
+		"regex": "^(emocog)_((tcl|dcs|mp|sc)[0-9]{4})_((0[1-9]|1[0-5]))$",
 		"multisession": 0,
 		"gid": 944200020,
 		"gid_name": "hanganu",
