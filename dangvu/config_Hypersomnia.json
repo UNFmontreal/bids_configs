@@ -30,7 +30,7 @@
             "modalityLabel": "bold",
             "customLabels": "task-rest",
             "criteria": {
-                "SeriesDescription": "bold_task-rest",
+                "SeriesDescription": "bold_task-rest*",
                 "PhaseEncodingDirection": "j-"
             },
             "sidecarChanges": {
@@ -42,7 +42,7 @@
             "modalityLabel": "epi",
             "customLabels": "dir-PA",
             "criteria": {
-                "SeriesDescription": "fmap_task-rest"
+                "SeriesDescription": "fmap_task-rest*"
             },
             "IntendedFor": 3
         },
@@ -51,7 +51,7 @@
             "modalityLabel": "bold",
             "customLabels": "task-enco",
             "criteria": {
-                "SeriesDescription": "bold_task-enco",
+                "SeriesDescription": "bold_task-enco*",
                 "PhaseEncodingDirection": "j-"
             },
             "sidecarChanges": {
@@ -63,7 +63,7 @@
             "modalityLabel": "epi",
             "customLabels": "dir-PA",
             "criteria": {
-                "SeriesDescription": "fmap_task-enco"
+                "SeriesDescription": "fmap_task-enco*"
             },
             "IntendedFor": 5
         },
@@ -72,7 +72,7 @@
             "modalityLabel": "bold",
             "customLabels": "task-recall",
             "criteria": {
-                "SeriesDescription": "bold_task-recall",
+                "SeriesDescription": "bold_task-recall*",
                 "PhaseEncodingDirection": "j-"
             },
             "sidecarChanges": {
@@ -84,7 +84,7 @@
             "modalityLabel": "epi",
             "customLabels": "dir-PA",
             "criteria": {
-                "SeriesDescription": "fmap_task-recall"
+                "SeriesDescription": "fmap_task-recall*"
             },
             "IntendedFor": 7
         },
@@ -135,7 +135,7 @@
             "modalityLabel": "bold",
             "customLabels": "task-sleep",
             "criteria": {
-                "SeriesDescription": "bold_task-sleep",
+                "SeriesDescription": "bold_task-sleep*",
                 "PhaseEncodingDirection": "j-"
             },
             "sidecarChanges": {
@@ -147,7 +147,7 @@
             "modalityLabel": "epi",
             "customLabels": "dir-PA",
             "criteria": {
-                "SeriesDescription": "fmap_task-sleep"
+                "SeriesDescription": "fmap_task-sleep*"
             },
             "IntendedFor": 13
         },
