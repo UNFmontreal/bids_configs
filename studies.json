@@ -294,14 +294,14 @@
 		"ethic": "MP-05-2020-1891"	
 	},
 	"jason_MOTORCOGPD": {
-		"regex": "^(MOTORCOGPD)-([0-9]{3})$",
+		"regex": "^(MOTORCOGPD)_([0-9]{3})$",
 		"multisession": 0,
 		"gid": 944200137,
 		"gid_name": "neva",
 		"ethic": "CER_VN_21-22-36_MP"	
 	},
 	"jason_PMDV2M1": {
-		"regex": "^(PMDV2M1)-([0-9]{3})$",
+		"regex": "^(PMDV2M1)_([0-9]{3})$",
 		"multisession": 0,
 		"gid": 944200137,
 		"gid_name": "neva",
