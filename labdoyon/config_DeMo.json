@@ -1,0 +1,1317 @@
+{
+    "dupMethod": "dup",
+    "descriptions": [
+        {
+            "dataType": "anat",
+            "modalityLabel": "T1w",
+            "criteria": {
+                "SeriesDescription": "anat_T1w"
+            }
+        },
+        {
+            "dataType": "func",
+            "modalityLabel": "bold",
+            "customLabels": "task-rest1_part-phase",
+            "criteria": {
+                "SeriesDescription": "func_task-rest1",
+                "ImageType": ["ORIGINAL", "PRIMARY", "P", "MB", "ND", "MOSAIC", "PHASE"]
+            }
+        },
+        {
+            "dataType": "func",
+            "modalityLabel": "bold",
+            "customLabels": "task-rest1_part-mag",
+            "criteria": {
+                "SeriesDescription": "func_task-rest1",
+                "ImageType": ["ORIGINAL", "PRIMARY", "M", "MB", "ND", "MOSAIC"]
+            },
+            "sidecarChanges": {
+                "TaskName": "rest1"
+            }
+        },         
+        {
+            "dataType": "fmap",
+            "modalityLabel": "epi",
+            "customLabels": "acq-sbref_dir-PA_part-phase",
+            "criteria": {
+                "SeriesDescription": "func_task-rest1_SBRef",
+                "ImageType": ["ORIGINAL", "PRIMARY", "P", "ND", "MOSAIC", "PHASE"],
+                "PhaseEncodingDirection": "j"
+            },
+            "IntendedFor": 2
+        },
+        {
+            "dataType": "fmap",
+            "modalityLabel": "epi",
+            "customLabels": "acq-sbref_dir-PA_part-mag",
+            "criteria": {
+                "SeriesDescription": "func_task-rest1_SBRef",
+                "ImageType": ["ORIGINAL", "PRIMARY", "M", "ND", "MOSAIC"],
+                "PhaseEncodingDirection": "j"
+            },
+            "IntendedFor": 2
+        },
+        {
+            "dataType": "fmap",
+            "modalityLabel": "epi",
+            "customLabels": "acq-sbref_dir-AP_part-phase",
+            "criteria": {
+                "SeriesDescription": "fmap_task-rest1_SBRef",
+                "ImageType": ["ORIGINAL", "PRIMARY", "P", "ND", "MOSAIC", "PHASE"],
+                "PhaseEncodingDirection": "j-"
+            },
+            "IntendedFor": 2
+        },
+        {
+            "dataType": "fmap",
+            "modalityLabel": "epi",
+            "customLabels": "acq-sbref_dir-AP_part-mag",
+            "criteria": {
+                "SeriesDescription": "fmap_task-rest1_SBRef",
+                "ImageType": ["ORIGINAL", "PRIMARY", "M", "ND", "MOSAIC"],
+                "PhaseEncodingDirection": "j-"
+            },
+            "IntendedFor": 2
+        },   
+        {
+            "dataType": "fmap",
+            "modalityLabel": "epi",
+            "customLabels": "acq-bold_dir-AP_part-phase",
+            "criteria": {
+                "SeriesDescription": "fmap_task-rest1",
+                "ImageType": ["ORIGINAL", "PRIMARY", "P", "MB", "ND", "MOSAIC", "PHASE"],
+                "PhaseEncodingDirection": "j-"
+            },
+            "IntendedFor": 2
+        },
+        {
+            "dataType": "fmap",
+            "modalityLabel": "epi",
+            "customLabels": "acq-bold_dir-AP_part-mag",
+            "criteria": {
+                "SeriesDescription": "fmap_task-rest1",
+                "ImageType": ["ORIGINAL", "PRIMARY", "M", "MB", "ND", "MOSAIC"],
+                "PhaseEncodingDirection": "j-"
+            },
+            "IntendedFor": 2
+        },
+       {
+            "dataType": "func",
+            "modalityLabel": "bold",
+            "customLabels": "task-rest2_part-phase",
+            "criteria": {
+                "SeriesDescription": "func_task-rest2",
+                "ImageType": ["ORIGINAL", "PRIMARY", "P", "MB", "ND", "MOSAIC", "PHASE"]
+            }
+        },
+        {
+            "dataType": "func",
+            "modalityLabel": "bold",
+            "customLabels": "task-rest2_part-mag",
+            "criteria": {
+                "SeriesDescription": "func_task-rest2",
+                "ImageType": ["ORIGINAL", "PRIMARY", "M", "MB", "ND", "MOSAIC"]
+            },
+            "sidecarChanges": {
+                "TaskName": "rest2"
+            }
+        },         
+        {
+            "dataType": "fmap",
+            "modalityLabel": "epi",
+            "customLabels": "acq-sbref_dir-PA_part-phase",
+            "criteria": {
+                "SeriesDescription": "func_task-rest2_SBRef",
+                "ImageType": ["ORIGINAL", "PRIMARY", "P", "ND", "MOSAIC", "PHASE"],
+                "PhaseEncodingDirection": "j"
+            },
+            "IntendedFor": 10
+        },
+        {
+            "dataType": "fmap",
+            "modalityLabel": "epi",
+            "customLabels": "acq-sbref_dir-PA_part-mag",
+            "criteria": {
+                "SeriesDescription": "func_task-rest2_SBRef",
+                "ImageType": ["ORIGINAL", "PRIMARY", "M", "ND", "MOSAIC"],
+                "PhaseEncodingDirection": "j"
+            },
+            "IntendedFor": 10
+        },
+        {
+            "dataType": "fmap",
+            "modalityLabel": "epi",
+            "customLabels": "acq-sbref_dir-AP_part-phase",
+            "criteria": {
+                "SeriesDescription": "fmap_task-rest2_SBRef",
+                "ImageType": ["ORIGINAL", "PRIMARY", "P", "ND", "MOSAIC", "PHASE"],
+                "PhaseEncodingDirection": "j-"
+            },
+            "IntendedFor": 10
+        },
+        {
+            "dataType": "fmap",
+            "modalityLabel": "epi",
+            "customLabels": "acq-sbref_dir-AP_part-mag",
+            "criteria": {
+                "SeriesDescription": "fmap_task-rest2_SBRef",
+                "ImageType": ["ORIGINAL", "PRIMARY", "M", "ND", "MOSAIC"],
+                "PhaseEncodingDirection": "j-"
+            },
+            "IntendedFor": 10
+        },   
+        {
+            "dataType": "fmap",
+            "modalityLabel": "epi",
+            "customLabels": "acq-bold_dir-AP_part-phase",
+            "criteria": {
+                "SeriesDescription": "fmap_task-rest2",
+                "ImageType": ["ORIGINAL", "PRIMARY", "P", "MB", "ND", "MOSAIC", "PHASE"],
+                "PhaseEncodingDirection": "j-"
+            },
+            "IntendedFor": 10
+        },
+        {
+            "dataType": "fmap",
+            "modalityLabel": "epi",
+            "customLabels": "acq-bold_dir-AP_part-mag",
+            "criteria": {
+                "SeriesDescription": "fmap_task-rest2",
+                "ImageType": ["ORIGINAL", "PRIMARY", "M", "MB", "ND", "MOSAIC"],
+                "PhaseEncodingDirection": "j-"
+            },
+            "IntendedFor": 10
+        },
+        {
+            "dataType": "func",
+            "modalityLabel": "bold",
+            "customLabels": "task-learnA_part-phase",
+            "criteria": {
+                "SeriesDescription": "func_task-learnA",
+                "ImageType": ["ORIGINAL", "PRIMARY", "P", "MB", "ND", "MOSAIC", "PHASE"]
+            }
+        },
+        {
+            "dataType": "func",
+            "modalityLabel": "bold",
+            "customLabels": "task-learnA_part-mag",
+            "criteria": {
+                "SeriesDescription": "func_task-learnA",
+                "ImageType": ["ORIGINAL", "PRIMARY", "M", "MB", "ND", "MOSAIC"]
+            },
+            "sidecarChanges": {
+                "TaskName": "learnA"
+            }
+        },         
+        {
+            "dataType": "fmap",
+            "modalityLabel": "epi",
+            "customLabels": "acq-sbref_dir-PA_part-phase",
+            "criteria": {
+                "SeriesDescription": "func_task-learnA_SBRef",
+                "ImageType": ["ORIGINAL", "PRIMARY", "P", "ND", "MOSAIC", "PHASE"],
+                "PhaseEncodingDirection": "j"
+            },
+            "IntendedFor": 18
+        },
+        {
+            "dataType": "fmap",
+            "modalityLabel": "epi",
+            "customLabels": "acq-sbref_dir-PA_part-mag",
+            "criteria": {
+                "SeriesDescription": "func_task-learnA_SBRef",
+                "ImageType": ["ORIGINAL", "PRIMARY", "M", "ND", "MOSAIC"],
+                "PhaseEncodingDirection": "j"
+            },
+            "IntendedFor": 18
+        },
+        {
+            "dataType": "fmap",
+            "modalityLabel": "epi",
+            "customLabels": "acq-sbref_dir-AP_part-phase",
+            "criteria": {
+                "SeriesDescription": "fmap_task-learnA_SBRef",
+                "ImageType": ["ORIGINAL", "PRIMARY", "P", "ND", "MOSAIC", "PHASE"],
+                "PhaseEncodingDirection": "j-"
+            },
+            "IntendedFor": 18
+        },
+        {
+            "dataType": "fmap",
+            "modalityLabel": "epi",
+            "customLabels": "acq-sbref_dir-AP_part-mag",
+            "criteria": {
+                "SeriesDescription": "fmap_task-learnA_SBRef",
+                "ImageType": ["ORIGINAL", "PRIMARY", "M", "ND", "MOSAIC"],
+                "PhaseEncodingDirection": "j-"
+            },
+            "IntendedFor": 18
+        },   
+        {
+            "dataType": "fmap",
+            "modalityLabel": "epi",
+            "customLabels": "acq-bold_dir-AP_part-phase",
+            "criteria": {
+                "SeriesDescription": "fmap_task-learnA",
+                "ImageType": ["ORIGINAL", "PRIMARY", "P", "MB", "ND", "MOSAIC", "PHASE"],
+                "PhaseEncodingDirection": "j-"
+            },
+            "IntendedFor": 18
+        },
+        {
+            "dataType": "fmap",
+            "modalityLabel": "epi",
+            "customLabels": "acq-bold_dir-AP_part-mag",
+            "criteria": {
+                "SeriesDescription": "fmap_task-learnA",
+                "ImageType": ["ORIGINAL", "PRIMARY", "M", "MB", "ND", "MOSAIC"],
+                "PhaseEncodingDirection": "j-"
+            },
+            "IntendedFor": 18
+        },
+       {
+            "dataType": "func",
+            "modalityLabel": "bold",
+            "customLabels": "task-testA_part-phase",
+            "criteria": {
+                "SeriesDescription": "func_task-testA",
+                "ImageType": ["ORIGINAL", "PRIMARY", "P", "MB", "ND", "MOSAIC", "PHASE"]
+            }
+        },
+        {
+            "dataType": "func",
+            "modalityLabel": "bold",
+            "customLabels": "task-testA_part-mag",
+            "criteria": {
+                "SeriesDescription": "func_task-testA",
+                "ImageType": ["ORIGINAL", "PRIMARY", "M", "MB", "ND", "MOSAIC"]
+            },
+            "sidecarChanges": {
+                "TaskName": "testA"
+            }
+        },         
+        {
+            "dataType": "fmap",
+            "modalityLabel": "epi",
+            "customLabels": "acq-sbref_dir-PA_part-phase",
+            "criteria": {
+                "SeriesDescription": "func_task-testA_SBRef",
+                "ImageType": ["ORIGINAL", "PRIMARY", "P", "ND", "MOSAIC", "PHASE"],
+                "PhaseEncodingDirection": "j"
+            },
+            "IntendedFor": 26
+        },
+        {
+            "dataType": "fmap",
+            "modalityLabel": "epi",
+            "customLabels": "acq-sbref_dir-PA_part-mag",
+            "criteria": {
+                "SeriesDescription": "func_task-testA_SBRef",
+                "ImageType": ["ORIGINAL", "PRIMARY", "M", "ND", "MOSAIC"],
+                "PhaseEncodingDirection": "j"
+            },
+            "IntendedFor": 26
+        },
+        {
+            "dataType": "fmap",
+            "modalityLabel": "epi",
+            "customLabels": "acq-sbref_dir-AP_part-phase",
+            "criteria": {
+                "SeriesDescription": "fmap_task-testA_SBRef",
+                "ImageType": ["ORIGINAL", "PRIMARY", "P", "ND", "MOSAIC", "PHASE"],
+                "PhaseEncodingDirection": "j-"
+            },
+            "IntendedFor": 26
+        },
+        {
+            "dataType": "fmap",
+            "modalityLabel": "epi",
+            "customLabels": "acq-sbref_dir-AP_part-mag",
+            "criteria": {
+                "SeriesDescription": "fmap_task-testA_SBRef",
+                "ImageType": ["ORIGINAL", "PRIMARY", "M", "ND", "MOSAIC"],
+                "PhaseEncodingDirection": "j-"
+            },
+            "IntendedFor": 26
+        },   
+        {
+            "dataType": "fmap",
+            "modalityLabel": "epi",
+            "customLabels": "acq-bold_dir-AP_part-phase",
+            "criteria": {
+                "SeriesDescription": "fmap_task-testA",
+                "ImageType": ["ORIGINAL", "PRIMARY", "P", "MB", "ND", "MOSAIC", "PHASE"],
+                "PhaseEncodingDirection": "j-"
+            },
+            "IntendedFor": 26
+        },
+        {
+            "dataType": "fmap",
+            "modalityLabel": "epi",
+            "customLabels": "acq-bold_dir-AP_part-mag",
+            "criteria": {
+                "SeriesDescription": "fmap_task-testA",
+                "ImageType": ["ORIGINAL", "PRIMARY", "M", "MB", "ND", "MOSAIC"],
+                "PhaseEncodingDirection": "j-"
+            },
+            "IntendedFor": 26
+        },
+       {
+            "dataType": "func",
+            "modalityLabel": "bold",
+            "customLabels": "task-learnB_part-phase",
+            "criteria": {
+                "SeriesDescription": "func_task-learnB",
+                "ImageType": ["ORIGINAL", "PRIMARY", "P", "MB", "ND", "MOSAIC", "PHASE"]
+            }
+        },
+        {
+            "dataType": "func",
+            "modalityLabel": "bold",
+            "customLabels": "task-learnB_part-mag",
+            "criteria": {
+                "SeriesDescription": "func_task-learnB",
+                "ImageType": ["ORIGINAL", "PRIMARY", "M", "MB", "ND", "MOSAIC"]
+            },
+            "sidecarChanges": {
+                "TaskName": "learnB"
+            }
+        },         
+        {
+            "dataType": "fmap",
+            "modalityLabel": "epi",
+            "customLabels": "acq-sbref_dir-PA_part-phase",
+            "criteria": {
+                "SeriesDescription": "func_task-learnB_SBRef",
+                "ImageType": ["ORIGINAL", "PRIMARY", "P", "ND", "MOSAIC", "PHASE"],
+                "PhaseEncodingDirection": "j"
+            },
+            "IntendedFor": 34
+        },
+        {
+            "dataType": "fmap",
+            "modalityLabel": "epi",
+            "customLabels": "acq-sbref_dir-PA_part-mag",
+            "criteria": {
+                "SeriesDescription": "func_task-learnB_SBRef",
+                "ImageType": ["ORIGINAL", "PRIMARY", "M", "ND", "MOSAIC"],
+                "PhaseEncodingDirection": "j"
+            },
+            "IntendedFor": 34
+        },
+        {
+            "dataType": "fmap",
+            "modalityLabel": "epi",
+            "customLabels": "acq-sbref_dir-AP_part-phase",
+            "criteria": {
+                "SeriesDescription": "fmap_task-learnB_SBRef",
+                "ImageType": ["ORIGINAL", "PRIMARY", "P", "ND", "MOSAIC", "PHASE"],
+                "PhaseEncodingDirection": "j-"
+            },
+            "IntendedFor": 34
+        },
+        {
+            "dataType": "fmap",
+            "modalityLabel": "epi",
+            "customLabels": "acq-sbref_dir-AP_part-mag",
+            "criteria": {
+                "SeriesDescription": "fmap_task-learnB_SBRef",
+                "ImageType": ["ORIGINAL", "PRIMARY", "M", "ND", "MOSAIC"],
+                "PhaseEncodingDirection": "j-"
+            },
+            "IntendedFor": 34
+        },   
+        {
+            "dataType": "fmap",
+            "modalityLabel": "epi",
+            "customLabels": "acq-bold_dir-AP_part-phase",
+            "criteria": {
+                "SeriesDescription": "fmap_task-learnB",
+                "ImageType": ["ORIGINAL", "PRIMARY", "P", "MB", "ND", "MOSAIC", "PHASE"],
+                "PhaseEncodingDirection": "j-"
+            },
+            "IntendedFor": 34
+        },
+        {
+            "dataType": "fmap",
+            "modalityLabel": "epi",
+            "customLabels": "acq-bold_dir-AP_part-mag",
+            "criteria": {
+                "SeriesDescription": "fmap_task-learnB",
+                "ImageType": ["ORIGINAL", "PRIMARY", "M", "MB", "ND", "MOSAIC"],
+                "PhaseEncodingDirection": "j-"
+            },
+            "IntendedFor": 34
+        },
+       {
+            "dataType": "func",
+            "modalityLabel": "bold",
+            "customLabels": "task-testB_part-phase",
+            "criteria": {
+                "SeriesDescription": "func_task-testB",
+                "ImageType": ["ORIGINAL", "PRIMARY", "P", "MB", "ND", "MOSAIC", "PHASE"]
+            }
+        },
+        {
+            "dataType": "func",
+            "modalityLabel": "bold",
+            "customLabels": "task-testB_part-mag",
+            "criteria": {
+                "SeriesDescription": "func_task-testB",
+                "ImageType": ["ORIGINAL", "PRIMARY", "M", "MB", "ND", "MOSAIC"]
+            },
+            "sidecarChanges": {
+                "TaskName": "testB"
+            }
+        },         
+        {
+            "dataType": "fmap",
+            "modalityLabel": "epi",
+            "customLabels": "acq-sbref_dir-PA_part-phase",
+            "criteria": {
+                "SeriesDescription": "func_task-testB_SBRef",
+                "ImageType": ["ORIGINAL", "PRIMARY", "P", "ND", "MOSAIC", "PHASE"],
+                "PhaseEncodingDirection": "j"
+            },
+            "IntendedFor": 42
+        },
+        {
+            "dataType": "fmap",
+            "modalityLabel": "epi",
+            "customLabels": "acq-sbref_dir-PA_part-mag",
+            "criteria": {
+                "SeriesDescription": "func_task-testB_SBRef",
+                "ImageType": ["ORIGINAL", "PRIMARY", "M", "ND", "MOSAIC"],
+                "PhaseEncodingDirection": "j"
+            },
+            "IntendedFor": 42
+        },
+        {
+            "dataType": "fmap",
+            "modalityLabel": "epi",
+            "customLabels": "acq-sbref_dir-AP_part-phase",
+            "criteria": {
+                "SeriesDescription": "fmap_task-testB_SBRef",
+                "ImageType": ["ORIGINAL", "PRIMARY", "P", "ND", "MOSAIC", "PHASE"],
+                "PhaseEncodingDirection": "j-"
+            },
+            "IntendedFor": 42
+        },
+        {
+            "dataType": "fmap",
+            "modalityLabel": "epi",
+            "customLabels": "acq-sbref_dir-AP_part-mag",
+            "criteria": {
+                "SeriesDescription": "fmap_task-testB_SBRef",
+                "ImageType": ["ORIGINAL", "PRIMARY", "M", "ND", "MOSAIC"],
+                "PhaseEncodingDirection": "j-"
+            },
+            "IntendedFor": 42
+        },   
+        {
+            "dataType": "fmap",
+            "modalityLabel": "epi",
+            "customLabels": "acq-bold_dir-AP_part-phase",
+            "criteria": {
+                "SeriesDescription": "fmap_task-testB",
+                "ImageType": ["ORIGINAL", "PRIMARY", "P", "MB", "ND", "MOSAIC", "PHASE"],
+                "PhaseEncodingDirection": "j-"
+            },
+            "IntendedFor": 42
+        },
+        {
+            "dataType": "fmap",
+            "modalityLabel": "epi",
+            "customLabels": "acq-bold_dir-AP_part-mag",
+            "criteria": {
+                "SeriesDescription": "fmap_task-testB",
+                "ImageType": ["ORIGINAL", "PRIMARY", "M", "MB", "ND", "MOSAIC"],
+                "PhaseEncodingDirection": "j-"
+            },
+            "IntendedFor": 42
+        },
+       {
+            "dataType": "func",
+            "modalityLabel": "bold",
+            "customLabels": "task-block1_part-phase",
+            "criteria": {
+                "SeriesDescription": "func_task-block1",
+                "ImageType": ["ORIGINAL", "PRIMARY", "P", "MB", "ND", "MOSAIC", "PHASE"]
+            }
+        },
+        {
+            "dataType": "func",
+            "modalityLabel": "bold",
+            "customLabels": "task-block1_part-mag",
+            "criteria": {
+                "SeriesDescription": "func_task-block1",
+                "ImageType": ["ORIGINAL", "PRIMARY", "M", "MB", "ND", "MOSAIC"]
+            },
+            "sidecarChanges": {
+                "TaskName": "block1"
+            }
+        },         
+        {
+            "dataType": "fmap",
+            "modalityLabel": "epi",
+            "customLabels": "acq-sbref_dir-PA_part-phase",
+            "criteria": {
+                "SeriesDescription": "func_task-block1_SBRef",
+                "ImageType": ["ORIGINAL", "PRIMARY", "P", "ND", "MOSAIC", "PHASE"],
+                "PhaseEncodingDirection": "j"
+            },
+            "IntendedFor": 50
+        },
+        {
+            "dataType": "fmap",
+            "modalityLabel": "epi",
+            "customLabels": "acq-sbref_dir-PA_part-mag",
+            "criteria": {
+                "SeriesDescription": "func_task-block1_SBRef",
+                "ImageType": ["ORIGINAL", "PRIMARY", "M", "ND", "MOSAIC"],
+                "PhaseEncodingDirection": "j"
+            },
+            "IntendedFor": 50
+        },
+        {
+            "dataType": "fmap",
+            "modalityLabel": "epi",
+            "customLabels": "acq-sbref_dir-AP_part-phase",
+            "criteria": {
+                "SeriesDescription": "fmap_task-block1_SBRef",
+                "ImageType": ["ORIGINAL", "PRIMARY", "P", "ND", "MOSAIC", "PHASE"],
+                "PhaseEncodingDirection": "j-"
+            },
+            "IntendedFor": 50
+        },
+        {
+            "dataType": "fmap",
+            "modalityLabel": "epi",
+            "customLabels": "acq-sbref_dir-AP_part-mag",
+            "criteria": {
+                "SeriesDescription": "fmap_task-block1_SBRef",
+                "ImageType": ["ORIGINAL", "PRIMARY", "M", "ND", "MOSAIC"],
+                "PhaseEncodingDirection": "j-"
+            },
+            "IntendedFor": 50
+        },   
+        {
+            "dataType": "fmap",
+            "modalityLabel": "epi",
+            "customLabels": "acq-bold_dir-AP_part-phase",
+            "criteria": {
+                "SeriesDescription": "fmap_task-block1",
+                "ImageType": ["ORIGINAL", "PRIMARY", "P", "MB", "ND", "MOSAIC", "PHASE"],
+                "PhaseEncodingDirection": "j-"
+            },
+            "IntendedFor": 50
+        },
+        {
+            "dataType": "fmap",
+            "modalityLabel": "epi",
+            "customLabels": "acq-bold_dir-AP_part-mag",
+            "criteria": {
+                "SeriesDescription": "fmap_task-block1",
+                "ImageType": ["ORIGINAL", "PRIMARY", "M", "MB", "ND", "MOSAIC"],
+                "PhaseEncodingDirection": "j-"
+            },
+            "IntendedFor": 50
+        },
+       {
+            "dataType": "func",
+            "modalityLabel": "bold",
+            "customLabels": "task-block2_part-phase",
+            "criteria": {
+                "SeriesDescription": "func_task-block2",
+                "ImageType": ["ORIGINAL", "PRIMARY", "P", "MB", "ND", "MOSAIC", "PHASE"]
+            }
+        },
+        {
+            "dataType": "func",
+            "modalityLabel": "bold",
+            "customLabels": "task-block2_part-mag",
+            "criteria": {
+                "SeriesDescription": "func_task-block2",
+                "ImageType": ["ORIGINAL", "PRIMARY", "M", "MB", "ND", "MOSAIC"]
+            },
+            "sidecarChanges": {
+                "TaskName": "block2"
+            }
+        },         
+        {
+            "dataType": "fmap",
+            "modalityLabel": "epi",
+            "customLabels": "acq-sbref_dir-PA_part-phase",
+            "criteria": {
+                "SeriesDescription": "func_task-block2_SBRef",
+                "ImageType": ["ORIGINAL", "PRIMARY", "P", "ND", "MOSAIC", "PHASE"],
+                "PhaseEncodingDirection": "j"
+            },
+            "IntendedFor": 58
+        },
+        {
+            "dataType": "fmap",
+            "modalityLabel": "epi",
+            "customLabels": "acq-sbref_dir-PA_part-mag",
+            "criteria": {
+                "SeriesDescription": "func_task-block2_SBRef",
+                "ImageType": ["ORIGINAL", "PRIMARY", "M", "ND", "MOSAIC"],
+                "PhaseEncodingDirection": "j"
+            },
+            "IntendedFor": 58
+        },
+        {
+            "dataType": "fmap",
+            "modalityLabel": "epi",
+            "customLabels": "acq-sbref_dir-AP_part-phase",
+            "criteria": {
+                "SeriesDescription": "fmap_task-block2_SBRef",
+                "ImageType": ["ORIGINAL", "PRIMARY", "P", "ND", "MOSAIC", "PHASE"],
+                "PhaseEncodingDirection": "j-"
+            },
+            "IntendedFor": 58
+        },
+        {
+            "dataType": "fmap",
+            "modalityLabel": "epi",
+            "customLabels": "acq-sbref_dir-AP_part-mag",
+            "criteria": {
+                "SeriesDescription": "fmap_task-block2_SBRef",
+                "ImageType": ["ORIGINAL", "PRIMARY", "M", "ND", "MOSAIC"],
+                "PhaseEncodingDirection": "j-"
+            },
+            "IntendedFor": 58
+        },   
+        {
+            "dataType": "fmap",
+            "modalityLabel": "epi",
+            "customLabels": "acq-bold_dir-AP_part-phase",
+            "criteria": {
+                "SeriesDescription": "fmap_task-block2",
+                "ImageType": ["ORIGINAL", "PRIMARY", "P", "MB", "ND", "MOSAIC", "PHASE"],
+                "PhaseEncodingDirection": "j-"
+            },
+            "IntendedFor": 58
+        },
+        {
+            "dataType": "fmap",
+            "modalityLabel": "epi",
+            "customLabels": "acq-bold_dir-AP_part-mag",
+            "criteria": {
+                "SeriesDescription": "fmap_task-block2",
+                "ImageType": ["ORIGINAL", "PRIMARY", "M", "MB", "ND", "MOSAIC"],
+                "PhaseEncodingDirection": "j-"
+            },
+            "IntendedFor": 58
+        },
+       {
+            "dataType": "func",
+            "modalityLabel": "bold",
+            "customLabels": "task-block3_part-phase",
+            "criteria": {
+                "SeriesDescription": "func_task-block3",
+                "ImageType": ["ORIGINAL", "PRIMARY", "P", "MB", "ND", "MOSAIC", "PHASE"]
+            }
+        },
+        {
+            "dataType": "func",
+            "modalityLabel": "bold",
+            "customLabels": "task-block3_part-mag",
+            "criteria": {
+                "SeriesDescription": "func_task-block3",
+                "ImageType": ["ORIGINAL", "PRIMARY", "M", "MB", "ND", "MOSAIC"]
+            },
+            "sidecarChanges": {
+                "TaskName": "block3"
+            }
+        },         
+        {
+            "dataType": "fmap",
+            "modalityLabel": "epi",
+            "customLabels": "acq-sbref_dir-PA_part-phase",
+            "criteria": {
+                "SeriesDescription": "func_task-block3_SBRef",
+                "ImageType": ["ORIGINAL", "PRIMARY", "P", "ND", "MOSAIC", "PHASE"],
+                "PhaseEncodingDirection": "j"
+            },
+            "IntendedFor": 66
+        },
+        {
+            "dataType": "fmap",
+            "modalityLabel": "epi",
+            "customLabels": "acq-sbref_dir-PA_part-mag",
+            "criteria": {
+                "SeriesDescription": "func_task-block3_SBRef",
+                "ImageType": ["ORIGINAL", "PRIMARY", "M", "ND", "MOSAIC"],
+                "PhaseEncodingDirection": "j"
+            },
+            "IntendedFor": 66
+        },
+        {
+            "dataType": "fmap",
+            "modalityLabel": "epi",
+            "customLabels": "acq-sbref_dir-AP_part-phase",
+            "criteria": {
+                "SeriesDescription": "fmap_task-block3_SBRef",
+                "ImageType": ["ORIGINAL", "PRIMARY", "P", "ND", "MOSAIC", "PHASE"],
+                "PhaseEncodingDirection": "j-"
+            },
+            "IntendedFor": 66
+        },
+        {
+            "dataType": "fmap",
+            "modalityLabel": "epi",
+            "customLabels": "acq-sbref_dir-AP_part-mag",
+            "criteria": {
+                "SeriesDescription": "fmap_task-block3_SBRef",
+                "ImageType": ["ORIGINAL", "PRIMARY", "M", "ND", "MOSAIC"],
+                "PhaseEncodingDirection": "j-"
+            },
+            "IntendedFor": 66
+        },   
+        {
+            "dataType": "fmap",
+            "modalityLabel": "epi",
+            "customLabels": "acq-bold_dir-AP_part-phase",
+            "criteria": {
+                "SeriesDescription": "fmap_task-block3",
+                "ImageType": ["ORIGINAL", "PRIMARY", "P", "MB", "ND", "MOSAIC", "PHASE"],
+                "PhaseEncodingDirection": "j-"
+            },
+            "IntendedFor": 66
+        },
+        {
+            "dataType": "fmap",
+            "modalityLabel": "epi",
+            "customLabels": "acq-bold_dir-AP_part-mag",
+            "criteria": {
+                "SeriesDescription": "fmap_task-block3",
+                "ImageType": ["ORIGINAL", "PRIMARY", "M", "MB", "ND", "MOSAIC"],
+                "PhaseEncodingDirection": "j-"
+            },
+            "IntendedFor": 66
+        },
+        {
+            "dataType": "func",
+            "modalityLabel": "bold",
+            "customLabels": "task-block4_part-phase",
+            "criteria": {
+                "SeriesDescription": "func_task-block4",
+                "ImageType": ["ORIGINAL", "PRIMARY", "P", "MB", "ND", "MOSAIC", "PHASE"]
+            }
+        },
+        {
+            "dataType": "func",
+            "modalityLabel": "bold",
+            "customLabels": "task-block4_part-mag",
+            "criteria": {
+                "SeriesDescription": "func_task-block4",
+                "ImageType": ["ORIGINAL", "PRIMARY", "M", "MB", "ND", "MOSAIC"]
+            },
+            "sidecarChanges": {
+                "TaskName": "block4"
+            }
+        },         
+        {
+            "dataType": "fmap",
+            "modalityLabel": "epi",
+            "customLabels": "acq-sbref_dir-PA_part-phase",
+            "criteria": {
+                "SeriesDescription": "func_task-block4_SBRef",
+                "ImageType": ["ORIGINAL", "PRIMARY", "P", "ND", "MOSAIC", "PHASE"],
+                "PhaseEncodingDirection": "j"
+            },
+            "IntendedFor": 74
+        },
+        {
+            "dataType": "fmap",
+            "modalityLabel": "epi",
+            "customLabels": "acq-sbref_dir-PA_part-mag",
+            "criteria": {
+                "SeriesDescription": "func_task-block4_SBRef",
+                "ImageType": ["ORIGINAL", "PRIMARY", "M", "ND", "MOSAIC"],
+                "PhaseEncodingDirection": "j"
+            },
+            "IntendedFor": 74
+        },
+        {
+            "dataType": "fmap",
+            "modalityLabel": "epi",
+            "customLabels": "acq-sbref_dir-AP_part-phase",
+            "criteria": {
+                "SeriesDescription": "fmap_task-block4_SBRef",
+                "ImageType": ["ORIGINAL", "PRIMARY", "P", "ND", "MOSAIC", "PHASE"],
+                "PhaseEncodingDirection": "j-"
+            },
+            "IntendedFor": 74
+        },
+        {
+            "dataType": "fmap",
+            "modalityLabel": "epi",
+            "customLabels": "acq-sbref_dir-AP_part-mag",
+            "criteria": {
+                "SeriesDescription": "fmap_task-block4_SBRef",
+                "ImageType": ["ORIGINAL", "PRIMARY", "M", "ND", "MOSAIC"],
+                "PhaseEncodingDirection": "j-"
+            },
+            "IntendedFor": 74
+        },   
+        {
+            "dataType": "fmap",
+            "modalityLabel": "epi",
+            "customLabels": "acq-bold_dir-AP_part-phase",
+            "criteria": {
+                "SeriesDescription": "fmap_task-block4",
+                "ImageType": ["ORIGINAL", "PRIMARY", "P", "MB", "ND", "MOSAIC", "PHASE"],
+                "PhaseEncodingDirection": "j-"
+            },
+            "IntendedFor": 74
+        },
+        {
+            "dataType": "fmap",
+            "modalityLabel": "epi",
+            "customLabels": "acq-bold_dir-AP_part-mag",
+            "criteria": {
+                "SeriesDescription": "fmap_task-block4",
+                "ImageType": ["ORIGINAL", "PRIMARY", "M", "MB", "ND", "MOSAIC"],
+                "PhaseEncodingDirection": "j-"
+            },
+            "IntendedFor": 74
+        },
+       {
+            "dataType": "func",
+            "modalityLabel": "bold",
+            "customLabels": "task-block5_part-phase",
+            "criteria": {
+                "SeriesDescription": "func_task-block5",
+                "ImageType": ["ORIGINAL", "PRIMARY", "P", "MB", "ND", "MOSAIC", "PHASE"]
+            }
+        },
+        {
+            "dataType": "func",
+            "modalityLabel": "bold",
+            "customLabels": "task-block5_part-mag",
+            "criteria": {
+                "SeriesDescription": "func_task-block5",
+                "ImageType": ["ORIGINAL", "PRIMARY", "M", "MB", "ND", "MOSAIC"]
+            },
+            "sidecarChanges": {
+                "TaskName": "block5"
+            }
+        },         
+        {
+            "dataType": "fmap",
+            "modalityLabel": "epi",
+            "customLabels": "acq-sbref_dir-PA_part-phase",
+            "criteria": {
+                "SeriesDescription": "func_task-block5_SBRef",
+                "ImageType": ["ORIGINAL", "PRIMARY", "P", "ND", "MOSAIC", "PHASE"],
+                "PhaseEncodingDirection": "j"
+            },
+            "IntendedFor": 82
+        },
+        {
+            "dataType": "fmap",
+            "modalityLabel": "epi",
+            "customLabels": "acq-sbref_dir-PA_part-mag",
+            "criteria": {
+                "SeriesDescription": "func_task-block5_SBRef",
+                "ImageType": ["ORIGINAL", "PRIMARY", "M", "ND", "MOSAIC"],
+                "PhaseEncodingDirection": "j"
+            },
+            "IntendedFor": 82
+        },
+        {
+            "dataType": "fmap",
+            "modalityLabel": "epi",
+            "customLabels": "acq-sbref_dir-AP_part-phase",
+            "criteria": {
+                "SeriesDescription": "fmap_task-block5_SBRef",
+                "ImageType": ["ORIGINAL", "PRIMARY", "P", "ND", "MOSAIC", "PHASE"],
+                "PhaseEncodingDirection": "j-"
+            },
+            "IntendedFor": 82
+        },
+        {
+            "dataType": "fmap",
+            "modalityLabel": "epi",
+            "customLabels": "acq-sbref_dir-AP_part-mag",
+            "criteria": {
+                "SeriesDescription": "fmap_task-block5_SBRef",
+                "ImageType": ["ORIGINAL", "PRIMARY", "M", "ND", "MOSAIC"],
+                "PhaseEncodingDirection": "j-"
+            },
+            "IntendedFor": 82
+        },   
+        {
+            "dataType": "fmap",
+            "modalityLabel": "epi",
+            "customLabels": "acq-bold_dir-AP_part-phase",
+            "criteria": {
+                "SeriesDescription": "fmap_task-block5",
+                "ImageType": ["ORIGINAL", "PRIMARY", "P", "MB", "ND", "MOSAIC", "PHASE"],
+                "PhaseEncodingDirection": "j-"
+            },
+            "IntendedFor": 82
+        },
+        {
+            "dataType": "fmap",
+            "modalityLabel": "epi",
+            "customLabels": "acq-bold_dir-AP_part-mag",
+            "criteria": {
+                "SeriesDescription": "fmap_task-block5",
+                "ImageType": ["ORIGINAL", "PRIMARY", "M", "MB", "ND", "MOSAIC"],
+                "PhaseEncodingDirection": "j-"
+            },
+            "IntendedFor": 82
+        },
+       {
+            "dataType": "func",
+            "modalityLabel": "bold",
+            "customLabels": "task-sleep_part-phase",
+            "criteria": {
+                "SeriesDescription": "func_task-sleep",
+                "ImageType": ["ORIGINAL", "PRIMARY", "P", "MB", "ND", "MOSAIC", "PHASE"]
+            }
+        },
+        {
+            "dataType": "func",
+            "modalityLabel": "bold",
+            "customLabels": "task-sleep_part-mag",
+            "criteria": {
+                "SeriesDescription": "func_task-sleep",
+                "ImageType": ["ORIGINAL", "PRIMARY", "M", "MB", "ND", "MOSAIC"]
+            },
+            "sidecarChanges": {
+                "TaskName": "sleep"
+            }
+        },         
+        {
+            "dataType": "fmap",
+            "modalityLabel": "epi",
+            "customLabels": "acq-sbref_dir-PA_part-phase",
+            "criteria": {
+                "SeriesDescription": "func_task-sleep_SBRef",
+                "ImageType": ["ORIGINAL", "PRIMARY", "P", "ND", "MOSAIC", "PHASE"],
+                "PhaseEncodingDirection": "j"
+            },
+            "IntendedFor": 90
+        },
+        {
+            "dataType": "fmap",
+            "modalityLabel": "epi",
+            "customLabels": "acq-sbref_dir-PA_part-mag",
+            "criteria": {
+                "SeriesDescription": "func_task-sleep_SBRef",
+                "ImageType": ["ORIGINAL", "PRIMARY", "M", "ND", "MOSAIC"],
+                "PhaseEncodingDirection": "j"
+            },
+            "IntendedFor": 90
+        },
+        {
+            "dataType": "fmap",
+            "modalityLabel": "epi",
+            "customLabels": "acq-sbref_dir-AP_part-phase",
+            "criteria": {
+                "SeriesDescription": "fmap_task-sleep_SBRef",
+                "ImageType": ["ORIGINAL", "PRIMARY", "P", "ND", "MOSAIC", "PHASE"],
+                "PhaseEncodingDirection": "j-"
+            },
+            "IntendedFor": 90
+        },
+        {
+            "dataType": "fmap",
+            "modalityLabel": "epi",
+            "customLabels": "acq-sbref_dir-AP_part-mag",
+            "criteria": {
+                "SeriesDescription": "fmap_task-sleep_SBRef",
+                "ImageType": ["ORIGINAL", "PRIMARY", "M", "ND", "MOSAIC"],
+                "PhaseEncodingDirection": "j-"
+            },
+            "IntendedFor": 90
+        },   
+        {
+            "dataType": "fmap",
+            "modalityLabel": "epi",
+            "customLabels": "acq-bold_dir-AP_part-phase",
+            "criteria": {
+                "SeriesDescription": "fmap_task-sleep",
+                "ImageType": ["ORIGINAL", "PRIMARY", "P", "MB", "ND", "MOSAIC", "PHASE"],
+                "PhaseEncodingDirection": "j-"
+            },
+            "IntendedFor": 90
+        },
+        {
+            "dataType": "fmap",
+            "modalityLabel": "epi",
+            "customLabels": "acq-bold_dir-AP_part-mag",
+            "criteria": {
+                "SeriesDescription": "fmap_task-sleep",
+                "ImageType": ["ORIGINAL", "PRIMARY", "M", "MB", "ND", "MOSAIC"],
+                "PhaseEncodingDirection": "j-"
+            },
+            "IntendedFor": 90
+        },
+       {
+            "dataType": "func",
+            "modalityLabel": "bold",
+            "customLabels": "task-sleep1_part-phase",
+            "criteria": {
+                "SeriesDescription": "func_task-sleep1",
+                "ImageType": ["ORIGINAL", "PRIMARY", "P", "MB", "ND", "MOSAIC", "PHASE"]
+            }
+        },
+        {
+            "dataType": "func",
+            "modalityLabel": "bold",
+            "customLabels": "task-sleep1_part-mag",
+            "criteria": {
+                "SeriesDescription": "func_task-sleep1",
+                "ImageType": ["ORIGINAL", "PRIMARY", "M", "MB", "ND", "MOSAIC"]
+            },
+            "sidecarChanges": {
+                "TaskName": "sleep1"
+            }
+        },         
+        {
+            "dataType": "fmap",
+            "modalityLabel": "epi",
+            "customLabels": "acq-sbref_dir-PA_part-phase",
+            "criteria": {
+                "SeriesDescription": "func_task-sleep1_SBRef",
+                "ImageType": ["ORIGINAL", "PRIMARY", "P", "ND", "MOSAIC", "PHASE"],
+                "PhaseEncodingDirection": "j"
+            },
+            "IntendedFor": 98
+        },
+        {
+            "dataType": "fmap",
+            "modalityLabel": "epi",
+            "customLabels": "acq-sbref_dir-PA_part-mag",
+            "criteria": {
+                "SeriesDescription": "func_task-sleep1_SBRef",
+                "ImageType": ["ORIGINAL", "PRIMARY", "M", "ND", "MOSAIC"],
+                "PhaseEncodingDirection": "j"
+            },
+            "IntendedFor": 98
+        },
+        {
+            "dataType": "fmap",
+            "modalityLabel": "epi",
+            "customLabels": "acq-sbref_dir-AP_part-phase",
+            "criteria": {
+                "SeriesDescription": "fmap_task-sleep1_SBRef",
+                "ImageType": ["ORIGINAL", "PRIMARY", "P", "ND", "MOSAIC", "PHASE"],
+                "PhaseEncodingDirection": "j-"
+            },
+            "IntendedFor": 98
+        },
+        {
+            "dataType": "fmap",
+            "modalityLabel": "epi",
+            "customLabels": "acq-sbref_dir-AP_part-mag",
+            "criteria": {
+                "SeriesDescription": "fmap_task-sleep1_SBRef",
+                "ImageType": ["ORIGINAL", "PRIMARY", "M", "ND", "MOSAIC"],
+                "PhaseEncodingDirection": "j-"
+            },
+            "IntendedFor": 98
+        },   
+        {
+            "dataType": "fmap",
+            "modalityLabel": "epi",
+            "customLabels": "acq-bold_dir-AP_part-phase",
+            "criteria": {
+                "SeriesDescription": "fmap_task-sleep1",
+                "ImageType": ["ORIGINAL", "PRIMARY", "P", "MB", "ND", "MOSAIC", "PHASE"],
+                "PhaseEncodingDirection": "j-"
+            },
+            "IntendedFor": 98
+        },
+        {
+            "dataType": "fmap",
+            "modalityLabel": "epi",
+            "customLabels": "acq-bold_dir-AP_part-mag",
+            "criteria": {
+                "SeriesDescription": "fmap_task-sleep1",
+                "ImageType": ["ORIGINAL", "PRIMARY", "M", "MB", "ND", "MOSAIC"],
+                "PhaseEncodingDirection": "j-"
+            },
+            "IntendedFor": 98
+        },
+       {
+            "dataType": "func",
+            "modalityLabel": "bold",
+            "customLabels": "task-sleep2_part-phase",
+            "criteria": {
+                "SeriesDescription": "func_task-sleep2",
+                "ImageType": ["ORIGINAL", "PRIMARY", "P", "MB", "ND", "MOSAIC", "PHASE"]
+            }
+        },
+        {
+            "dataType": "func",
+            "modalityLabel": "bold",
+            "customLabels": "task-sleep2_part-mag",
+            "criteria": {
+                "SeriesDescription": "func_task-sleep2",
+                "ImageType": ["ORIGINAL", "PRIMARY", "M", "MB", "ND", "MOSAIC"]
+            },
+            "sidecarChanges": {
+                "TaskName": "sleep2"
+            }
+        },         
+        {
+            "dataType": "fmap",
+            "modalityLabel": "epi",
+            "customLabels": "acq-sbref_dir-PA_part-phase",
+            "criteria": {
+                "SeriesDescription": "func_task-sleep2_SBRef",
+                "ImageType": ["ORIGINAL", "PRIMARY", "P", "ND", "MOSAIC", "PHASE"],
+                "PhaseEncodingDirection": "j"
+            },
+            "IntendedFor": 106
+        },
+        {
+            "dataType": "fmap",
+            "modalityLabel": "epi",
+            "customLabels": "acq-sbref_dir-PA_part-mag",
+            "criteria": {
+                "SeriesDescription": "func_task-sleep2_SBRef",
+                "ImageType": ["ORIGINAL", "PRIMARY", "M", "ND", "MOSAIC"],
+                "PhaseEncodingDirection": "j"
+            },
+            "IntendedFor": 106
+        },
+        {
+            "dataType": "fmap",
+            "modalityLabel": "epi",
+            "customLabels": "acq-sbref_dir-AP_part-phase",
+            "criteria": {
+                "SeriesDescription": "fmap_task-sleep2_SBRef",
+                "ImageType": ["ORIGINAL", "PRIMARY", "P", "ND", "MOSAIC", "PHASE"],
+                "PhaseEncodingDirection": "j-"
+            },
+            "IntendedFor": 106
+        },
+        {
+            "dataType": "fmap",
+            "modalityLabel": "epi",
+            "customLabels": "acq-sbref_dir-AP_part-mag",
+            "criteria": {
+                "SeriesDescription": "fmap_task-sleep2_SBRef",
+                "ImageType": ["ORIGINAL", "PRIMARY", "M", "ND", "MOSAIC"],
+                "PhaseEncodingDirection": "j-"
+            },
+            "IntendedFor": 106
+        },   
+        {
+            "dataType": "fmap",
+            "modalityLabel": "epi",
+            "customLabels": "acq-bold_dir-AP_part-phase",
+            "criteria": {
+                "SeriesDescription": "fmap_task-sleep2",
+                "ImageType": ["ORIGINAL", "PRIMARY", "P", "MB", "ND", "MOSAIC", "PHASE"],
+                "PhaseEncodingDirection": "j-"
+            },
+            "IntendedFor": 106
+        },
+        {
+            "dataType": "fmap",
+            "modalityLabel": "epi",
+            "customLabels": "acq-bold_dir-AP_part-mag",
+            "criteria": {
+                "SeriesDescription": "fmap_task-sleep2",
+                "ImageType": ["ORIGINAL", "PRIMARY", "M", "MB", "ND", "MOSAIC"],
+                "PhaseEncodingDirection": "j-"
+            },
+            "IntendedFor": 106
+        },
+       {
+            "dataType": "func",
+            "modalityLabel": "bold",
+            "customLabels": "task-recognition_part-phase",
+            "criteria": {
+                "SeriesDescription": "func_task-recognition",
+                "ImageType": ["ORIGINAL", "PRIMARY", "P", "MB", "ND", "MOSAIC", "PHASE"]
+            }
+        },
+        {
+            "dataType": "func",
+            "modalityLabel": "bold",
+            "customLabels": "task-recognition_part-mag",
+            "criteria": {
+                "SeriesDescription": "func_task-recognition",
+                "ImageType": ["ORIGINAL", "PRIMARY", "M", "MB", "ND", "MOSAIC"]
+            },
+            "sidecarChanges": {
+                "TaskName": "recognition"
+            }
+        },         
+        {
+            "dataType": "fmap",
+            "modalityLabel": "epi",
+            "customLabels": "acq-sbref_dir-PA_part-phase",
+            "criteria": {
+                "SeriesDescription": "func_task-recognition_SBRef",
+                "ImageType": ["ORIGINAL", "PRIMARY", "P", "ND", "MOSAIC", "PHASE"],
+                "PhaseEncodingDirection": "j"
+            },
+            "IntendedFor": 114
+        },
+        {
+            "dataType": "fmap",
+            "modalityLabel": "epi",
+            "customLabels": "acq-sbref_dir-PA_part-mag",
+            "criteria": {
+                "SeriesDescription": "func_task-recognition_SBRef",
+                "ImageType": ["ORIGINAL", "PRIMARY", "M", "ND", "MOSAIC"],
+                "PhaseEncodingDirection": "j"
+            },
+            "IntendedFor": 114
+        },
+        {
+            "dataType": "fmap",
+            "modalityLabel": "epi",
+            "customLabels": "acq-sbref_dir-AP_part-phase",
+            "criteria": {
+                "SeriesDescription": "fmap_task-recognition_SBRef",
+                "ImageType": ["ORIGINAL", "PRIMARY", "P", "ND", "MOSAIC", "PHASE"],
+                "PhaseEncodingDirection": "j-"
+            },
+            "IntendedFor": 114
+        },
+        {
+            "dataType": "fmap",
+            "modalityLabel": "epi",
+            "customLabels": "acq-sbref_dir-AP_part-mag",
+            "criteria": {
+                "SeriesDescription": "fmap_task-recognition_SBRef",
+                "ImageType": ["ORIGINAL", "PRIMARY", "M", "ND", "MOSAIC"],
+                "PhaseEncodingDirection": "j-"
+            },
+            "IntendedFor": 114
+        },   
+        {
+            "dataType": "fmap",
+            "modalityLabel": "epi",
+            "customLabels": "acq-bold_dir-AP_part-phase",
+            "criteria": {
+                "SeriesDescription": "fmap_task-recognition",
+                "ImageType": ["ORIGINAL", "PRIMARY", "P", "MB", "ND", "MOSAIC", "PHASE"],
+                "PhaseEncodingDirection": "j-"
+            },
+            "IntendedFor": 114
+        },
+        {
+            "dataType": "fmap",
+            "modalityLabel": "epi",
+            "customLabels": "acq-bold_dir-AP_part-mag",
+            "criteria": {
+                "SeriesDescription": "fmap_task-recognition",
+                "ImageType": ["ORIGINAL", "PRIMARY", "M", "MB", "ND", "MOSAIC"],
+                "PhaseEncodingDirection": "j-"
+            },
+            "IntendedFor": 114
+        }
+     ]
+}
