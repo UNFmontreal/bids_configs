@@ -294,7 +294,7 @@
 		"ethic": "MP-05-2020-1891"	
 	},
 	"jason_MOTORCOGPD": {
-		"regex": "^(MOTORCOGPD)_([0-9]{3})$",
+		"regex": "^(MCPD)_([0-9]{3})$",
 		"multisession": 0,
 		"gid": 944200137,
 		"gid_name": "neva",
