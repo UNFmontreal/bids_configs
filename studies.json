@@ -182,7 +182,7 @@
 		"ethic": "CODIM MBM 16 130"
 	},
 	"neuromod_neuromod": {
-		"regex": "^()(p0[1-6]{1})_((liris|friends|vid|game|ana|hcptrt|shinobi|pilot|mario|mariostars|mario3|retino|triplets|emotionvideos|multfs|robot|friendsfix)[0-9]{3}|(harrypotter)|(fLoc0[0-9]{2})|(things[0-9]{2})|(gamepad0[0-1]?[0-9]{1}))b?$",
+		"regex": "^()(p0[1-6]{1})_((liris|friends|vid|game|ana|hcptrt|shinobi|pilot|mario|mariostars|mario3|retino|triplets|emotionvideos|multfs|robot|friendsfix|movie10fix)[0-9]{3}|(harrypotter)|(fLoc0[0-9]{2})|(things[0-9]{2})|(gamepad0[0-1]?[0-9]{1}))b?$",
 		"multisession": 1,
 		"gid": 1196,
 		"gid_name": "neuromod",
