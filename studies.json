@@ -35,7 +35,7 @@
 		"ethic": "CER IUGM 14-15-019"
 	},
 	"belleville_cimaq_spectro": {
-		"regex": "^([0-9]{7})_([0-9]{6})_(V03|V10|V17|V24|V17)S$",
+		"regex": "^([0-9]{7})_([0-9]{6})_(V03|V10|V17|V24|V31)S$",
 		"multisession": 0,
 		"gid": 1108,
 		"gid_name": "belleville",
