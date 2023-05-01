@@ -1,0 +1,67 @@
+{
+    "dupMethod": "dup",
+    "descriptions":[
+        {
+            "dataType": "anat",
+            "modalityLabel": "T1w",
+            "criteria": {
+              "ProtocolName": "acq-mgh-1mm-4e_T1w",
+              "ImageType": ["ORIGINAL", "PRIMARY", "OTHER", "NORM", "DIS3D", "DIS2D", "MEAN"]
+            }
+        },
+        {
+            "dataType": "func",
+            "modalityLabel": "bold",
+            "task": "pain",
+            "customLabels": "task-pain",
+            "criteria": {
+                "ProtocolName": "func_task-pain_run-1"
+            }
+        },
+        {
+            "dataType": "func",
+            "modalityLabel": "bold",
+            "task": "pain",
+            "customLabels": "task-pain",
+            "criteria": {
+                "ProtocolName": "func_task-pain_run-2"
+            }
+        },
+        {
+            "dataType": "fmap",
+            "modalityLabel": "epi",
+            "customLabels": "dir-PA",
+            "criteria": {
+                "ProtocolName": "fmap_pa_run-1"
+            },
+            "intendedFor": [1, 2]
+        },
+        {
+            "dataType": "func",
+            "modalityLabel": "bold",
+            "task": "pain",
+            "customLabels": "task-pain",
+            "criteria": {
+                "ProtocolName": "func_task-pain_run-3"
+            }
+        },
+        {
+            "dataType": "func",
+            "modalityLabel": "bold",
+            "task": "pain",
+            "customLabels": "task-pain",
+            "criteria": {
+                "ProtocolName": "func_task-pain_run-4" 
+            }
+        },
+        {
+            "dataType": "fmap",
+            "modalityLabel": "epi",
+            "customLabels": "dir-PA",
+            "criteria": {
+                "ProtocolName": "fmap_pa_run-2"
+            },
+            "intendedFor": [4, 5]
+        }
+    ]
+}
