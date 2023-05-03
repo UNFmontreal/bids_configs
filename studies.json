@@ -295,26 +295,33 @@
 		"gid_name": "thiel",
 		"ethic": "MP-05-2020-1891"	
 	},
-	"jason_MOTORCOGPD": {
+	"neva_MOTORCOGPD": {
 		"regex": "^(MCPD)_([0-9]{3})$",
 		"multisession": 0,
 		"gid": 944200137,
 		"gid_name": "neva",
 		"ethic": "CER_VN_21-22-36_MP"	
 	},
-	"jason_PMDV2M1": {
+	"neva_PMDV2M1": {
 		"regex": "^(PMDV2M1)_([0-9]{3})$",
 		"multisession": 0,
 		"gid": 944200137,
 		"gid_name": "neva",
 		"ethic": "CER_VN_22-23-13"	
 	},
-	"eva_ImpAcq": {
+	"alonso_ortiz_ImpAcq": {
 		"regex": "^(ImpAcq)_([0-9]{2})$",
 		"multisession": 0,
 		"gid": 944200133,
 		"gid_name": "alonso_ortiz",
 		"ethic": "CER_VN_22-23-32"	
+	},
+	"alonso_ortiz_dB0": {
+		"regex": "",
+		"multisession": 0,
+		"gid": 944200133,
+		"gid_name": "alonso_ortiz",
+		"ethic": "tmp_dev_eva"
 	},
 	"pilot":{
 		"regex": "^(pilot)_([a-zA-Z0-9_-]*)$",
