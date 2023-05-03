@@ -74,7 +74,8 @@
 		"multisession": 0,
 		"gid": 1103,
 		"gid_name": "labdoyon",
-		"ethic": "CER VN 20-21-20"
+		"ethic": "CER VN 20-21-20",
+		"mri_operator": ["Ella Gabitov", "Ovidiu Lungu"]
 	},
 	"labjoanette_PulsAge": {
 		"regex": "^(PulsAge)_(HEAL(Y|O)[0-9]{3})$",
@@ -186,7 +187,8 @@
 		"multisession": 1,
 		"gid": 1196,
 		"gid_name": "neuromod",
-		"ethic": "CER VN 18-19-22"
+		"ethic": "CER VN 18-19-22",
+		"mri_operator": ["Jen-I Chen"]
 	},
 	"hanganu_emocog": {
 		"regex": "^(emocog)_((tcl|dcs|mp|sc)[0-9]{4})_((0[1-9]|1[0-5]))$",
