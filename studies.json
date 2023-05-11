@@ -324,7 +324,7 @@
 		"ethic": "CER_VN_22-23-32"	
 	},
 	"alonso_ortiz_dB0": {
-		"regex": "",
+		"regex": "^(dB0)_([0-9]{3})$",
 		"multisession": 0,
 		"gid": 944200133,
 		"gid_name": "alonso_ortiz",
