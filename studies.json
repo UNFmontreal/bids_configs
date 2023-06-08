@@ -41,6 +41,13 @@
 		"gid_name": "belleville",
 		"ethic": "CER IUGM 14-15-019"
 	},
+	"belleville_EMBRACE": {
+		"regex": "^(EMBRACE)_([0-9]{3})_(V03|V12)S$",
+		"multisession": 0,
+		"gid": 1108,
+		"gid_name": "belleville",
+		"ethic": "MP-32-2022-2412"
+	},
 	"boudrias_repar": {
 		"regex": "^(REPAR)_([0-9]{2})$",
 		"multisession": 0,
