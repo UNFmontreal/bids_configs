@@ -77,7 +77,7 @@
 		"ethic": "CER VN 18-19-32"
 	},
 	"labdoyon_DeMo": {
-		"regex": "^(DeMo)_([0-9]{3})_(D1|Sleep|Test|D2|MVPA)$",
+		"regex": "^(DeMo)_([0-9]{3})_(D1|Sleep|Test|D2|MVPA)b?$",
 		"multisession": 0,
 		"gid": 1103,
 		"gid_name": "labdoyon",
