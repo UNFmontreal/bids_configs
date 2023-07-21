@@ -154,13 +154,6 @@
 		"gid_name": "potvins",
 		"ethic": "MP-21-2017-1389"
 	},
-	"potvins_GABAaudio": {
-		"regex": "^(GABAaudio)_([0-9]{3})$",
-		"multisession": 0,
-		"gid": 1191,
-		"gid_name": "potvins",
-		"ethic": "CER_VN_22-23-35"
-	},
 	"roy_CLBPE": {
 		"regex": "^(CLBPE)_([0-9]{3})_(T(1|2))$",
 		"multisession": 0,
@@ -194,7 +187,7 @@
 		"multisession": 0,
 		"gid": 1166,
 		"gid_name": "theoret",
-		"ethic": ""
+		"ethic": "CER_VN_22-23-35"
 	},
 	"orban_TMSVAR": {
 		"regex": "^(TMSVAR)_([0-9]{6})_(S[1-3]{1}(a|b|))(dup)?$",
