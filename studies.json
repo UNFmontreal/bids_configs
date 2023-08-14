@@ -345,7 +345,7 @@
 		"ethic": "tmp_dev_eva"
 	},
 	"belleville_spectra": {
-		"regex": "^(SPECTRA)_([0-9]{3})_(post|pre)$",
+		"regex": "^(SPECTRA)_([0-9]{3})_(Post|Pre)$",
 		"multisession": 0,
 		"gid": 1108,
 		"gid_name": "belleville",
