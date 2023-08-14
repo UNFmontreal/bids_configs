@@ -344,6 +344,13 @@
 		"gid_name": "alonso_ortiz",
 		"ethic": "tmp_dev_eva"
 	},
+	"belleville_spectra": {
+		"regex": "^(SPECTRA)_([0-9]{3})_(post|pre)$",
+		"multisession": 0,
+		"gid": 1108,
+		"gid_name": "belleville",
+		"ethic": "CER_VN_20-21-28"
+	},
 	"pilot":{
 		"regex": "^(pilot)_([a-zA-Z0-9_-]*)$",
 		"multisession": 0,
