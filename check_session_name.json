@@ -34,7 +34,7 @@
  	"^(coiltest)_(np[0-9]{2})_([0-9]{2})$",
 	"^(Hemianopia)_((ctl|hh)[0-9]{2})_(1|2|3|4)$",
 	"^(GrandEns)_([0-9]{3})$",
-	"^(SPECTRA)_([0-9]{3})_(Pre|Post)$",
+	"^(SPECTRA)_(CA|PJ)([0-9]{3})_(Pre|Post)$",
 	"^(dev)_([a-zA-Z0-9_-]*)$",
 	"^(pilot)_([a-zA-Z0-9_-]*)$"
 ]
