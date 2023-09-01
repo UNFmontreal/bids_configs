@@ -351,6 +351,10 @@
 		"gid_name": "belleville",
 		"ethic": "CER_VN_20-21-28"
 	},
+	"deleener_QSM": {
+		"gid_name": "deleener",
+		"ethic": "dev_QSM"
+	},
 	"pilot":{
 		"regex": "^(pilot)_([a-zA-Z0-9_-]*)$",
 		"multisession": 0,
