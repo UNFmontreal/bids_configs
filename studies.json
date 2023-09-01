@@ -352,6 +352,7 @@
 		"ethic": "CER_VN_20-21-28"
 	},
 	"deleener_QSM": {
+		"regex": "^(dev_QSM)_([0-9]{3})$"
 		"gid_name": "deleener",
 		"ethic": "dev_QSM"
 	},
