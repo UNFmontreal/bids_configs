@@ -113,7 +113,7 @@
 		"ethic": "CER VN 18-19-02"
 	},
 	"jouberts_SCD": {
-		"regex": "^(SCD)_([0-9]{2})$",
+		"regex": "^(SCD)_([0-9]{3})$",
 		"multisession": 0,
 		"gid": 1114,
 		"gid_name": "jouberts",
