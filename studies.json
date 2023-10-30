@@ -69,6 +69,13 @@
 		"gid_name": "dangvu",
 		"ethic": "CER VN 18-19-26"
 	},
+	"dangvu_cbti": {
+		"regex": "^(CBTi)_([0-9]{3})$",
+		"multisession": 0,
+		"gid": 1172,
+		"gid_name": "dangvu",
+		"ethic": "CER VN 22-23-11"
+	},
 	"labdoyon_HBHLDec": {
 		"regex": "^(HBHLDec)_((Y|O|E)[0-9]{3})_((post|pre)Nap)$",
 		"multisession": 1,
