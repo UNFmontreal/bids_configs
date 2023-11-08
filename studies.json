@@ -42,7 +42,7 @@
 		"ethic": "CER IUGM 14-15-019"
 	},
 	"belleville_EMBRACE": {
-		"regex": "^(EMBRACE)_([0-9]{3})_(V03|V12)$",
+		"regex": "^(EMBRACE)_([0-9]{3})_(V03|V12)b$",
 		"multisession": 0,
 		"gid": 1108,
 		"gid_name": "belleville",
