@@ -372,5 +372,11 @@
 		"regex": "^(dev)_([a-zA-Z0-9_-]*)$",
 		"multisession": 0,
 		"ethic": "dev"
+	},
+	"test_caregiver":{
+		"regex": "^(test_caregiver)_([a-zA-Z0-9_-]*)$",
+		"multisession": 0,
+		"ethic": "dev",
+		"caregiver_screening": 1
 	}
 }
