@@ -363,6 +363,11 @@
 		"gid_name": "deleener",
 		"ethic": "dev_QSM"
 	},
+		"mackinnon_pdpmtl": {
+		"regex": "^(pdpmtl)_([0-9]{2})$",
+		"gid_name": "mackinnon",
+		"ethic": "MEO-21-2024-2005"
+	},
 	"pilot":{
 		"regex": "^(pilot)_([a-zA-Z0-9_-]*)$",
 		"multisession": 0,
