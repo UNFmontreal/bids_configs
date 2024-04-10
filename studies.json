@@ -206,7 +206,7 @@
 	"gid_name": "mackinnon",
 	"ethic": "MEO-21-2024-2005"
  },
- "masson_inhibition": {
+         "masson_inhibition": {
 	 "regex": "^(inhib)_((A1|A2|NP)[0-9]{3})$",
 	 "multisession": 0,
 	 "gid": 1181,
