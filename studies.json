@@ -1,4 +1,18 @@
 {
+	"alonso_ortiz_dB0": {
+		"regex": "^(dB0)_([0-9]{3})$",
+		"multisession": 0,
+		"gid": 944200133,
+		"gid_name": "alonso_ortiz",
+		"ethic": "tmp_dev_eva"
+	},
+	"alonso_ortiz_ImpAcq": {
+		"regex": "^(ImpAcq)_([0-9]{2})$",
+		"multisession": 0,
+		"gid": 944200133,
+		"gid_name": "alonso_ortiz",
+		"ethic": "CER_VN_22-23-32"
+	},
 	"ansaldo_PCA_SFA": {
 		"regex": "^(PCA_SFA)_(PA[0-9]{2})_(1|35)$",
 		"multisession": 0,
@@ -13,26 +27,19 @@
 		"gid_name":  "ansaldoa",
 		"ethic": "CER IUGM 15-16-17"
 	},
+	"beauchamp_GrandEns": {
+		"regex": "^(GrandEns)_([0-9]{3})$",
+		"multisession": 0,
+		"gid": 1183,
+		"gid_name": "beauchamp",
+		"ethic": "CMER RNQ 15-16-09"
+	},
 	"beaumont_HOF": {
 		"regex": "^(HOF)_([0-9]{3}(CON)?)_(((post|pre)[0-1-2]+)|post|pre|[0-9]{3}|[1-9]{1}(F|S|M))$",
 		"multisession": 1,
 		"gid": 1214,
 		"gid_name": "beaumont",
 		"ethic": "CER VN 19-20-22"
-	},
-	"cimaq_engage": {
-		"regex": "^(UGM[0-9]{4})_([0-9]{6})_(T10_V28_POST_1_MRI|T10_V30_POST_2_MRI|Initial_MRI)$",
-		"multisession": 0,
-		"gid": 1177,
-		"gid_name": "cimaq",
-		"ethic": ""
-	},
-	"cimaq_cimaq": {
-		"regex": "^([0-9]{7})_([0-9]{6})_(V03|V10|V17|V24|V17|V31|P[0-9]{2,3})$",
-		"multisession": 0,
-		"gid": 1177,
-		"gid_name": "cimaq",
-		"ethic": "CER IUGM 14-15-019"
 	},
 	"belleville_cimaq_spectro": {
 		"regex": "^([0-9]{7})_([0-9]{6})_(V03|V10|V17|V24|V31)S$",
@@ -48,6 +55,13 @@
 		"gid_name": "belleville",
 		"ethic": "MP-32-2022-2412"
 	},
+	"belleville_spectra": {
+		"regex": "^(SPECTRA)_(CA|PJ)([0-9]{3})_(Post|Pre)$",
+		"multisession": 0,
+		"gid": 1108,
+		"gid_name": "belleville",
+		"ethic": "CER_VN_20-21-28"
+	},
 	"boudrias_repar": {
 		"regex": "^(REPAR)_([0-9]{2})$",
 		"multisession": 0,
@@ -55,12 +69,40 @@
 		"gid_name": "boudrias",
 		"ethic": "CER VN 19-20-10"
 	},
+	"brambati_TELE": {
+		"regex": "^(TELE)_([0-9]{3})_(v1|v2)$",
+		"multisession": 1,
+		"gid": 1162,
+		"gid_name": "brambati",
+		"ethic": "CER_VN_20-21-07"
+	},
 	"carrier_TCLA": {
 		"regex": "^(TCLA)_([0-9]{3})$",
 		"multisession": 0,
 		"gid": 1134,
 		"gid_name": "carrier",
 		"ethic": "MP-32-2018-1537"
+	},
+	"chertkow_ADNI3": {
+		"regex": "^([0-9]{3})_S_([0-9]{4})$",
+		"multisession": 0,
+		"gid": 1173,
+		"gid_name": "chertkow",
+		"ethic": "MP-05-2018-789"
+	},
+	"cimaq_cimaq": {
+		"regex": "^([0-9]{7})_([0-9]{6})_(V03|V10|V17|V24|V17|V31|P[0-9]{2,3})$",
+		"multisession": 0,
+		"gid": 1177,
+		"gid_name": "cimaq",
+		"ethic": "CER IUGM 14-15-019"
+	},
+	"cimaq_engage": {
+		"regex": "^(UGM[0-9]{4})_([0-9]{6})_(T10_V28_POST_1_MRI|T10_V30_POST_2_MRI|Initial_MRI)$",
+		"multisession": 0,
+		"gid": 1177,
+		"gid_name": "cimaq",
+		"ethic": ""
 	},
 	"dangvu_Hypersomnia": {
 		"regex": "^(Hypersomnia)_((HC|IH|HYP|NT1|NT2)[0-9]{3})_((sMRI|EEGfMRI)(1|2))$",
@@ -75,6 +117,46 @@
 		"gid": 1172,
 		"gid_name": "dangvu",
 		"ethic": "CER VN 22-23-11"
+	},
+	"deleener_QSM": {
+		"regex": "^(dev_QSM)_([0-9]{3})$",
+		"gid_name": "deleener",
+		"ethic": "dev_QSM"
+	},
+	"hanganu_emocog": {
+		"regex": "^(emocog)_((tcl|dcs|mp|sc)[0-9]{4})_((0[1-9]|1[0-5]))$",
+		"multisession": 0,
+		"gid": 944200020,
+		"gid_name": "hanganu",
+		"ethic": "CER VN 19-20-06"
+	},
+	"jerbi_SAflow": {
+		"regex": "^(SAflow)_([0-9]{2})_anat$",
+		"multisession": 0,
+		"gid": 1197,
+		"gid_name": "jerbi",
+		"ethic": "CER VN 19-20-27"
+	},
+	"jouberts_IMAGISION": {
+		"regex": "^(IMAGISION)_((C|P)[0-9]{2})$",
+		"multisession": 0	,
+		"gid": 1114,
+		"gid_name": "jouberts",
+		"ethic": "CER VN 18-19-42"
+	},
+	"jouberts_SACSEM_SEM": {
+		"regex": "^(SACSEM_SEM)((P|C)[0-9]{2})$",
+		"multisession": 0,
+		"gid": 1114,
+		"gid_name": "jouberts",
+		"ethic": "CER VN 18-19-02"
+	},
+	"jouberts_SCD": {
+		"regex": "^(SCD)_([0-9]{2,3})$",
+		"multisession": 0,
+		"gid": 1114,
+		"gid_name": "jouberts",
+		"ethic": "CER_VN_22-23-25"
 	},
 	"labdoyon_HBHLDec": {
 		"regex": "^(HBHLDec)_((Y|O|E)[0-9]{3})_((post|pre)Nap)$",
@@ -105,26 +187,88 @@
 		"gid_name": "labjoanette",
 		"ethic": "CER VN 16-17-09"
 	},
-	"jouberts_IMAGISION": {
-		"regex": "^(IMAGISION)_((C|P)[0-9]{2})$",
-		"multisession": 0	,
-		"gid": 1114,
-		"gid_name": "jouberts",
-		"ethic": "CER VN 18-19-42"
-	},
-	"jouberts_SACSEM_SEM": {
-		"regex": "^(SACSEM_SEM)((P|C)[0-9]{2})$",
+	"labobherer_SYN_MTL": {
+		"regex": "^(SYN_MTL)_([0-9]{3})_(T(0|6))$",
 		"multisession": 0,
-		"gid": 1114,
-		"gid_name": "jouberts",
-		"ethic": "CER VN 18-19-02"
+		"gid": 1119,
+		"gid_name": "labobherer",
+		"ethic": "CER VN 16-17-18"
 	},
-	"jouberts_SCD": {
-		"regex": "^(SCD)_([0-9]{2,3})$",
+	"lepore_Hemianopia": {
+		"regex": "^(Hemianopia)_((CTL|HH)[0-9]{2})_(1|2|3|4)$",
 		"multisession": 0,
-		"gid": 1114,
-		"gid_name": "jouberts",
-		"ethic": "CER_VN_22-23-25"
+		"gid": 1141,
+		"gid_name": "lepore",
+		"ethic": "CMER RNQ 13-14-016"
+	},
+	"mackinnon_pdpmtl": {
+	"regex": "^(pdpmtl)_([0-9]{2})$",
+	"gid_name": "mackinnon",
+	"ethic": "MEO-21-2024-2005"
+ },
+ "masson_inhibition": {
+	 "regex": "^(inhib)_((A1|A2|NP)[0-9]{3})$",
+	 "multisession": 0,
+	 "gid": 1181,
+	 "gid_name": "masson",
+	 "ethic": "CER_VN_19-20-25"
+ },
+	"neuromod_neuromod": {
+		"regex": "^()(p0[1-6]{1})_((liris|friends|vid|game|ana|hcptrt|petitprince|shinobi|pilot|mario|mariostars|mario3|retino|triplets|emotionvideos|multfs|robot|friendsfix|movie10fix|narratives|mutemusic|langloc)[0-9]{3}|(harrypotter)|(fLoc0[0-9]{2})|(things[0-9]{2})|(gamepad0[0-1]?[0-9]{1}))b?$",
+		"multisession": 1,
+		"gid": 1196,
+		"gid_name": "neuromod",
+		"ethic": "CER VN 18-19-22",
+		"mri_operator": ["Jen-I Chen"]
+	},
+	"neuropoly_acdc": {
+		"regex": "^(acdc)_([0-9]{3})p?$",
+		"multisession": 0,
+		"gid": 1167,
+		"gid_name": "neuropoly",
+		"ethic": "CMER RNQ 15-16-13"
+	},
+	"neuropoly_coiltest": {
+		"regex": "^(coiltest)_(np[0-9]{2})_([0-9]{2})$",
+		"multisession": 0,
+		"gid": 1167,
+		"gid_name": "neuropoly",
+		"ethic": "CMER RNQ 15-16-13"
+	},
+	"neuropoly_myelin": {
+		"regex": "^(myelin)_([0-9]{2})(_rescan)?$",
+		"multisession": 0,
+		"gid": 1167,
+		"gid_name": "neuropoly",
+		"ethic": "CER VN 16-17-39"
+	},
+	"neuropoly_pmj": {
+		"regex": "^(pmj)_([0-9]{3})$",
+		"multisession": 0,
+		"gid": 1167,
+		"gid_name": "neuropoly",
+		"ethic": "CER VN 16-17-39"
+	},
+	"neuropoly_sct": {
+		"regex": "^(sct)_([0-9]{3})$",
+		"multisession": 0,
+		"gid": 1167,
+		"gid_name": "neuropoly",
+		"ethic": "CER VN 16-17-39"
+	},
+	"neva_MOTORCOGPD": {
+		"regex": "^(MCPD)_([0-9]{3})$",
+		"multisession": 0,
+		"gid": 944200137,
+		"gid_name": "neva",
+		"ethic": "CER_VN_21-22-36_MP"
+	},
+	"neva_PMDV2M1": {
+		"regex": "^(PMDV2M1)_([0-9]{3})$",
+		"multisession": 0,
+		"gid": 944200137,
+		"gid_name": "neva",
+		"ethic": "CER_VN_22-23-13"
 	},
 	"orban_PRISME": {
 		"regex": "^(PRISME)_([0-9]{6})_(0[1-9]|1[0-2])$",
@@ -139,6 +283,20 @@
 		"gid": 1195,
 		"gid_name": "orban",
 		"ethic": "MP-12-2019-1621"
+	},
+	"orban_TMSVAR": {
+		"regex": "^(TMSVAR)_([0-9]{6})_(S[1-3]{1}(a|b|))(dup)?$",
+		"multisession": 0,
+		"gid": 1195,
+		"gid_name": "orban",
+		"ethic": "MP-12-2019-1621 CER-CEMTL"
+	},
+	"pageaux_PainxEffort": {
+		"regex": "^(PainxEffort)_([0-9]{3})$",
+		"multisession": 0,
+		"gid": 944200008,
+		"gid_name": "pageaux",
+		"ethic": "CER_VN_21-22-24"
 	},
 	"potvins_Clozapine": {
 		"regex": "^(Clozapine)_([0-9]{3})_(1|2)$",
@@ -196,13 +354,6 @@
 		"gid_name": "theoret",
 		"ethic": "CER_VN_22-23-35"
 	},
-	"orban_TMSVAR": {
-		"regex": "^(TMSVAR)_([0-9]{6})_(S[1-3]{1}(a|b|))(dup)?$",
-		"multisession": 0,
-		"gid": 1195,
-		"gid_name": "orban",
-		"ethic": "MP-12-2019-1621 CER-CEMTL"
-	},
 	"thiel_Somatic": {
 		"regex": "^(Somatic)_([0-9]{2})_([A-Z]{4}[0-9]{2})_(A|B|C)$",
 		"multisession": 0,
@@ -210,163 +361,12 @@
 		"gid_name": "thiel",
 		"ethic": "CODIM MBM 16 130"
 	},
-	"neuromod_neuromod": {
-		"regex": "^()(p0[1-6]{1})_((liris|friends|vid|game|ana|hcptrt|petitprince|shinobi|pilot|mario|mariostars|mario3|retino|triplets|emotionvideos|multfs|robot|friendsfix|movie10fix|narratives|mutemusic|langloc)[0-9]{3}|(harrypotter)|(fLoc0[0-9]{2})|(things[0-9]{2})|(gamepad0[0-1]?[0-9]{1}))b?$",
-		"multisession": 1,
-		"gid": 1196,
-		"gid_name": "neuromod",
-		"ethic": "CER VN 18-19-22",
-		"mri_operator": ["Jen-I Chen"]
-	},
-	"hanganu_emocog": {
-		"regex": "^(emocog)_((tcl|dcs|mp|sc)[0-9]{4})_((0[1-9]|1[0-5]))$",
-		"multisession": 0,
-		"gid": 944200020,
-		"gid_name": "hanganu",
-		"ethic": "CER VN 19-20-06"
-	},
-	"labobherer_SYN_MTL": {
-		"regex": "^(SYN_MTL)_([0-9]{3})_(T(0|6))$",
-		"multisession": 0,
-		"gid": 1119,
-		"gid_name": "labobherer",
-		"ethic": "CER VN 16-17-18"
-	},
-	"neuropoly_acdc": {
-		"regex": "^(acdc)_([0-9]{3})p?$",
-		"multisession": 0,
-		"gid": 1167,
-		"gid_name": "neuropoly",
-		"ethic": "CMER RNQ 15-16-13"
-	},
-	"neuropoly_coiltest": {
-		"regex": "^(coiltest)_(np[0-9]{2})_([0-9]{2})$",
-		"multisession": 0,
-		"gid": 1167,
-		"gid_name": "neuropoly",
-		"ethic": "CMER RNQ 15-16-13"
-	},
-	"neuropoly_myelin": {
-		"regex": "^(myelin)_([0-9]{2})(_rescan)?$",
-		"multisession": 0,
-		"gid": 1167,
-		"gid_name": "neuropoly",
-		"ethic": "CER VN 16-17-39"
-	},
-	"neuropoly_pmj": {
-		"regex": "^(pmj)_([0-9]{3})$",
-		"multisession": 0,
-		"gid": 1167,
-		"gid_name": "neuropoly",
-		"ethic": "CER VN 16-17-39"
-	},
-	"neuropoly_sct": {
-		"regex": "^(sct)_([0-9]{3})$",
-		"multisession": 0,
-		"gid": 1167,
-		"gid_name": "neuropoly",
-		"ethic": "CER VN 16-17-39"
-	},
-	"lepore_Hemianopia": {
-		"regex": "^(Hemianopia)_((CTL|HH)[0-9]{2})_(1|2|3|4)$",
-		"multisession": 0,
-		"gid": 1141,
-		"gid_name": "lepore",
-		"ethic": "CMER RNQ 13-14-016"
-	},
-	"beauchamp_GrandEns": {
-		"regex": "^(GrandEns)_([0-9]{3})$",
-		"multisession": 0,
-		"gid": 1183,
-		"gid_name": "beauchamp",
-		"ethic": "CMER RNQ 15-16-09"
-	},
-	"jerbi_SAflow": {
-		"regex": "^(SAflow)_([0-9]{2})_anat$",
-		"multisession": 0,
-		"gid": 1197,
-		"gid_name": "jerbi",
-		"ethic": "CER VN 19-20-27"
-	},
-	"brambati_TELE": {
-		"regex": "^(TELE)_([0-9]{3})_(v1|v2)$",
-		"multisession": 1,
-		"gid": 1162,
-		"gid_name": "brambati",
-		"ethic": "CER_VN_20-21-07"
-	},
-	"masson_inhibition": {
-		"regex": "^(inhib)_((A1|A2|NP)[0-9]{3})$",
-		"multisession": 0,
-		"gid": 1181,
-		"gid_name": "masson",
-		"ethic": "CER_VN_19-20-25"
-	},
-	"pageaux_PainxEffort": {
-		"regex": "^(PainxEffort)_([0-9]{3})$",
-		"multisession": 0,
-		"gid": 944200008,
-		"gid_name": "pageaux",
-		"ethic": "CER_VN_21-22-24"
-	},
-	"chertkow_ADNI3": {
-		"regex": "^([0-9]{3})_S_([0-9]{4})$",
-		"multisession": 0,
-		"gid": 1173,
-		"gid_name": "chertkow",
-		"ethic": "MP-05-2018-789"
-	},
 	"thiel_ContraStroke": {
 		"regex": "^([0-9]{2})-([0-9]{3})$",
 		"multisession": 0,
 		"gid": 1192,
 		"gid_name": "thiel",
 		"ethic": "MP-05-2020-1891"
-	},
-	"neva_MOTORCOGPD": {
-		"regex": "^(MCPD)_([0-9]{3})$",
-		"multisession": 0,
-		"gid": 944200137,
-		"gid_name": "neva",
-		"ethic": "CER_VN_21-22-36_MP"
-	},
-	"neva_PMDV2M1": {
-		"regex": "^(PMDV2M1)_([0-9]{3})$",
-		"multisession": 0,
-		"gid": 944200137,
-		"gid_name": "neva",
-		"ethic": "CER_VN_22-23-13"
-	},
-	"alonso_ortiz_ImpAcq": {
-		"regex": "^(ImpAcq)_([0-9]{2})$",
-		"multisession": 0,
-		"gid": 944200133,
-		"gid_name": "alonso_ortiz",
-		"ethic": "CER_VN_22-23-32"
-	},
-	"alonso_ortiz_dB0": {
-		"regex": "^(dB0)_([0-9]{3})$",
-		"multisession": 0,
-		"gid": 944200133,
-		"gid_name": "alonso_ortiz",
-		"ethic": "tmp_dev_eva"
-	},
-	"belleville_spectra": {
-		"regex": "^(SPECTRA)_(CA|PJ)([0-9]{3})_(Post|Pre)$",
-		"multisession": 0,
-		"gid": 1108,
-		"gid_name": "belleville",
-		"ethic": "CER_VN_20-21-28"
-	},
-	"deleener_QSM": {
-		"regex": "^(dev_QSM)_([0-9]{3})$",
-		"gid_name": "deleener",
-		"ethic": "dev_QSM"
-	},
-		"mackinnon_pdpmtl": {
-		"regex": "^(pdpmtl)_([0-9]{2})$",
-		"gid_name": "mackinnon",
-		"ethic": "MEO-21-2024-2005"
 	},
 	"pilot":{
 		"regex": "^(pilot)_([a-zA-Z0-9_-]*)$",
