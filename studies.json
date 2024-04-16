@@ -209,6 +209,8 @@
 	},
 	"mackinnon_pdpmtl": {
 	"regex": "^(pdpmtl)_([0-9]{2})$",
+	"multisession": 0,
+	"gid":944200206,
 	"gid_name": "mackinnon",
 	"ethic": "MEO-21-2024-2005"
  },
