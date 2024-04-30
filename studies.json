@@ -133,6 +133,7 @@
 	"higgins_EFAST": {
 		"regex": "^(EFAST)_([0-9]{2})$",
 		"multisession": 0,
+		"gid": 944200200,
 		"gid_name": "higgins",
 		"ethic": "MEO-31-2023-1631"
 	},
