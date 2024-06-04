@@ -307,6 +307,13 @@
 		"gid_name": "pageaux",
 		"ethic": "CER_VN_21-22-24"
 	},
+	"pcan_devZTE": {
+		"regex": "",
+		"multisession": 0,
+		"gid": 1102,
+		"gid_name": "pcan",
+		"ethic": "dev_pcan"
+	},
 	"potvins_Clozapine": {
 		"regex": "^(Clozapine)_([0-9]{3})_(1|2)$",
 		"multisession": 0,
