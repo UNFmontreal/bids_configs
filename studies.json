@@ -336,7 +336,7 @@
 		"ethic": "MP-21-2017-1389"
 	},
 	"ptito_NAVSIM": {
-		"regex": "^(NAVSIM)_([0-9]{3})$",
+		"regex": "^(NAVSIM)_([0-9]{3})(_[A|B])?$",
 		"gid": 1122,
 		"gid_name": "ptito",
 		"ethic": "CER VN 23-24-20"
