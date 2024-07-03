@@ -83,6 +83,12 @@
 		"gid_name": "carrier",
 		"ethic": "MP-32-2018-1537"
 	},
+	"charest_NSDEEG": {
+		"regex": "^(NSDEEG)$",
+		"multisession": 0,
+		"gid_name": "charest",
+		"ethic": "pilot_NSDEEG"
+	},
 	"chertkow_ADNI3": {
 		"regex": "^([0-9]{3})_S_([0-9]{4})$",
 		"multisession": 0,
