@@ -1,0 +1,114 @@
+{
+    "dupMethod": "dup",
+    "descriptions":[
+        {
+            "dataType": "anat",
+            "modalityLabel": "FLAIR",
+            "criteria": {
+                "SeriesDescription": "anat_FLAIR"
+            }
+        },
+        {
+            "dataType": "anat",
+            "modalityLabel": "T1w",
+            "criteria": {
+              "SeriesDescription": "acq-0.8mm_T1w",
+              "ImageType": ["ORIGINAL", "PRIMARY", "M", "ND"]
+            }
+        },
+        {
+            "dataType": "anat",
+            "modalityLabel": "T1w",
+            "customLabels": "rec-norm",
+            "criteria": {
+              "SeriesDescription": "acq-0.8mm_T1w",
+              "ImageType": ["ORIGINAL", "PRIMARY", "M", "ND", "NORM"]
+            }
+        },
+        {
+            "dataType": "func",
+            "modalityLabel": "bold",
+            "task": "things",
+            "customLabels": "task-recognition",
+            "criteria": {
+                "ProtocolName": "func_task-recognition",
+                "ImageComments": "Unaliased*MB3*PE4*LB",
+                "ImageType": ["ORIGINAL", "PRIMARY", "M", "MB", "ND", "MOSAIC"]
+            }
+        },
+        {
+            "dataType": "func",
+            "modalityLabel": "bold",
+            "customLabels": "task-recognition",
+            "criteria": {
+                "ProtocolName": "func_task-memory_2.5x2.5x2.5",
+                "ImageComments": "Unaliased*MB3*PE4*LB",
+                "ImageType": ["ORIGINAL", "PRIMARY", "M", "MB", "ND", "MOSAIC"]
+            }
+        },
+        {
+            "dataType": "fmap",
+            "modalityLabel": "epi",
+            "customLabels": "acq-sbref_dir-PA",
+            "criteria": {
+                "ProtocolName": "func_task-recognition",
+                "ImageComments": "Single-band*reference",
+                "ImageType": ["ORIGINAL", "PRIMARY", "M", "ND", "MOSAIC"]
+            },
+            "intendedFor": [3]
+        },
+	{
+            "dataType": "fmap",
+            "modalityLabel": "epi",
+            "customLabels": "acq-sbref_dir-PA",
+            "criteria": {
+                "ProtocolName": "func_task-memory_2.5x2.5x2.5",
+                "ImageComments": "Single-band*reference",
+                "ImageType": ["ORIGINAL", "PRIMARY", "M", "ND", "MOSAIC"]
+            },
+            "intendedFor": [3]
+        },
+        {
+            "dataType": "fmap",
+            "modalityLabel": "epi",
+            "customLabels": "acq-bold_dir-AP",
+            "criteria": {
+                "ProtocolName": "fmap_task-memory_2.5x2.5x2.5",
+                "ImageComments": "Unaliased*MB3*PE4*LB",
+                "ImageType": ["ORIGINAL", "PRIMARY", "M", "MB", "ND", "MOSAIC"]
+            }
+        },
+        {
+            "dataType": "fmap",
+            "modalityLabel": "epi",
+            "customLabels": "acq-sbref_dir-AP",
+            "criteria": {
+                "ProtocolName": "fmap_task-memory_2.5x2.5x2.5",
+                "ImageComments": "Single-band*reference",
+                "ImageType": ["ORIGINAL", "PRIMARY", "M", "ND", "MOSAIC"]
+            },
+            "intendedFor": [3]
+        },
+        {
+            "dataType": "fmap",
+            "modalityLabel": "epi",
+            "customLabels": "acq-bold_dir-AP",
+            "criteria": {
+                "ProtocolName": "fmap_task-recognition",
+                "ImageComments": "Unaliased*MB3*PE4*LB",
+                "ImageType": ["ORIGINAL", "PRIMARY", "M", "MB", "ND", "MOSAIC"]
+            }
+        },
+        {
+            "dataType": "fmap",
+            "modalityLabel": "epi",
+            "customLabels": "acq-sbref_dir-AP",
+            "criteria": {
+                "ProtocolName": "fmap_task-recognition",
+                "ImageComments": "Single-band*reference",
+                "ImageType": ["ORIGINAL", "PRIMARY", "M", "ND", "MOSAIC"]
+            },
+            "intendedFor": [3]
+        }
+    ]
+}

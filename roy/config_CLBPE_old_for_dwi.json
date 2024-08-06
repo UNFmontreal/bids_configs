@@ -1,0 +1,26 @@
+{
+    "descriptions": [
+        {
+            "dataType": "anat",
+            "modalityLabel": "T1w",
+            "criteria": {
+                "SeriesDescription": "acq-0.7mm_T1w"
+            }
+        },
+        {
+            "dataType": "dwi",
+            "modalityLabel": "dwi",
+            "criteria": {
+                "SeriesDescription": "acq-s3-*_dwi"
+            }
+        },
+        {
+            "dataType": "fmap",
+            "modalityLabel": "epi",
+            "criteria": {
+                "SeriesDescription": "acq-s3-*_b0"
+            },
+            "IntendedFor": 1
+        }
+    ]
+}

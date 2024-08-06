@@ -2,55 +2,78 @@
     "dupMethod": "dup",
     "descriptions": [
         {
-            "dataType": "anat",
-            "modalityLabel": "T1w",
+            "datatype": "anat",
+            "suffix": "T1w",
+            "customLabels": "acq-memprage",
             "criteria": {
-                "SeriesDescription": "anat_T1w"
-            }
+                "SeriesDescription": "MEMPRAGE_4e_p2_1mm_iso",
+		"ImageType": ["ORIGINAL", "PRIMARY", "M", "ND", "NORM"]
+            },
+            "custom_entities": ["echo", "acq-memprage"]
         },
         {
-            "dataType": "func",
-            "modalityLabel": "bold",
+            "datatype": "anat",
+            "suffix": "T1w",
+            "criteria": {
+                "SeriesDescription": "MEMPRAGE_4e_p2_1mm_iso_RMS",
+		"ImageType": ["ORIGINAL", "PRIMARY", "OTHER", "ND", "NORM", "MEAN"]
+            },
+            "custom_entities": "acq-memprage_rec-rms"
+        },
+        {
+            "id": "bold_run1",
+            "datatype": "func",
+            "suffix": "bold",
             "customLabels": "task-_run-1",
             "criteria": {
                 "SeriesDescription": "Run1"
             }
         },
         {
-            "dataType": "func",
-            "modalityLabel": "bold",
+            "id": "bold_run2",
+            "datatype": "func",
+            "suffix": "bold",
 	    "customLabels": "task-_run-2",
             "criteria": {
                 "SeriesDescription": "Run2"
             }
         },
         {
-            "dataType": "fmap",
-            "modalityLabel": "magnitude1",
+            "datatype": "fmap",
+            "suffix": "magnitude1",
             "intendedFor": [1,2],
             "criteria": {
                 "SeriesDescription": "*gre_field*",
 		            "ImageType": ["ORIGINAL", "PRIMARY", "M", "ND"],
 		            "EchoTime": 0.00492
+            },
+            "sidecar_changes": {
+                "IntendedFor": ["bold_run1", "bold_run2"]
             }
         },
         {
-            "dataType": "fmap",
-            "modalityLabel": "magnitude2",
+            "datatype": "fmap",
+            "suffix": "magnitude2",
             "intendedFor": [1,2],
             "criteria": {
                 "SeriesDescription": "*gre_field*",
                 "ImageType": ["ORIGINAL", "PRIMARY", "M", "ND"],
                 "EchoTime": 0.00738
+            },
+            "sidecar_changes": {
+                "IntendedFor": ["bold_run1", "bold_run2"]
             }
         },
         {
-            "dataType": "fmap",
-            "modalityLabel": "phasediff",
+            "datatype": "fmap",
+            "suffix": "phasediff",
             "intendedFor": [1,2],
             "criteria": {
                 "SeriesDescription": "*gre_field*",
                 "ImageType": ["ORIGINAL", "PRIMARY", "P", "ND"]
+            },
+            "sidecar_changes": {
+                "IntendedFor": ["bold_run1", "bold_run2"]
             }
         }
     ]
