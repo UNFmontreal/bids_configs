@@ -321,6 +321,13 @@
 		"gid_name": "pcan",
 		"ethic": "dev_ZTE"
 	},
+	"pcan_LIFUPAIN": {
+			"regex": "^(LIFUPAIN)_([0-9]{2})$",
+			"multisession": 0,
+			"gid": 1102,
+			"gid_name": "pcan",
+			"ethic": "CER_VN_24-25-09"
+		},
 	"potvins_Clozapine": {
 		"regex": "^(Clozapine)_([0-9]{3})_(1|2)$",
 		"multisession": 0,
