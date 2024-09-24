@@ -384,7 +384,7 @@
 		"ethic": "CER VN 20-21-22"
 	},
 	"theoret_GABAaudio": {
-		"regex": "^(GABAaudio)_([0-9]{3})$",
+		"regex": "^(GABAaudio)_([0-9]{3})(_B)?$",
 		"multisession": 0,
 		"gid": 1166,
 		"gid_name": "theoret",
