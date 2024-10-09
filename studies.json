@@ -369,6 +369,13 @@
 		"gid": 1190,
 		"ethic": "CER VN 16-17-10"
 	},
+	"senecal_CHATBOT": {
+		"regex": "^(CHATBOT)_([0-9]{2})$",
+		"multisession": 0,
+		"gid": 944200173,
+		"gid_name": "senecal",
+		"ethic": "CMER_VN_24-25-07"
+	},
 	"soulieres_Visuosp": {
 		"regex": "^(Visuosp)_([0-9]{2})$",
 		"multisession": 0,
