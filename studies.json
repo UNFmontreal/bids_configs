@@ -84,10 +84,11 @@
 		"ethic": "MP-32-2018-1537"
 	},
 	"charest_NSDEEG": {
-		"regex": "^(NSDEEG)$",
+		"regex": "^(NSDS1000)_(sub-[0-9]{3})_(ses-[0-9]{3})$",
 		"multisession": 0,
+		"gid": 944200224,
 		"gid_name": "charest",
-		"ethic": "pilot_NSDEEG"
+		"ethic": "CER_VN_24-25-26"
 	},
 	"chertkow_ADNI3": {
 		"regex": "^([0-9]{3})_S_([0-9]{4})$",
