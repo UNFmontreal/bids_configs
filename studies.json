@@ -137,7 +137,6 @@
 		"gid_name": "hanganu",
 		"ethic": "CER VN 19-20-06"
 	},
-},
 "frasnelli_olfbulb": {
 	"regex": "^(olfbulb)_([0-9]{2})$",
 	"multisession": 0,
