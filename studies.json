@@ -137,6 +137,14 @@
 		"gid_name": "hanganu",
 		"ethic": "CER VN 19-20-06"
 	},
+},
+"frasnelli_olfbulb": {
+	"regex": "^(olfbulb)_([0-9]{2})$",
+	"multisession": 0,
+	"gid": 1180,
+	"gid_name": "frasnelli",
+	"ethic": "CER_VN_25-26-02"
+},
 	"higgins_EFAST": {
 		"regex": "^(EFAST)_4641-([0-9]{2})-([0-9]{2})$",
 		"multisession": 0,
