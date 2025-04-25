@@ -119,7 +119,7 @@
 		"ethic": "CER VN 18-19-26"
 	},
 	"dangvu_cbti": {
-		"regex": "^(ecos)_([0-9]{3})_(v[1|3])$",
+		"regex": "^(ecos)_([0-9]{3})_(v[1|3])(_2)?$",
 		"multisession": 0,
 		"gid": 1172,
 		"gid_name": "dangvu",
