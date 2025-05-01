@@ -111,6 +111,13 @@
 		"gid_name": "cimaq",
 		"ethic": ""
 	},
+	"dalla-bella_rythmic": {
+		"regex": "^(RYTHMIC)_([0-9]{2})_([0-9]{2})$",
+		"multisession": 0,
+		"gid": 944200246,
+		"gid_name": "dalla-bella",
+		"ethic": "pilot_rythmic"
+	},
 	"dangvu_Hypersomnia": {
 		"regex": "^(Hypersomnia)_((HC|IH|HYP|NT1|NT2)[0-9]{3})_((sMRI|EEGfMRI)(1|2))$",
 		"multisession": 0,
