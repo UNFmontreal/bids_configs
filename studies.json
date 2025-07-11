@@ -111,6 +111,13 @@
 		"gid_name": "cimaq",
 		"ethic": ""
 	},
+	"compass_nd": {
+		"regex": "^(UGM[0-9]{4})_([0-9]{6})_(Initial_MRI|Time_3_MRI)$",
+		"multisession": 0,
+		"gid": 944200259,
+		"gid_name": "compass-nd",
+		"ethic": ""
+	},
 	"dalla-bella_rythmic": {
 		"regex": "^(RYTHMIC)_([0-9]{2})_([0-9]{2})$",
 		"multisession": 0,
