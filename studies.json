@@ -119,7 +119,7 @@
 		"ethic": ""
 	},
 	"compass_nd": {
-		"regex": "^(UGM[0-9]{4})_([0-9]{6})_(Initial_MRI|Time_3_MRI)$",
+		"regex": "^(UGM|JGH)([0-9]{4})_([0-9]{6})_(Initial_MRI|Time_3_MRI)$",
 		"multisession": 0,
 		"gid": 944200259,
 		"gid_name": "compass-nd",
