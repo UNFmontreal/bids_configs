@@ -118,6 +118,13 @@
 		"gid_name": "cimaq",
 		"ethic": ""
 	},
+	"compass-nd_cimaq": {
+		"regex": "^(UGM)([0-9]{4})_([0-9]{6})_(Initial_MRI|Time_3_MRI)$",
+		"multisession": 0,
+		"gid": 1177,
+		"gid_name": "cimaq",
+		"ethic": ""
+	},
 	"compass-nd_jgh": {
 		"regex": "^(JGH)([0-9]{4})_([0-9]{6})_(Initial_MRI|Time_3_MRI)$",
 		"multisession": 0,
