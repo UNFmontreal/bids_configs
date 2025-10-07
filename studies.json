@@ -372,7 +372,7 @@
 			"ethic": "CER_VN_24-25-09"
 		},
 		"pcan_PDPain": {
-				"regex": "^(PDPain)_((HA|HO|PD|OP)[0-9]{2})$",
+				"regex": "^(PDPain)_((HA|HO|PD|OP)[0-9]{2})(_B)?$",
 				"multisession": 0,
 				"gid": 1102,
 				"gid_name": "pcan",
