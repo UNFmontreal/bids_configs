@@ -378,6 +378,20 @@
 				"gid_name": "pcan",
 				"ethic": "CER_VN_24-25-43"
 			},
+			"pichet_NCD": {
+				"regex": "^(NCD)_([0-9]{3})_(V[0-9]{2})$",
+				"multisession": 0,
+				"gid": 944200232 ,
+				"gid_name": "pichet",
+				"ethic": "CER_VN_25_26_12"
+			},
+			"pichet_NCD": {
+				"regex": "^(NCD)_([0-9]{3})_(V[0-9]{2})$",
+				"multisession": 0,
+				"gid": 944200232,
+				"gid_name": "pichet",
+				"ethic": "CER_VN_25_26_12"
+			},
 	"potvins_Clozapine": {
 		"regex": "^(Clozapine)_([0-9]{3})_(1|2)$",
 		"multisession": 0,
