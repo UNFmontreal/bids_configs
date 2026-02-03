@@ -490,7 +490,7 @@
 	"dev":{
 		"regex": "^(dev)_([a-zA-Z0-9_-]*)$",
 		"multisession": 0,
-		"ethic": "dev"
+		"ethic": "unf_dev"
 	},
 	"test_caregiver":{
 		"regex": "^(test_caregiver)_([a-zA-Z0-9_-]*)$",
