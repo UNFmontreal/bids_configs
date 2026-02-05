@@ -495,7 +495,7 @@
 		"multisession": 0,
 		"ethic": "pilot"
 	},
-	"dev":{
+	"unf_dev":{
 		"regex": "^(dev)_([a-zA-Z0-9_-]*)$",
 		"multisession": 0,
 		"gid": 1111,
