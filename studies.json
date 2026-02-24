@@ -35,7 +35,7 @@
 		"ethic": "CER IUGM 15-16-17"
 	},
 	"baril_INSBIO": {
-		"regex": "^(INSBIO)_([0-9]{4})_(V[0-9]{1})$",
+		"regex": "^(INSBIO)_([0-9]{4})_(V[1-4]{1})$",
 		"multisession": 0,
 		"gid": 944200267,
 		"gid_name": "baril",
