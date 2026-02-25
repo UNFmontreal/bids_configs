@@ -56,7 +56,7 @@
 		"ethic": "CER VN 19-20-22"
 	},
 	"belleville_cimaq_spectro": {
-		"regex": "^([0-9]{7})_([MEO-32-2026-24940-9]{6})_(V03|V10|V17|V24|V31|V38)S$",
+		"regex": "^([0-9]{7})_([0-9]{6})_(V03|V10|V17|V24|V31|V38)S$",
 		"multisession": 0,
 		"gid": 1108,
 		"gid_name": "belleville",
