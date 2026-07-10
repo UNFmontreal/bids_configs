@@ -279,7 +279,7 @@
 		"ethic": "CMER RNQ 13-14-016"
 	},
 	"mackinnon_pdpmtl": {
-		"regex": "^(pdpmtl)_([0-9]{2,3})(_[A|B])?$$",
+		"regex": "^(pdpmtl)_([0-9]{2,3})(_[A-Z])?$$",
 		"multisession": 0,
 		"gid":944200206,
 		"gid_name": "mackinnon",
