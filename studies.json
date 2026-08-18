@@ -194,7 +194,7 @@
 		"ethic": "MEO-33-2026-2514"
 },
  "grova_FNIRS": {
-		"regex": "^(FNIRS)_([0-9]{2})$",
+		"regex": "^(FNIRS)_([0-9]{2})_([0-9]{1})$",
 		"multisession": 0,
 		"gid": 1152,
 		"gid_name": "grova",
