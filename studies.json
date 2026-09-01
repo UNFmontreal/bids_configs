@@ -454,6 +454,13 @@
 		"gid_name": "ptito",
 		"ethic": "CER VN 23-24-20"
 	},
+	"rainville_mvspainmod": {
+		"regex": "^(mvspainmod)_([0-9]{2})$",
+		"multisession": 0,
+		"gid": 1107,
+		"gid_name": "rainville",
+		"ethic": "CER-VN 2027-2607"
+	},
 	"roy_CLBPE": {
 		"regex": "^(CLBPE)_([0-9]{3})_(T(1|2))$",
 		"multisession": 0,
