@@ -126,7 +126,7 @@
 		"ethic": "CER IUGM 14-15-019"
 	},
 	"cimaq_engage": {
-		"regex": "^(UGM[0-9]{4})_([0-9]{6})_(T10_V28_POST_1_MRI|T10_V30_POST_2_MRI|Initial_MRI)$",
+		"regex": "^(UGM[0-9]{4})_([0-9]{6})_(T10_V28_POST_1_MRI|T10_V30_POST_2_MRI)$",
 		"multisession": 0,
 		"gid": 1177,
 		"gid_name": "cimaq",
