@@ -336,12 +336,19 @@
 		"gid_name": "neuropoly",
 		"ethic": "CER VN 16-17-39"
 	},
+	"neuropoly_scmrs": {
+		"regex": "^(scmrs)_([0-9]{3})$",
+		"multisession": 0,
+		"gid": 1167,
+		"gid_name": "neuropoly",
+		"ethic": "CER VN 16-17-39"
+	},
 	"neuropoly_sct": {
 		"regex": "^(sct)_([0-9]{3})$",
 		"multisession": 0,
 		"gid": 1167,
 		"gid_name": "neuropoly",
-		"ethic": "CER VN 16-17-39"
+		"ethic": "CER VN 16-17-13"
 	},
 	"neva_MOTORCOGPD": {
 		"regex": "^(MCPD)_([0-9]{3})$",
