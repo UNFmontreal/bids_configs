@@ -14,7 +14,7 @@
 		"ethic": "CER_VN_22-23-32"
 	},
 	"alonso_ortiz_chi": {
-		"regex": "^(chi)_([0-9]{3})$",
+		"regex": "^(chi)_([0-9]{3})p?$",
 		"multisession": 0,
 		"gid": 944200133,
 		"gid_name": "alonso_ortiz",
