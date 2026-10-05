@@ -511,7 +511,7 @@
 		"ethic": "CER_VN_22-23-35"
 	},
 	"theoret_M1TBS": {
-		"regex": "^(M1TBS)_([0-9]{3})$",
+		"regex": "^(M1TBS)_([0-9]{3})_([AB])(_(pre|post))?$",
 		"multisession": 0,
 		"gid": 1166,
 		"gid_name": "theoret",
