@@ -119,7 +119,7 @@
         "ethic": "MP-05-2018-789"
     },
     "cimaq_cimaq": {
-        "regex": "(^(?P<subject>[0-9]{7})_([0-9]{6}|irm)_(?P<session>V03|V10|V17|V24|V17|V31|V38|P[0-9]{2,3}|t00|t02|t04|t06|t08|t10)$)|(^(?P<study>lego_iugm)_([0-9]{2,3})$)",
+        "regex": "(^(?P<subject>[0-9]{7})_([0-9]{6}|irm)_(?P<session>V03|V10|V17|V24|V17|V31|V38|P[0-9]{2,3}|t00|t02|t04|t06|t08|t10)$)|(^(?P<study>lego_iugm)_(?P<session>[0-9]{2,3})$)",
         "multisession": 0,
         "gid": 1177,
         "gid_name": "cimaq",
@@ -140,14 +140,14 @@
         "ethic": ""
     },
     "compass-nd_jgh": {
-        "regex": "^(?P<study>JGH)(?P<subject>[0-9]{4})_([0-9]{6})_(?P<session>Initial_MRI|Time_3_MRI)|human_phantom_[A-Z]{2}_UNF_[0-9]{8}$",
+        "regex": "^(?P<study>JGH)(?P<subject>[0-9]{4})_([0-9]{6})_(?P<session>Initial_MRI|Time_3_MRI)$|^(?P<subject>human_phantom_[A-Z]{2})_(?P<session>UNF_[0-9]{8})$",
         "multisession": 0,
         "gid": 944200259,
         "gid_name": "compass-nd",
         "ethic": ""
     },
     "dalla-bella_rythmic": {
-        "regex": "^(?P<study>RYTHMIC)_(?P<subject>[0-9]{2})_(?P<session>[0-9]{2})$",
+        "regex": "^(?P<study>RYTHMIC)_(?P<subject>[0-9]{2}_[0-9]{2})$",
         "multisession": 0,
         "gid": 944200246,
         "gid_name": "dalla-bella",
@@ -201,7 +201,7 @@
         "ethic": "CER VN 19-20-06"
     },
     "higgins_EFAST": {
-        "regex": "^(?P<study>EFAST)_(?P<subject>4641-[0-9]{2})-(?P<session>[0-9]{2})$",
+        "regex": "^(?P<study>EFAST)_(?P<subject>4641-[0-9]{2}-[0-9]{2})$",
         "multisession": 0,
         "gid": 944200200,
         "gid_name": "higgins",
@@ -289,7 +289,7 @@
         "ethic": "MEO-37-2027-2505"
     },
     "mackinnon_pdpmtl": {
-        "regex": "^(?P<study>pdpmtl)_(?P<subject>[0-9]{2,3})(?P<session>_[A-Z])?$$",
+        "regex": "^(?P<study>pdpmtl)_(?P<subject>[0-9]{2,3})_(?P<session>[A-Z])?$",
         "multisession": 0,
         "gid": 944200206,
         "gid_name": "mackinnon",
@@ -461,7 +461,7 @@
         "ethic": "MP-21-2017-1389"
     },
     "ptito_NAVSIM": {
-        "regex": "^(?P<study>NAVSIM)_(?P<subject>[0-9]{3})(?P<session>_[A|B|C])?$",
+        "regex": "^(?P<study>NAVSIM)_(?P<subject>[0-9]{3})_(?P<session>[A|B|C])?$",
         "gid": 1122,
         "gid_name": "ptito",
         "ethic": "CER VN 23-24-20"
@@ -502,7 +502,7 @@
         "ethic": "CMER RNQ 12-13-030"
     },
     "theoret_GABAaudio": {
-        "regex": "^(?P<study>GABAaudio)_(?P<subject>[0-9]{3})(?P<session>_B)?$",
+        "regex": "^(?P<study>GABAaudio)_(?P<subject>[0-9]{3})_(?P<session>B)?$",
         "multisession": 0,
         "gid": 1166,
         "gid_name": "theoret",
@@ -516,7 +516,7 @@
         "ethic": "CER_VN_25-26-13"
     },
     "theoret_PMDD": {
-        "regex": "^(?P<study>PMDD)_(?P<subject>[0-9]{3})(?P<session>_[A|B])?$",
+        "regex": "^(?P<study>PMDD)_(?P<subject>[0-9]{3})_(?P<session>[A|B])?$",
         "multisession": 0,
         "gid": 1166,
         "gid_name": "theoret",
