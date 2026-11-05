@@ -126,7 +126,7 @@
         "ethic": "CER IUGM 14-15-019"
     },
     "cimaq_compass-nd": {
-        "regex": "^(?P<study>UGM)(?P<subject>[0-9]{4})_([0-9]{6}|[0-9]{10})_(?P<session>Initial_MRI|Time_3_MRI)$",
+        "regex": "^(?P<study>UGM)(?P<subject>([0-9]{4})_([0-9]{6}|[0-9]{10}))_(?P<session>Initial_MRI|Time_3_MRI)$",
         "multisession": 0,
         "gid": 1177,
         "gid_name": "cimaq",
